@@ -1,0 +1,1001 @@
+<div data-drupal-facet-id="geography" data-drupal-facet-alias="geography" class="facet-inactive js-facets-checkbox-links collapsible-checkbox-widget item-list__collapsible_checkbox facet-box__facet-set js-facets-widget" data-once="facets-checkbox-transform js-facet-filter"><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-andes-mountains"><label for="geography-andes-mountains"><span class="facet-item__value">Andes Mountains</span>
+  <span class="facet-item__count">(185)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AAndes%20Mountains" rel="nofollow" data-drupal-facet-item-id="geography-andes-mountains" data-drupal-facet-item-value="Andes Mountains" data-drupal-facet-item-count="185" style="display: none;"><span class="facet-item__value">Andes Mountains</span>
+  <span class="facet-item__count">(185)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-central-andes-peru"><label for="geography-central-andes-peru"><span class="facet-item__value">Central Andes, Peru</span>
+  <span class="facet-item__count">(626)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ACentral%20Andes%2C%20Peru" rel="nofollow" data-drupal-facet-item-id="geography-central-andes-peru" data-drupal-facet-item-value="Central Andes, Peru" data-drupal-facet-item-count="626" style="display: none;"><span class="facet-item__value">Central Andes, Peru</span>
+  <span class="facet-item__count">(626)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-china"><label for="geography-china"><span class="facet-item__value">China</span>
+  <span class="facet-item__count">(3367)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AChina" rel="nofollow" data-drupal-facet-item-id="geography-china" data-drupal-facet-item-value="China" data-drupal-facet-item-count="3367" style="display: none;"><span class="facet-item__value">China</span>
+  <span class="facet-item__count">(3367)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-costa-rica"><label for="geography-costa-rica"><span class="facet-item__value">Costa Rica</span>
+  <span class="facet-item__count">(227)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ACosta%20Rica" rel="nofollow" data-drupal-facet-item-id="geography-costa-rica" data-drupal-facet-item-value="Costa Rica" data-drupal-facet-item-count="227" style="display: none;"><span class="facet-item__value">Costa Rica</span>
+  <span class="facet-item__count">(227)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-côte-d-ivoire--ghana"><label for="geography-côte-d-ivoire--ghana"><span class="facet-item__value">Côte d'Ivoire,  Ghana</span>
+  <span class="facet-item__count">(110)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AC%C3%B4te%20d%27Ivoire%2C%20%20Ghana" rel="nofollow" data-drupal-facet-item-id="geography-côte-d-ivoire--ghana" data-drupal-facet-item-value="Côte d'Ivoire,  Ghana" data-drupal-facet-item-count="110" style="display: none;"><span class="facet-item__value">Côte d'Ivoire,  Ghana</span>
+  <span class="facet-item__count">(110)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-democratic-republic-of-the-congo"><label for="geography-democratic-republic-of-the-congo"><span class="facet-item__value">Democratic Republic of the Congo</span>
+  <span class="facet-item__count">(198)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ADemocratic%20Republic%20of%20the%20Congo" rel="nofollow" data-drupal-facet-item-id="geography-democratic-republic-of-the-congo" data-drupal-facet-item-value="Democratic Republic of the Congo" data-drupal-facet-item-count="198" style="display: none;"><span class="facet-item__value">Democratic Republic of the Congo</span>
+  <span class="facet-item__count">(198)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-depicted-denver-colorado"><label for="geography-depicted-denver-colorado"><span class="facet-item__value">Depicted Denver, Colorado</span>
+  <span class="facet-item__count">(189)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ADepicted%20Denver%2C%20Colorado" rel="nofollow" data-drupal-facet-item-id="geography-depicted-denver-colorado" data-drupal-facet-item-value="Depicted Denver, Colorado" data-drupal-facet-item-count="189" style="display: none;"><span class="facet-item__value">Depicted Denver, Colorado</span>
+  <span class="facet-item__count">(189)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-depicted-johannesburg-south-africa"><label for="geography-depicted-johannesburg-south-africa"><span class="facet-item__value">Depicted Johannesburg, South Africa</span>
+  <span class="facet-item__count">(103)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ADepicted%20Johannesburg%2C%20South%20Africa" rel="nofollow" data-drupal-facet-item-id="geography-depicted-johannesburg-south-africa" data-drupal-facet-item-value="Depicted Johannesburg, South Africa" data-drupal-facet-item-count="103" style="display: none;"><span class="facet-item__value">Depicted Johannesburg, South Africa</span>
+  <span class="facet-item__count">(103)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-depicted-longmont-colorado"><label for="geography-depicted-longmont-colorado"><span class="facet-item__value">Depicted Longmont, Colorado</span>
+  <span class="facet-item__count">(139)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ADepicted%20Longmont%2C%20Colorado" rel="nofollow" data-drupal-facet-item-id="geography-depicted-longmont-colorado" data-drupal-facet-item-value="Depicted Longmont, Colorado" data-drupal-facet-item-count="139" style="display: none;"><span class="facet-item__value">Depicted Longmont, Colorado</span>
+  <span class="facet-item__count">(139)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-depicted-paris-france"><label for="geography-depicted-paris-france"><span class="facet-item__value">Depicted Paris, France</span>
+  <span class="facet-item__count">(101)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ADepicted%20Paris%2C%20France" rel="nofollow" data-drupal-facet-item-id="geography-depicted-paris-france" data-drupal-facet-item-value="Depicted Paris, France" data-drupal-facet-item-count="101" style="display: none;"><span class="facet-item__value">Depicted Paris, France</span>
+  <span class="facet-item__count">(101)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-depicted-sydney-australia"><label for="geography-depicted-sydney-australia"><span class="facet-item__value">Depicted Sydney, Australia</span>
+  <span class="facet-item__count">(170)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ADepicted%20Sydney%2C%20Australia" rel="nofollow" data-drupal-facet-item-id="geography-depicted-sydney-australia" data-drupal-facet-item-value="Depicted Sydney, Australia" data-drupal-facet-item-count="170" style="display: none;"><span class="facet-item__value">Depicted Sydney, Australia</span>
+  <span class="facet-item__count">(170)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-depicted-venice-italy"><label for="geography-depicted-venice-italy"><span class="facet-item__value">Depicted Venice, Italy</span>
+  <span class="facet-item__count">(179)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ADepicted%20Venice%2C%20Italy" rel="nofollow" data-drupal-facet-item-id="geography-depicted-venice-italy" data-drupal-facet-item-value="Depicted Venice, Italy" data-drupal-facet-item-count="179" style="display: none;"><span class="facet-item__value">Depicted Venice, Italy</span>
+  <span class="facet-item__count">(179)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-designed-in-newville-pennsylvania"><label for="geography-designed-in-newville-pennsylvania"><span class="facet-item__value">Designed in Newville, Pennsylvania</span>
+  <span class="facet-item__count">(202)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ADesigned%20in%20Newville%2C%20Pennsylvania" rel="nofollow" data-drupal-facet-item-id="geography-designed-in-newville-pennsylvania" data-drupal-facet-item-value="Designed in Newville, Pennsylvania" data-drupal-facet-item-count="202" style="display: none;"><span class="facet-item__value">Designed in Newville, Pennsylvania</span>
+  <span class="facet-item__count">(202)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-designed-in-new-york-new-york"><label for="geography-designed-in-new-york-new-york"><span class="facet-item__value">Designed in New York, New York</span>
+  <span class="facet-item__count">(188)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ADesigned%20in%20New%20York%2C%20New%20York" rel="nofollow" data-drupal-facet-item-id="geography-designed-in-new-york-new-york" data-drupal-facet-item-value="Designed in New York, New York" data-drupal-facet-item-count="188" style="display: none;"><span class="facet-item__value">Designed in New York, New York</span>
+  <span class="facet-item__count">(188)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-ethiopia"><label for="geography-ethiopia"><span class="facet-item__value">Ethiopia</span>
+  <span class="facet-item__count">(134)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AEthiopia" rel="nofollow" data-drupal-facet-item-id="geography-ethiopia" data-drupal-facet-item-value="Ethiopia" data-drupal-facet-item-count="134" style="display: none;"><span class="facet-item__value">Ethiopia</span>
+  <span class="facet-item__count">(134)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-excavated-in-dura-europos--made-in-amasia-pontus"><label for="geography-excavated-in-dura-europos--made-in-amasia-pontus"><span class="facet-item__value">Excavated in Dura-Europos,  Made in Amasia, Pontus</span>
+  <span class="facet-item__count">(59)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AExcavated%20in%20Dura-Europos%2C%20%20Made%20in%20Amasia%2C%20Pontus" rel="nofollow" data-drupal-facet-item-id="geography-excavated-in-dura-europos--made-in-amasia-pontus" data-drupal-facet-item-value="Excavated in Dura-Europos,  Made in Amasia, Pontus" data-drupal-facet-item-count="59" style="display: none;"><span class="facet-item__value">Excavated in Dura-Europos,  Made in Amasia, Pontus</span>
+  <span class="facet-item__count">(59)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-excavated-in-dura-europos--made-in-antioch-syria"><label for="geography-excavated-in-dura-europos--made-in-antioch-syria"><span class="facet-item__value">Excavated in Dura-Europos,  Made in Antioch, Syria</span>
+  <span class="facet-item__count">(765)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AExcavated%20in%20Dura-Europos%2C%20%20Made%20in%20Antioch%2C%20Syria" rel="nofollow" data-drupal-facet-item-id="geography-excavated-in-dura-europos--made-in-antioch-syria" data-drupal-facet-item-value="Excavated in Dura-Europos,  Made in Antioch, Syria" data-drupal-facet-item-count="765" style="display: none;"><span class="facet-item__value">Excavated in Dura-Europos,  Made in Antioch, Syria</span>
+  <span class="facet-item__count">(765)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-excavated-in-dura-europos--made-in-edessa-mesopotamia"><label for="geography-excavated-in-dura-europos--made-in-edessa-mesopotamia"><span class="facet-item__value">Excavated in Dura-Europos,  Made in Edessa, Mesopotamia</span>
+  <span class="facet-item__count">(77)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AExcavated%20in%20Dura-Europos%2C%20%20Made%20in%20Edessa%2C%20Mesopotamia" rel="nofollow" data-drupal-facet-item-id="geography-excavated-in-dura-europos--made-in-edessa-mesopotamia" data-drupal-facet-item-value="Excavated in Dura-Europos,  Made in Edessa, Mesopotamia" data-drupal-facet-item-count="77" style="display: none;"><span class="facet-item__value">Excavated in Dura-Europos,  Made in Edessa, Mesopotamia</span>
+  <span class="facet-item__count">(77)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-excavated-in-dura-europos-syria"><label for="geography-excavated-in-dura-europos-syria"><span class="facet-item__value">Excavated in Dura-Europos, Syria</span>
+  <span class="facet-item__count">(11563)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AExcavated%20in%20Dura-Europos%2C%20Syria" rel="nofollow" data-drupal-facet-item-id="geography-excavated-in-dura-europos-syria" data-drupal-facet-item-value="Excavated in Dura-Europos, Syria" data-drupal-facet-item-count="11563" style="display: none;"><span class="facet-item__value">Excavated in Dura-Europos, Syria</span>
+  <span class="facet-item__count">(11563)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-excavated-in-gerasa-jordan"><label for="geography-excavated-in-gerasa-jordan"><span class="facet-item__value">Excavated in Gerasa, Jordan</span>
+  <span class="facet-item__count">(503)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AExcavated%20in%20Gerasa%2C%20Jordan" rel="nofollow" data-drupal-facet-item-id="geography-excavated-in-gerasa-jordan" data-drupal-facet-item-value="Excavated in Gerasa, Jordan" data-drupal-facet-item-count="503" style="display: none;"><span class="facet-item__value">Excavated in Gerasa, Jordan</span>
+  <span class="facet-item__count">(503)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-excavated-in-troad--made-in-nicaea-bithynia"><label for="geography-excavated-in-troad--made-in-nicaea-bithynia"><span class="facet-item__value">Excavated in Troad,  Made in Nicaea, Bithynia</span>
+  <span class="facet-item__count">(82)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AExcavated%20in%20Troad%2C%20%20Made%20in%20Nicaea%2C%20Bithynia" rel="nofollow" data-drupal-facet-item-id="geography-excavated-in-troad--made-in-nicaea-bithynia" data-drupal-facet-item-value="Excavated in Troad,  Made in Nicaea, Bithynia" data-drupal-facet-item-count="82" style="display: none;"><span class="facet-item__value">Excavated in Troad,  Made in Nicaea, Bithynia</span>
+  <span class="facet-item__count">(82)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-found-in-malta--made-in-sicily"><label for="geography-found-in-malta--made-in-sicily"><span class="facet-item__value">Found in Malta,  Made in Sicily</span>
+  <span class="facet-item__count">(297)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AFound%20in%20Malta%2C%20%20Made%20in%20Sicily" rel="nofollow" data-drupal-facet-item-id="geography-found-in-malta--made-in-sicily" data-drupal-facet-item-value="Found in Malta,  Made in Sicily" data-drupal-facet-item-count="297" style="display: none;"><span class="facet-item__value">Found in Malta,  Made in Sicily</span>
+  <span class="facet-item__count">(297)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-ghana"><label for="geography-ghana"><span class="facet-item__value">Ghana</span>
+  <span class="facet-item__count">(89)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AGhana" rel="nofollow" data-drupal-facet-item-id="geography-ghana" data-drupal-facet-item-value="Ghana" data-drupal-facet-item-count="89" style="display: none;"><span class="facet-item__value">Ghana</span>
+  <span class="facet-item__count">(89)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-guatemala--or-mexico"><label for="geography-guatemala--or-mexico"><span class="facet-item__value">Guatemala,  or Mexico</span>
+  <span class="facet-item__count">(72)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AGuatemala%2C%20%20or%20Mexico" rel="nofollow" data-drupal-facet-item-id="geography-guatemala--or-mexico" data-drupal-facet-item-value="Guatemala,  or Mexico" data-drupal-facet-item-count="72" style="display: none;"><span class="facet-item__value">Guatemala,  or Mexico</span>
+  <span class="facet-item__count">(72)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-guinea-coast-nigeria"><label for="geography-guinea-coast-nigeria"><span class="facet-item__value">Guinea Coast, Nigeria</span>
+  <span class="facet-item__count">(120)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AGuinea%20Coast%2C%20Nigeria" rel="nofollow" data-drupal-facet-item-id="geography-guinea-coast-nigeria" data-drupal-facet-item-value="Guinea Coast, Nigeria" data-drupal-facet-item-count="120" style="display: none;"><span class="facet-item__value">Guinea Coast, Nigeria</span>
+  <span class="facet-item__count">(120)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-india"><label for="geography-india"><span class="facet-item__value">India</span>
+  <span class="facet-item__count">(283)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AIndia" rel="nofollow" data-drupal-facet-item-id="geography-india" data-drupal-facet-item-value="India" data-drupal-facet-item-count="283" style="display: none;"><span class="facet-item__value">India</span>
+  <span class="facet-item__count">(283)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-iran"><label for="geography-iran"><span class="facet-item__value">Iran</span>
+  <span class="facet-item__count">(336)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AIran" rel="nofollow" data-drupal-facet-item-id="geography-iran" data-drupal-facet-item-value="Iran" data-drupal-facet-item-count="336" style="display: none;"><span class="facet-item__value">Iran</span>
+  <span class="facet-item__count">(336)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-isfahan-iran"><label for="geography-isfahan-iran"><span class="facet-item__value">Isfahan, Iran</span>
+  <span class="facet-item__count">(142)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AIsfahan%2C%20Iran" rel="nofollow" data-drupal-facet-item-id="geography-isfahan-iran" data-drupal-facet-item-value="Isfahan, Iran" data-drupal-facet-item-count="142" style="display: none;"><span class="facet-item__value">Isfahan, Iran</span>
+  <span class="facet-item__count">(142)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-japan"><label for="geography-japan"><span class="facet-item__value">Japan</span>
+  <span class="facet-item__count">(3227)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AJapan" rel="nofollow" data-drupal-facet-item-id="geography-japan" data-drupal-facet-item-value="Japan" data-drupal-facet-item-count="3227" style="display: none;"><span class="facet-item__value">Japan</span>
+  <span class="facet-item__count">(3227)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-kashan-iran"><label for="geography-kashan-iran"><span class="facet-item__value">Kashan, Iran</span>
+  <span class="facet-item__count">(91)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AKashan%2C%20Iran" rel="nofollow" data-drupal-facet-item-id="geography-kashan-iran" data-drupal-facet-item-value="Kashan, Iran" data-drupal-facet-item-count="91" style="display: none;"><span class="facet-item__value">Kashan, Iran</span>
+  <span class="facet-item__count">(91)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-korea"><label for="geography-korea"><span class="facet-item__value">Korea</span>
+  <span class="facet-item__count">(60)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AKorea" rel="nofollow" data-drupal-facet-item-id="geography-korea" data-drupal-facet-item-value="Korea" data-drupal-facet-item-count="60" style="display: none;"><span class="facet-item__value">Korea</span>
+  <span class="facet-item__count">(60)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-liberia"><label for="geography-liberia"><span class="facet-item__value">Liberia</span>
+  <span class="facet-item__count">(66)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ALiberia" rel="nofollow" data-drupal-facet-item-id="geography-liberia" data-drupal-facet-item-value="Liberia" data-drupal-facet-item-count="66" style="display: none;"><span class="facet-item__value">Liberia</span>
+  <span class="facet-item__count">(66)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-liberia--or-côte-d-ivoire"><label for="geography-liberia--or-côte-d-ivoire"><span class="facet-item__value">Liberia,  or Côte d'Ivoire</span>
+  <span class="facet-item__count">(110)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ALiberia%2C%20%20or%20C%C3%B4te%20d%27Ivoire" rel="nofollow" data-drupal-facet-item-id="geography-liberia--or-côte-d-ivoire" data-drupal-facet-item-value="Liberia,  or Côte d'Ivoire" data-drupal-facet-item-count="110" style="display: none;"><span class="facet-item__value">Liberia,  or Côte d'Ivoire</span>
+  <span class="facet-item__count">(110)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-abydos-troas"><label for="geography-made-in-abydos-troas"><span class="facet-item__value">Made in Abydos, Troas</span>
+  <span class="facet-item__count">(74)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Abydos%2C%20Troas" rel="nofollow" data-drupal-facet-item-id="geography-made-in-abydos-troas" data-drupal-facet-item-value="Made in Abydos, Troas" data-drupal-facet-item-count="74" style="display: none;"><span class="facet-item__value">Made in Abydos, Troas</span>
+  <span class="facet-item__count">(74)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-albany-new-york"><label for="geography-made-in-albany-new-york"><span class="facet-item__value">Made in Albany, New York</span>
+  <span class="facet-item__count">(160)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Albany%2C%20New%20York" rel="nofollow" data-drupal-facet-item-id="geography-made-in-albany-new-york" data-drupal-facet-item-value="Made in Albany, New York" data-drupal-facet-item-count="160" style="display: none;"><span class="facet-item__value">Made in Albany, New York</span>
+  <span class="facet-item__count">(160)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-alexandria-egypt"><label for="geography-made-in-alexandria-egypt"><span class="facet-item__value">Made in Alexandria, Egypt</span>
+  <span class="facet-item__count">(1313)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Alexandria%2C%20Egypt" rel="nofollow" data-drupal-facet-item-id="geography-made-in-alexandria-egypt" data-drupal-facet-item-value="Made in Alexandria, Egypt" data-drupal-facet-item-count="1313" style="display: none;"><span class="facet-item__value">Made in Alexandria, Egypt</span>
+  <span class="facet-item__count">(1313)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-amasia-pontus"><label for="geography-made-in-amasia-pontus"><span class="facet-item__value">Made in Amasia, Pontus</span>
+  <span class="facet-item__count">(81)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Amasia%2C%20Pontus" rel="nofollow" data-drupal-facet-item-id="geography-made-in-amasia-pontus" data-drupal-facet-item-value="Made in Amasia, Pontus" data-drupal-facet-item-count="81" style="display: none;"><span class="facet-item__value">Made in Amasia, Pontus</span>
+  <span class="facet-item__count">(81)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-antioch-syria"><label for="geography-made-in-antioch-syria"><span class="facet-item__value">Made in Antioch, Syria</span>
+  <span class="facet-item__count">(2757)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Antioch%2C%20Syria" rel="nofollow" data-drupal-facet-item-id="geography-made-in-antioch-syria" data-drupal-facet-item-value="Made in Antioch, Syria" data-drupal-facet-item-count="2757" style="display: none;"><span class="facet-item__value">Made in Antioch, Syria</span>
+  <span class="facet-item__count">(2757)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-antioch-syria--excavated-in-dura-europos"><label for="geography-made-in-antioch-syria--excavated-in-dura-europos"><span class="facet-item__value">Made in Antioch, Syria,  Excavated in Dura-Europos</span>
+  <span class="facet-item__count">(422)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Antioch%2C%20Syria%2C%20%20Excavated%20in%20Dura-Europos" rel="nofollow" data-drupal-facet-item-id="geography-made-in-antioch-syria--excavated-in-dura-europos" data-drupal-facet-item-value="Made in Antioch, Syria,  Excavated in Dura-Europos" data-drupal-facet-item-count="422" style="display: none;"><span class="facet-item__value">Made in Antioch, Syria,  Excavated in Dura-Europos</span>
+  <span class="facet-item__count">(422)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-aquileia-italy"><label for="geography-made-in-aquileia-italy"><span class="facet-item__value">Made in Aquileia, Italy</span>
+  <span class="facet-item__count">(74)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Aquileia%2C%20Italy" rel="nofollow" data-drupal-facet-item-id="geography-made-in-aquileia-italy" data-drupal-facet-item-value="Made in Aquileia, Italy" data-drupal-facet-item-count="74" style="display: none;"><span class="facet-item__value">Made in Aquileia, Italy</span>
+  <span class="facet-item__count">(74)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-aradus-phoenicia"><label for="geography-made-in-aradus-phoenicia"><span class="facet-item__value">Made in Aradus, Phoenicia</span>
+  <span class="facet-item__count">(78)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Aradus%2C%20Phoenicia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-aradus-phoenicia" data-drupal-facet-item-value="Made in Aradus, Phoenicia" data-drupal-facet-item-count="78" style="display: none;"><span class="facet-item__value">Made in Aradus, Phoenicia</span>
+  <span class="facet-item__count">(78)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-argentina"><label for="geography-made-in-argentina"><span class="facet-item__value">Made in Argentina</span>
+  <span class="facet-item__count">(335)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Argentina" rel="nofollow" data-drupal-facet-item-id="geography-made-in-argentina" data-drupal-facet-item-value="Made in Argentina" data-drupal-facet-item-count="335" style="display: none;"><span class="facet-item__value">Made in Argentina</span>
+  <span class="facet-item__count">(335)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-argos-argolis"><label for="geography-made-in-argos-argolis"><span class="facet-item__value">Made in Argos, Argolis</span>
+  <span class="facet-item__count">(68)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Argos%2C%20Argolis" rel="nofollow" data-drupal-facet-item-id="geography-made-in-argos-argolis" data-drupal-facet-item-value="Made in Argos, Argolis" data-drupal-facet-item-count="68" style="display: none;"><span class="facet-item__value">Made in Argos, Argolis</span>
+  <span class="facet-item__count">(68)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-athens-greece"><label for="geography-made-in-athens-greece"><span class="facet-item__value">Made in Athens, Greece</span>
+  <span class="facet-item__count">(143)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Athens%2C%20Greece" rel="nofollow" data-drupal-facet-item-id="geography-made-in-athens-greece" data-drupal-facet-item-value="Made in Athens, Greece" data-drupal-facet-item-count="143" style="display: none;"><span class="facet-item__value">Made in Athens, Greece</span>
+  <span class="facet-item__count">(143)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-austria"><label for="geography-made-in-austria"><span class="facet-item__value">Made in Austria</span>
+  <span class="facet-item__count">(1084)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Austria" rel="nofollow" data-drupal-facet-item-id="geography-made-in-austria" data-drupal-facet-item-value="Made in Austria" data-drupal-facet-item-count="1084" style="display: none;"><span class="facet-item__value">Made in Austria</span>
+  <span class="facet-item__count">(1084)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-bactria"><label for="geography-made-in-bactria"><span class="facet-item__value">Made in Bactria</span>
+  <span class="facet-item__count">(100)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Bactria" rel="nofollow" data-drupal-facet-item-id="geography-made-in-bactria" data-drupal-facet-item-value="Made in Bactria" data-drupal-facet-item-count="100" style="display: none;"><span class="facet-item__value">Made in Bactria</span>
+  <span class="facet-item__count">(100)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-baden-germany"><label for="geography-made-in-baden-germany"><span class="facet-item__value">Made in Baden, Germany</span>
+  <span class="facet-item__count">(124)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Baden%2C%20Germany" rel="nofollow" data-drupal-facet-item-id="geography-made-in-baden-germany" data-drupal-facet-item-value="Made in Baden, Germany" data-drupal-facet-item-count="124" style="display: none;"><span class="facet-item__value">Made in Baden, Germany</span>
+  <span class="facet-item__count">(124)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-baltimore-maryland"><label for="geography-made-in-baltimore-maryland"><span class="facet-item__value">Made in Baltimore, Maryland</span>
+  <span class="facet-item__count">(158)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Baltimore%2C%20Maryland" rel="nofollow" data-drupal-facet-item-id="geography-made-in-baltimore-maryland" data-drupal-facet-item-value="Made in Baltimore, Maryland" data-drupal-facet-item-count="158" style="display: none;"><span class="facet-item__value">Made in Baltimore, Maryland</span>
+  <span class="facet-item__count">(158)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-barcelona-spain"><label for="geography-made-in-barcelona-spain"><span class="facet-item__value">Made in Barcelona, Spain</span>
+  <span class="facet-item__count">(215)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Barcelona%2C%20Spain" rel="nofollow" data-drupal-facet-item-id="geography-made-in-barcelona-spain" data-drupal-facet-item-value="Made in Barcelona, Spain" data-drupal-facet-item-count="215" style="display: none;"><span class="facet-item__value">Made in Barcelona, Spain</span>
+  <span class="facet-item__count">(215)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-beijing-china"><label for="geography-made-in-beijing-china"><span class="facet-item__value">Made in Beijing, China</span>
+  <span class="facet-item__count">(137)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Beijing%2C%20China" rel="nofollow" data-drupal-facet-item-id="geography-made-in-beijing-china" data-drupal-facet-item-value="Made in Beijing, China" data-drupal-facet-item-count="137" style="display: none;"><span class="facet-item__value">Made in Beijing, China</span>
+  <span class="facet-item__count">(137)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-belgium"><label for="geography-made-in-belgium"><span class="facet-item__value">Made in Belgium</span>
+  <span class="facet-item__count">(215)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Belgium" rel="nofollow" data-drupal-facet-item-id="geography-made-in-belgium" data-drupal-facet-item-value="Made in Belgium" data-drupal-facet-item-count="215" style="display: none;"><span class="facet-item__value">Made in Belgium</span>
+  <span class="facet-item__count">(215)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-berlin-germany"><label for="geography-made-in-berlin-germany"><span class="facet-item__value">Made in Berlin, Germany</span>
+  <span class="facet-item__count">(571)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Berlin%2C%20Germany" rel="nofollow" data-drupal-facet-item-id="geography-made-in-berlin-germany" data-drupal-facet-item-value="Made in Berlin, Germany" data-drupal-facet-item-count="571" style="display: none;"><span class="facet-item__value">Made in Berlin, Germany</span>
+  <span class="facet-item__count">(571)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-bern-switzerland"><label for="geography-made-in-bern-switzerland"><span class="facet-item__value">Made in Bern, Switzerland</span>
+  <span class="facet-item__count">(427)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Bern%2C%20Switzerland" rel="nofollow" data-drupal-facet-item-id="geography-made-in-bern-switzerland" data-drupal-facet-item-value="Made in Bern, Switzerland" data-drupal-facet-item-count="427" style="display: none;"><span class="facet-item__value">Made in Bern, Switzerland</span>
+  <span class="facet-item__count">(427)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-birmingham-england"><label for="geography-made-in-birmingham-england"><span class="facet-item__value">Made in Birmingham, England</span>
+  <span class="facet-item__count">(326)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Birmingham%2C%20England" rel="nofollow" data-drupal-facet-item-id="geography-made-in-birmingham-england" data-drupal-facet-item-value="Made in Birmingham, England" data-drupal-facet-item-count="326" style="display: none;"><span class="facet-item__value">Made in Birmingham, England</span>
+  <span class="facet-item__count">(326)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-bohemia"><label for="geography-made-in-bohemia"><span class="facet-item__value">Made in Bohemia</span>
+  <span class="facet-item__count">(60)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Bohemia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-bohemia" data-drupal-facet-item-value="Made in Bohemia" data-drupal-facet-item-count="60" style="display: none;"><span class="facet-item__value">Made in Bohemia</span>
+  <span class="facet-item__count">(60)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-bologna-italy"><label for="geography-made-in-bologna-italy"><span class="facet-item__value">Made in Bologna, Italy</span>
+  <span class="facet-item__count">(89)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Bologna%2C%20Italy" rel="nofollow" data-drupal-facet-item-id="geography-made-in-bologna-italy" data-drupal-facet-item-value="Made in Bologna, Italy" data-drupal-facet-item-count="89" style="display: none;"><span class="facet-item__value">Made in Bologna, Italy</span>
+  <span class="facet-item__count">(89)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-borneo"><label for="geography-made-in-borneo"><span class="facet-item__value">Made in Borneo</span>
+  <span class="facet-item__count">(186)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Borneo" rel="nofollow" data-drupal-facet-item-id="geography-made-in-borneo" data-drupal-facet-item-value="Made in Borneo" data-drupal-facet-item-count="186" style="display: none;"><span class="facet-item__value">Made in Borneo</span>
+  <span class="facet-item__count">(186)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-borneo-indonesia"><label for="geography-made-in-borneo-indonesia"><span class="facet-item__value">Made in Borneo, Indonesia</span>
+  <span class="facet-item__count">(92)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Borneo%2C%20Indonesia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-borneo-indonesia" data-drupal-facet-item-value="Made in Borneo, Indonesia" data-drupal-facet-item-count="92" style="display: none;"><span class="facet-item__value">Made in Borneo, Indonesia</span>
+  <span class="facet-item__count">(92)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-boston-massachusetts"><label for="geography-made-in-boston-massachusetts"><span class="facet-item__value">Made in Boston, Massachusetts</span>
+  <span class="facet-item__count">(770)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Boston%2C%20Massachusetts" rel="nofollow" data-drupal-facet-item-id="geography-made-in-boston-massachusetts" data-drupal-facet-item-value="Made in Boston, Massachusetts" data-drupal-facet-item-count="770" style="display: none;"><span class="facet-item__value">Made in Boston, Massachusetts</span>
+  <span class="facet-item__count">(770)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-boston-massachusetts-united-states"><label for="geography-made-in-boston-massachusetts-united-states"><span class="facet-item__value">Made in Boston, Massachusetts, United States</span>
+  <span class="facet-item__count">(70)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Boston%2C%20Massachusetts%2C%20United%20States" rel="nofollow" data-drupal-facet-item-id="geography-made-in-boston-massachusetts-united-states" data-drupal-facet-item-value="Made in Boston, Massachusetts, United States" data-drupal-facet-item-count="70" style="display: none;"><span class="facet-item__value">Made in Boston, Massachusetts, United States</span>
+  <span class="facet-item__count">(70)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-brazil"><label for="geography-made-in-brazil"><span class="facet-item__value">Made in Brazil</span>
+  <span class="facet-item__count">(228)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Brazil" rel="nofollow" data-drupal-facet-item-id="geography-made-in-brazil" data-drupal-facet-item-value="Made in Brazil" data-drupal-facet-item-count="228" style="display: none;"><span class="facet-item__value">Made in Brazil</span>
+  <span class="facet-item__count">(228)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-buffalo-new-york-united-states"><label for="geography-made-in-buffalo-new-york-united-states"><span class="facet-item__value">Made in Buffalo, New York, United States</span>
+  <span class="facet-item__count">(70)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Buffalo%2C%20New%20York%2C%20United%20States" rel="nofollow" data-drupal-facet-item-id="geography-made-in-buffalo-new-york-united-states" data-drupal-facet-item-value="Made in Buffalo, New York, United States" data-drupal-facet-item-count="70" style="display: none;"><span class="facet-item__value">Made in Buffalo, New York, United States</span>
+  <span class="facet-item__count">(70)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-byzantium"><label for="geography-made-in-byzantium"><span class="facet-item__value">Made in Byzantium</span>
+  <span class="facet-item__count">(257)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Byzantium" rel="nofollow" data-drupal-facet-item-id="geography-made-in-byzantium" data-drupal-facet-item-value="Made in Byzantium" data-drupal-facet-item-count="257" style="display: none;"><span class="facet-item__value">Made in Byzantium</span>
+  <span class="facet-item__count">(257)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-caesareia-cappadocia"><label for="geography-made-in-caesareia-cappadocia"><span class="facet-item__value">Made in Caesareia, Cappadocia</span>
+  <span class="facet-item__count">(175)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Caesareia%2C%20Cappadocia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-caesareia-cappadocia" data-drupal-facet-item-value="Made in Caesareia, Cappadocia" data-drupal-facet-item-count="175" style="display: none;"><span class="facet-item__value">Made in Caesareia, Cappadocia</span>
+  <span class="facet-item__count">(175)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-callatis-moesia-inferior"><label for="geography-made-in-callatis-moesia-inferior"><span class="facet-item__value">Made in Callatis, Moesia Inferior</span>
+  <span class="facet-item__count">(116)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Callatis%2C%20Moesia%20Inferior" rel="nofollow" data-drupal-facet-item-id="geography-made-in-callatis-moesia-inferior" data-drupal-facet-item-value="Made in Callatis, Moesia Inferior" data-drupal-facet-item-count="116" style="display: none;"><span class="facet-item__value">Made in Callatis, Moesia Inferior</span>
+  <span class="facet-item__count">(116)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-canada"><label for="geography-made-in-canada"><span class="facet-item__value">Made in Canada</span>
+  <span class="facet-item__count">(91)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Canada" rel="nofollow" data-drupal-facet-item-id="geography-made-in-canada" data-drupal-facet-item-value="Made in Canada" data-drupal-facet-item-count="91" style="display: none;"><span class="facet-item__value">Made in Canada</span>
+  <span class="facet-item__count">(91)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-carrhae-mesopotamia"><label for="geography-made-in-carrhae-mesopotamia"><span class="facet-item__value">Made in Carrhae, Mesopotamia</span>
+  <span class="facet-item__count">(87)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Carrhae%2C%20Mesopotamia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-carrhae-mesopotamia" data-drupal-facet-item-value="Made in Carrhae, Mesopotamia" data-drupal-facet-item-count="87" style="display: none;"><span class="facet-item__value">Made in Carrhae, Mesopotamia</span>
+  <span class="facet-item__count">(87)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-carthage-zeugitana"><label for="geography-made-in-carthage-zeugitana"><span class="facet-item__value">Made in Carthage, Zeugitana</span>
+  <span class="facet-item__count">(125)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Carthage%2C%20Zeugitana" rel="nofollow" data-drupal-facet-item-id="geography-made-in-carthage-zeugitana" data-drupal-facet-item-value="Made in Carthage, Zeugitana" data-drupal-facet-item-count="125" style="display: none;"><span class="facet-item__value">Made in Carthage, Zeugitana</span>
+  <span class="facet-item__count">(125)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-china"><label for="geography-made-in-china"><span class="facet-item__value">Made in China</span>
+  <span class="facet-item__count">(5125)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20China" rel="nofollow" data-drupal-facet-item-id="geography-made-in-china" data-drupal-facet-item-value="Made in China" data-drupal-facet-item-count="5125" style="display: none;"><span class="facet-item__value">Made in China</span>
+  <span class="facet-item__count">(5125)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-clarentza-peloponnese"><label for="geography-made-in-clarentza-peloponnese"><span class="facet-item__value">Made in Clarentza, Peloponnese</span>
+  <span class="facet-item__count">(254)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Clarentza%2C%20Peloponnese" rel="nofollow" data-drupal-facet-item-id="geography-made-in-clarentza-peloponnese" data-drupal-facet-item-value="Made in Clarentza, Peloponnese" data-drupal-facet-item-count="254" style="display: none;"><span class="facet-item__value">Made in Clarentza, Peloponnese</span>
+  <span class="facet-item__count">(254)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-cologne-germany"><label for="geography-made-in-cologne-germany"><span class="facet-item__value">Made in Cologne, Germany</span>
+  <span class="facet-item__count">(62)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Cologne%2C%20Germany" rel="nofollow" data-drupal-facet-item-id="geography-made-in-cologne-germany" data-drupal-facet-item-value="Made in Cologne, Germany" data-drupal-facet-item-count="62" style="display: none;"><span class="facet-item__value">Made in Cologne, Germany</span>
+  <span class="facet-item__count">(62)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-colombia"><label for="geography-made-in-colombia"><span class="facet-item__value">Made in Colombia</span>
+  <span class="facet-item__count">(132)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Colombia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-colombia" data-drupal-facet-item-value="Made in Colombia" data-drupal-facet-item-count="132" style="display: none;"><span class="facet-item__value">Made in Colombia</span>
+  <span class="facet-item__count">(132)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-colophon-ionia"><label for="geography-made-in-colophon-ionia"><span class="facet-item__value">Made in Colophon, Ionia</span>
+  <span class="facet-item__count">(107)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Colophon%2C%20Ionia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-colophon-ionia" data-drupal-facet-item-value="Made in Colophon, Ionia" data-drupal-facet-item-count="107" style="display: none;"><span class="facet-item__value">Made in Colophon, Ionia</span>
+  <span class="facet-item__count">(107)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-constantinople"><label for="geography-made-in-constantinople"><span class="facet-item__value">Made in Constantinople</span>
+  <span class="facet-item__count">(290)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Constantinople" rel="nofollow" data-drupal-facet-item-id="geography-made-in-constantinople" data-drupal-facet-item-value="Made in Constantinople" data-drupal-facet-item-count="290" style="display: none;"><span class="facet-item__value">Made in Constantinople</span>
+  <span class="facet-item__count">(290)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-constantinople-thrace"><label for="geography-made-in-constantinople-thrace"><span class="facet-item__value">Made in Constantinople, Thrace</span>
+  <span class="facet-item__count">(976)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Constantinople%2C%20Thrace" rel="nofollow" data-drupal-facet-item-id="geography-made-in-constantinople-thrace" data-drupal-facet-item-value="Made in Constantinople, Thrace" data-drupal-facet-item-count="976" style="display: none;"><span class="facet-item__value">Made in Constantinople, Thrace</span>
+  <span class="facet-item__count">(976)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-constantinople-thrace--retailed-in-athens-greece"><label for="geography-made-in-constantinople-thrace--retailed-in-athens-greece"><span class="facet-item__value">Made in Constantinople, Thrace,  Retailed in Athens, Greece</span>
+  <span class="facet-item__count">(106)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Constantinople%2C%20Thrace%2C%20%20Retailed%20in%20Athens%2C%20Greece" rel="nofollow" data-drupal-facet-item-id="geography-made-in-constantinople-thrace--retailed-in-athens-greece" data-drupal-facet-item-value="Made in Constantinople, Thrace,  Retailed in Athens, Greece" data-drupal-facet-item-count="106" style="display: none;"><span class="facet-item__value">Made in Constantinople, Thrace,  Retailed in Athens, Greece</span>
+  <span class="facet-item__count">(106)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-corinth-peloponnese"><label for="geography-made-in-corinth-peloponnese"><span class="facet-item__value">Made in Corinth, Peloponnese</span>
+  <span class="facet-item__count">(282)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Corinth%2C%20Peloponnese" rel="nofollow" data-drupal-facet-item-id="geography-made-in-corinth-peloponnese" data-drupal-facet-item-value="Made in Corinth, Peloponnese" data-drupal-facet-item-count="282" style="display: none;"><span class="facet-item__value">Made in Corinth, Peloponnese</span>
+  <span class="facet-item__count">(282)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-cuba"><label for="geography-made-in-cuba"><span class="facet-item__value">Made in Cuba</span>
+  <span class="facet-item__count">(110)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Cuba" rel="nofollow" data-drupal-facet-item-id="geography-made-in-cuba" data-drupal-facet-item-value="Made in Cuba" data-drupal-facet-item-count="110" style="display: none;"><span class="facet-item__value">Made in Cuba</span>
+  <span class="facet-item__count">(110)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-cyzicus-mysia"><label for="geography-made-in-cyzicus-mysia"><span class="facet-item__value">Made in Cyzicus, Mysia</span>
+  <span class="facet-item__count">(435)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Cyzicus%2C%20Mysia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-cyzicus-mysia" data-drupal-facet-item-value="Made in Cyzicus, Mysia" data-drupal-facet-item-count="435" style="display: none;"><span class="facet-item__value">Made in Cyzicus, Mysia</span>
+  <span class="facet-item__count">(435)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-denmark"><label for="geography-made-in-denmark"><span class="facet-item__value">Made in Denmark</span>
+  <span class="facet-item__count">(60)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Denmark" rel="nofollow" data-drupal-facet-item-id="geography-made-in-denmark" data-drupal-facet-item-value="Made in Denmark" data-drupal-facet-item-count="60" style="display: none;"><span class="facet-item__value">Made in Denmark</span>
+  <span class="facet-item__count">(60)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-denver-colorado-united-states"><label for="geography-made-in-denver-colorado-united-states"><span class="facet-item__value">Made in Denver, Colorado, United States</span>
+  <span class="facet-item__count">(265)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Denver%2C%20Colorado%2C%20United%20States" rel="nofollow" data-drupal-facet-item-id="geography-made-in-denver-colorado-united-states" data-drupal-facet-item-value="Made in Denver, Colorado, United States" data-drupal-facet-item-count="265" style="display: none;"><span class="facet-item__value">Made in Denver, Colorado, United States</span>
+  <span class="facet-item__count">(265)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-dnipro-ukraine"><label for="geography-made-in-dnipro-ukraine"><span class="facet-item__value">Made in Dnipro, Ukraine</span>
+  <span class="facet-item__count">(70)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Dnipro%2C%20Ukraine" rel="nofollow" data-drupal-facet-item-id="geography-made-in-dnipro-ukraine" data-drupal-facet-item-value="Made in Dnipro, Ukraine" data-drupal-facet-item-count="70" style="display: none;"><span class="facet-item__value">Made in Dnipro, Ukraine</span>
+  <span class="facet-item__count">(70)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-ecuador"><label for="geography-made-in-ecuador"><span class="facet-item__value">Made in Ecuador</span>
+  <span class="facet-item__count">(60)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Ecuador" rel="nofollow" data-drupal-facet-item-id="geography-made-in-ecuador" data-drupal-facet-item-value="Made in Ecuador" data-drupal-facet-item-count="60" style="display: none;"><span class="facet-item__value">Made in Ecuador</span>
+  <span class="facet-item__count">(60)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-edessa-mesopotamia"><label for="geography-made-in-edessa-mesopotamia"><span class="facet-item__value">Made in Edessa, Mesopotamia</span>
+  <span class="facet-item__count">(165)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Edessa%2C%20Mesopotamia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-edessa-mesopotamia" data-drupal-facet-item-value="Made in Edessa, Mesopotamia" data-drupal-facet-item-count="165" style="display: none;"><span class="facet-item__value">Made in Edessa, Mesopotamia</span>
+  <span class="facet-item__count">(165)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-egypt"><label for="geography-made-in-egypt"><span class="facet-item__value">Made in Egypt</span>
+  <span class="facet-item__count">(119)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Egypt" rel="nofollow" data-drupal-facet-item-id="geography-made-in-egypt" data-drupal-facet-item-value="Made in Egypt" data-drupal-facet-item-count="119" style="display: none;"><span class="facet-item__value">Made in Egypt</span>
+  <span class="facet-item__count">(119)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-el-salvador"><label for="geography-made-in-el-salvador"><span class="facet-item__value">Made in El Salvador</span>
+  <span class="facet-item__count">(107)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20El%20Salvador" rel="nofollow" data-drupal-facet-item-id="geography-made-in-el-salvador" data-drupal-facet-item-value="Made in El Salvador" data-drupal-facet-item-count="107" style="display: none;"><span class="facet-item__value">Made in El Salvador</span>
+  <span class="facet-item__count">(107)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-england"><label for="geography-made-in-england"><span class="facet-item__value">Made in England</span>
+  <span class="facet-item__count">(2363)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20England" rel="nofollow" data-drupal-facet-item-id="geography-made-in-england" data-drupal-facet-item-value="Made in England" data-drupal-facet-item-count="2363" style="display: none;"><span class="facet-item__value">Made in England</span>
+  <span class="facet-item__count">(2363)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-ephesus-ionia"><label for="geography-made-in-ephesus-ionia"><span class="facet-item__value">Made in Ephesus, Ionia</span>
+  <span class="facet-item__count">(123)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Ephesus%2C%20Ionia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-ephesus-ionia" data-drupal-facet-item-value="Made in Ephesus, Ionia" data-drupal-facet-item-count="123" style="display: none;"><span class="facet-item__value">Made in Ephesus, Ionia</span>
+  <span class="facet-item__count">(123)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-finland"><label for="geography-made-in-finland"><span class="facet-item__value">Made in Finland</span>
+  <span class="facet-item__count">(104)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Finland" rel="nofollow" data-drupal-facet-item-id="geography-made-in-finland" data-drupal-facet-item-value="Made in Finland" data-drupal-facet-item-count="104" style="display: none;"><span class="facet-item__value">Made in Finland</span>
+  <span class="facet-item__count">(104)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-flanders"><label for="geography-made-in-flanders"><span class="facet-item__value">Made in Flanders</span>
+  <span class="facet-item__count">(781)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Flanders" rel="nofollow" data-drupal-facet-item-id="geography-made-in-flanders" data-drupal-facet-item-value="Made in Flanders" data-drupal-facet-item-count="781" style="display: none;"><span class="facet-item__value">Made in Flanders</span>
+  <span class="facet-item__count">(781)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-florence-italy"><label for="geography-made-in-florence-italy"><span class="facet-item__value">Made in Florence, Italy</span>
+  <span class="facet-item__count">(199)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Florence%2C%20Italy" rel="nofollow" data-drupal-facet-item-id="geography-made-in-florence-italy" data-drupal-facet-item-value="Made in Florence, Italy" data-drupal-facet-item-count="199" style="display: none;"><span class="facet-item__value">Made in Florence, Italy</span>
+  <span class="facet-item__count">(199)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-france"><label for="geography-made-in-france"><span class="facet-item__value">Made in France</span>
+  <span class="facet-item__count">(4188)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20France" rel="nofollow" data-drupal-facet-item-id="geography-made-in-france" data-drupal-facet-item-value="Made in France" data-drupal-facet-item-count="4188" style="display: none;"><span class="facet-item__value">Made in France</span>
+  <span class="facet-item__count">(4188)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-germany"><label for="geography-made-in-germany"><span class="facet-item__value">Made in Germany</span>
+  <span class="facet-item__count">(2673)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Germany" rel="nofollow" data-drupal-facet-item-id="geography-made-in-germany" data-drupal-facet-item-value="Made in Germany" data-drupal-facet-item-count="2673" style="display: none;"><span class="facet-item__value">Made in Germany</span>
+  <span class="facet-item__count">(2673)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-germany--or-united-states"><label for="geography-made-in-germany--or-united-states"><span class="facet-item__value">Made in Germany,  or United States</span>
+  <span class="facet-item__count">(149)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Germany%2C%20%20or%20United%20States" rel="nofollow" data-drupal-facet-item-id="geography-made-in-germany--or-united-states" data-drupal-facet-item-value="Made in Germany,  or United States" data-drupal-facet-item-count="149" style="display: none;"><span class="facet-item__value">Made in Germany,  or United States</span>
+  <span class="facet-item__count">(149)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-great-britain"><label for="geography-made-in-great-britain"><span class="facet-item__value">Made in Great Britain</span>
+  <span class="facet-item__count">(547)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Great%20Britain" rel="nofollow" data-drupal-facet-item-id="geography-made-in-great-britain" data-drupal-facet-item-value="Made in Great Britain" data-drupal-facet-item-count="547" style="display: none;"><span class="facet-item__value">Made in Great Britain</span>
+  <span class="facet-item__count">(547)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-greece"><label for="geography-made-in-greece"><span class="facet-item__value">Made in Greece</span>
+  <span class="facet-item__count">(639)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Greece" rel="nofollow" data-drupal-facet-item-id="geography-made-in-greece" data-drupal-facet-item-value="Made in Greece" data-drupal-facet-item-count="639" style="display: none;"><span class="facet-item__value">Made in Greece</span>
+  <span class="facet-item__count">(639)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-guangdong-china"><label for="geography-made-in-guangdong-china"><span class="facet-item__value">Made in Guangdong, China</span>
+  <span class="facet-item__count">(97)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Guangdong%2C%20China" rel="nofollow" data-drupal-facet-item-id="geography-made-in-guangdong-china" data-drupal-facet-item-value="Made in Guangdong, China" data-drupal-facet-item-count="97" style="display: none;"><span class="facet-item__value">Made in Guangdong, China</span>
+  <span class="facet-item__count">(97)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-guernsey-england"><label for="geography-made-in-guernsey-england"><span class="facet-item__value">Made in Guernsey, England</span>
+  <span class="facet-item__count">(66)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Guernsey%2C%20England" rel="nofollow" data-drupal-facet-item-id="geography-made-in-guernsey-england" data-drupal-facet-item-value="Made in Guernsey, England" data-drupal-facet-item-count="66" style="display: none;"><span class="facet-item__value">Made in Guernsey, England</span>
+  <span class="facet-item__count">(66)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-hartford-connecticut"><label for="geography-made-in-hartford-connecticut"><span class="facet-item__value">Made in Hartford, Connecticut</span>
+  <span class="facet-item__count">(166)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Hartford%2C%20Connecticut" rel="nofollow" data-drupal-facet-item-id="geography-made-in-hartford-connecticut" data-drupal-facet-item-value="Made in Hartford, Connecticut" data-drupal-facet-item-count="166" style="display: none;"><span class="facet-item__value">Made in Hartford, Connecticut</span>
+  <span class="facet-item__count">(166)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-hebron-connecticut"><label for="geography-made-in-hebron-connecticut"><span class="facet-item__value">Made in Hebron, Connecticut</span>
+  <span class="facet-item__count">(124)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Hebron%2C%20Connecticut" rel="nofollow" data-drupal-facet-item-id="geography-made-in-hebron-connecticut" data-drupal-facet-item-value="Made in Hebron, Connecticut" data-drupal-facet-item-count="124" style="display: none;"><span class="facet-item__value">Made in Hebron, Connecticut</span>
+  <span class="facet-item__count">(124)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-heraclea-lucania"><label for="geography-made-in-heraclea-lucania"><span class="facet-item__value">Made in Heraclea, Lucania</span>
+  <span class="facet-item__count">(162)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Heraclea%2C%20Lucania" rel="nofollow" data-drupal-facet-item-id="geography-made-in-heraclea-lucania" data-drupal-facet-item-value="Made in Heraclea, Lucania" data-drupal-facet-item-count="162" style="display: none;"><span class="facet-item__value">Made in Heraclea, Lucania</span>
+  <span class="facet-item__count">(162)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-hungary"><label for="geography-made-in-hungary"><span class="facet-item__value">Made in Hungary</span>
+  <span class="facet-item__count">(105)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Hungary" rel="nofollow" data-drupal-facet-item-id="geography-made-in-hungary" data-drupal-facet-item-value="Made in Hungary" data-drupal-facet-item-count="105" style="display: none;"><span class="facet-item__value">Made in Hungary</span>
+  <span class="facet-item__count">(105)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-ilium-roman-empire"><label for="geography-made-in-ilium-roman-empire"><span class="facet-item__value">Made in Ilium, Roman Empire</span>
+  <span class="facet-item__count">(80)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Ilium%2C%20Roman%20Empire" rel="nofollow" data-drupal-facet-item-id="geography-made-in-ilium-roman-empire" data-drupal-facet-item-value="Made in Ilium, Roman Empire" data-drupal-facet-item-count="80" style="display: none;"><span class="facet-item__value">Made in Ilium, Roman Empire</span>
+  <span class="facet-item__count">(80)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-india"><label for="geography-made-in-india"><span class="facet-item__value">Made in India</span>
+  <span class="facet-item__count">(168)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20India" rel="nofollow" data-drupal-facet-item-id="geography-made-in-india" data-drupal-facet-item-value="Made in India" data-drupal-facet-item-count="168" style="display: none;"><span class="facet-item__value">Made in India</span>
+  <span class="facet-item__count">(168)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-indonesia"><label for="geography-made-in-indonesia"><span class="facet-item__value">Made in Indonesia</span>
+  <span class="facet-item__count">(210)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Indonesia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-indonesia" data-drupal-facet-item-value="Made in Indonesia" data-drupal-facet-item-count="210" style="display: none;"><span class="facet-item__value">Made in Indonesia</span>
+  <span class="facet-item__count">(210)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-ireland"><label for="geography-made-in-ireland"><span class="facet-item__value">Made in Ireland</span>
+  <span class="facet-item__count">(274)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Ireland" rel="nofollow" data-drupal-facet-item-id="geography-made-in-ireland" data-drupal-facet-item-value="Made in Ireland" data-drupal-facet-item-count="274" style="display: none;"><span class="facet-item__value">Made in Ireland</span>
+  <span class="facet-item__count">(274)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-istanbul-turkey"><label for="geography-made-in-istanbul-turkey"><span class="facet-item__value">Made in Istanbul, Turkey</span>
+  <span class="facet-item__count">(119)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Istanbul%2C%20Turkey" rel="nofollow" data-drupal-facet-item-id="geography-made-in-istanbul-turkey" data-drupal-facet-item-value="Made in Istanbul, Turkey" data-drupal-facet-item-count="119" style="display: none;"><span class="facet-item__value">Made in Istanbul, Turkey</span>
+  <span class="facet-item__count">(119)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-italy"><label for="geography-made-in-italy"><span class="facet-item__value">Made in Italy</span>
+  <span class="facet-item__count">(2147)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Italy" rel="nofollow" data-drupal-facet-item-id="geography-made-in-italy" data-drupal-facet-item-value="Made in Italy" data-drupal-facet-item-count="2147" style="display: none;"><span class="facet-item__value">Made in Italy</span>
+  <span class="facet-item__count">(2147)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-japan"><label for="geography-made-in-japan"><span class="facet-item__value">Made in Japan</span>
+  <span class="facet-item__count">(295)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Japan" rel="nofollow" data-drupal-facet-item-id="geography-made-in-japan" data-drupal-facet-item-value="Made in Japan" data-drupal-facet-item-count="295" style="display: none;"><span class="facet-item__value">Made in Japan</span>
+  <span class="facet-item__count">(295)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-java-indonesia"><label for="geography-made-in-java-indonesia"><span class="facet-item__value">Made in Java, Indonesia</span>
+  <span class="facet-item__count">(747)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Java%2C%20Indonesia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-java-indonesia" data-drupal-facet-item-value="Made in Java, Indonesia" data-drupal-facet-item-count="747" style="display: none;"><span class="facet-item__value">Made in Java, Indonesia</span>
+  <span class="facet-item__count">(747)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-jerusalem-judea"><label for="geography-made-in-jerusalem-judea"><span class="facet-item__value">Made in Jerusalem, Judea</span>
+  <span class="facet-item__count">(102)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Jerusalem%2C%20Judea" rel="nofollow" data-drupal-facet-item-id="geography-made-in-jerusalem-judea" data-drupal-facet-item-value="Made in Jerusalem, Judea" data-drupal-facet-item-count="102" style="display: none;"><span class="facet-item__value">Made in Jerusalem, Judea</span>
+  <span class="facet-item__count">(102)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-judaea"><label for="geography-made-in-judaea"><span class="facet-item__value">Made in Judaea</span>
+  <span class="facet-item__count">(83)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Judaea" rel="nofollow" data-drupal-facet-item-id="geography-made-in-judaea" data-drupal-facet-item-value="Made in Judaea" data-drupal-facet-item-count="83" style="display: none;"><span class="facet-item__value">Made in Judaea</span>
+  <span class="facet-item__count">(83)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-kerek-java-indonesia"><label for="geography-made-in-kerek-java-indonesia"><span class="facet-item__value">Made in Kerek, Java, Indonesia</span>
+  <span class="facet-item__count">(100)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Kerek%2C%20Java%2C%20Indonesia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-kerek-java-indonesia" data-drupal-facet-item-value="Made in Kerek, Java, Indonesia" data-drupal-facet-item-count="100" style="display: none;"><span class="facet-item__value">Made in Kerek, Java, Indonesia</span>
+  <span class="facet-item__count">(100)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-lampsacus-mysia"><label for="geography-made-in-lampsacus-mysia"><span class="facet-item__value">Made in Lampsacus, Mysia</span>
+  <span class="facet-item__count">(83)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Lampsacus%2C%20Mysia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-lampsacus-mysia" data-drupal-facet-item-value="Made in Lampsacus, Mysia" data-drupal-facet-item-count="83" style="display: none;"><span class="facet-item__value">Made in Lampsacus, Mysia</span>
+  <span class="facet-item__count">(83)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-lampung-sumatra-indonesia"><label for="geography-made-in-lampung-sumatra-indonesia"><span class="facet-item__value">Made in Lampung, Sumatra, Indonesia</span>
+  <span class="facet-item__count">(61)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Lampung%2C%20Sumatra%2C%20Indonesia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-lampung-sumatra-indonesia" data-drupal-facet-item-value="Made in Lampung, Sumatra, Indonesia" data-drupal-facet-item-count="61" style="display: none;"><span class="facet-item__value">Made in Lampung, Sumatra, Indonesia</span>
+  <span class="facet-item__count">(61)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-laodicea-ad-mare-syria"><label for="geography-made-in-laodicea-ad-mare-syria"><span class="facet-item__value">Made in Laodicea ad Mare, Syria</span>
+  <span class="facet-item__count">(186)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Laodicea%20ad%20Mare%2C%20Syria" rel="nofollow" data-drupal-facet-item-id="geography-made-in-laodicea-ad-mare-syria" data-drupal-facet-item-value="Made in Laodicea ad Mare, Syria" data-drupal-facet-item-count="186" style="display: none;"><span class="facet-item__value">Made in Laodicea ad Mare, Syria</span>
+  <span class="facet-item__count">(186)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-larissa-thessaly"><label for="geography-made-in-larissa-thessaly"><span class="facet-item__value">Made in Larissa, Thessaly</span>
+  <span class="facet-item__count">(66)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Larissa%2C%20Thessaly" rel="nofollow" data-drupal-facet-item-id="geography-made-in-larissa-thessaly" data-drupal-facet-item-value="Made in Larissa, Thessaly" data-drupal-facet-item-count="66" style="display: none;"><span class="facet-item__value">Made in Larissa, Thessaly</span>
+  <span class="facet-item__count">(66)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-leningrad-soviet-union"><label for="geography-made-in-leningrad-soviet-union"><span class="facet-item__value">Made in Leningrad, Soviet Union</span>
+  <span class="facet-item__count">(77)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Leningrad%2C%20Soviet%20Union" rel="nofollow" data-drupal-facet-item-id="geography-made-in-leningrad-soviet-union" data-drupal-facet-item-value="Made in Leningrad, Soviet Union" data-drupal-facet-item-count="77" style="display: none;"><span class="facet-item__value">Made in Leningrad, Soviet Union</span>
+  <span class="facet-item__count">(77)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-lille-france"><label for="geography-made-in-lille-france"><span class="facet-item__value">Made in Lille, France</span>
+  <span class="facet-item__count">(73)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Lille%2C%20France" rel="nofollow" data-drupal-facet-item-id="geography-made-in-lille-france" data-drupal-facet-item-value="Made in Lille, France" data-drupal-facet-item-count="73" style="display: none;"><span class="facet-item__value">Made in Lille, France</span>
+  <span class="facet-item__count">(73)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-london"><label for="geography-made-in-london"><span class="facet-item__value">Made in London</span>
+  <span class="facet-item__count">(253)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20London" rel="nofollow" data-drupal-facet-item-id="geography-made-in-london" data-drupal-facet-item-value="Made in London" data-drupal-facet-item-count="253" style="display: none;"><span class="facet-item__value">Made in London</span>
+  <span class="facet-item__count">(253)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-london-england"><label for="geography-made-in-london-england"><span class="facet-item__value">Made in London, England</span>
+  <span class="facet-item__count">(1250)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20London%2C%20England" rel="nofollow" data-drupal-facet-item-id="geography-made-in-london-england" data-drupal-facet-item-value="Made in London, England" data-drupal-facet-item-count="1250" style="display: none;"><span class="facet-item__value">Made in London, England</span>
+  <span class="facet-item__count">(1250)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-london-united-kingdom"><label for="geography-made-in-london-united-kingdom"><span class="facet-item__value">Made in London, United Kingdom</span>
+  <span class="facet-item__count">(98)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20London%2C%20United%20Kingdom" rel="nofollow" data-drupal-facet-item-id="geography-made-in-london-united-kingdom" data-drupal-facet-item-value="Made in London, United Kingdom" data-drupal-facet-item-count="98" style="display: none;"><span class="facet-item__value">Made in London, United Kingdom</span>
+  <span class="facet-item__count">(98)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-lugdunum-gaul"><label for="geography-made-in-lugdunum-gaul"><span class="facet-item__value">Made in Lugdunum, Gaul</span>
+  <span class="facet-item__count">(231)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Lugdunum%2C%20Gaul" rel="nofollow" data-drupal-facet-item-id="geography-made-in-lugdunum-gaul" data-drupal-facet-item-value="Made in Lugdunum, Gaul" data-drupal-facet-item-count="231" style="display: none;"><span class="facet-item__value">Made in Lugdunum, Gaul</span>
+  <span class="facet-item__count">(231)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-luzon-philippines"><label for="geography-made-in-luzon-philippines"><span class="facet-item__value">Made in Luzon, Philippines</span>
+  <span class="facet-item__count">(91)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Luzon%2C%20Philippines" rel="nofollow" data-drupal-facet-item-id="geography-made-in-luzon-philippines" data-drupal-facet-item-value="Made in Luzon, Philippines" data-drupal-facet-item-count="91" style="display: none;"><span class="facet-item__value">Made in Luzon, Philippines</span>
+  <span class="facet-item__count">(91)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-macedonia"><label for="geography-made-in-macedonia"><span class="facet-item__value">Made in Macedonia</span>
+  <span class="facet-item__count">(322)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Macedonia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-macedonia" data-drupal-facet-item-value="Made in Macedonia" data-drupal-facet-item-count="322" style="display: none;"><span class="facet-item__value">Made in Macedonia</span>
+  <span class="facet-item__count">(322)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-madrid-spain"><label for="geography-made-in-madrid-spain"><span class="facet-item__value">Made in Madrid, Spain</span>
+  <span class="facet-item__count">(259)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Madrid%2C%20Spain" rel="nofollow" data-drupal-facet-item-id="geography-made-in-madrid-spain" data-drupal-facet-item-value="Made in Madrid, Spain" data-drupal-facet-item-count="259" style="display: none;"><span class="facet-item__value">Made in Madrid, Spain</span>
+  <span class="facet-item__count">(259)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-magnesia-ionia"><label for="geography-made-in-magnesia-ionia"><span class="facet-item__value">Made in Magnesia, Ionia</span>
+  <span class="facet-item__count">(74)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Magnesia%2C%20Ionia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-magnesia-ionia" data-drupal-facet-item-value="Made in Magnesia, Ionia" data-drupal-facet-item-count="74" style="display: none;"><span class="facet-item__value">Made in Magnesia, Ionia</span>
+  <span class="facet-item__count">(74)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-majorca-spain"><label for="geography-made-in-majorca-spain"><span class="facet-item__value">Made in Majorca, Spain</span>
+  <span class="facet-item__count">(250)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Majorca%2C%20Spain" rel="nofollow" data-drupal-facet-item-id="geography-made-in-majorca-spain" data-drupal-facet-item-value="Made in Majorca, Spain" data-drupal-facet-item-count="250" style="display: none;"><span class="facet-item__value">Made in Majorca, Spain</span>
+  <span class="facet-item__count">(250)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-malta"><label for="geography-made-in-malta"><span class="facet-item__value">Made in Malta</span>
+  <span class="facet-item__count">(67)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Malta" rel="nofollow" data-drupal-facet-item-id="geography-made-in-malta" data-drupal-facet-item-value="Made in Malta" data-drupal-facet-item-count="67" style="display: none;"><span class="facet-item__value">Made in Malta</span>
+  <span class="facet-item__count">(67)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-marcianopolis-moesia-inferior"><label for="geography-made-in-marcianopolis-moesia-inferior"><span class="facet-item__value">Made in Marcianopolis, Moesia Inferior</span>
+  <span class="facet-item__count">(114)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Marcianopolis%2C%20Moesia%20Inferior" rel="nofollow" data-drupal-facet-item-id="geography-made-in-marcianopolis-moesia-inferior" data-drupal-facet-item-value="Made in Marcianopolis, Moesia Inferior" data-drupal-facet-item-count="114" style="display: none;"><span class="facet-item__value">Made in Marcianopolis, Moesia Inferior</span>
+  <span class="facet-item__count">(114)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-metapontum-lucania"><label for="geography-made-in-metapontum-lucania"><span class="facet-item__value">Made in Metapontum, Lucania</span>
+  <span class="facet-item__count">(252)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Metapontum%2C%20Lucania" rel="nofollow" data-drupal-facet-item-id="geography-made-in-metapontum-lucania" data-drupal-facet-item-value="Made in Metapontum, Lucania" data-drupal-facet-item-count="252" style="display: none;"><span class="facet-item__value">Made in Metapontum, Lucania</span>
+  <span class="facet-item__count">(252)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-mexico"><label for="geography-made-in-mexico"><span class="facet-item__value">Made in Mexico</span>
+  <span class="facet-item__count">(297)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Mexico" rel="nofollow" data-drupal-facet-item-id="geography-made-in-mexico" data-drupal-facet-item-value="Made in Mexico" data-drupal-facet-item-count="297" style="display: none;"><span class="facet-item__value">Made in Mexico</span>
+  <span class="facet-item__count">(297)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-middletown-connecticut"><label for="geography-made-in-middletown-connecticut"><span class="facet-item__value">Made in Middletown, Connecticut</span>
+  <span class="facet-item__count">(67)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Middletown%2C%20Connecticut" rel="nofollow" data-drupal-facet-item-id="geography-made-in-middletown-connecticut" data-drupal-facet-item-value="Made in Middletown, Connecticut" data-drupal-facet-item-count="67" style="display: none;"><span class="facet-item__value">Made in Middletown, Connecticut</span>
+  <span class="facet-item__count">(67)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-milan-italy"><label for="geography-made-in-milan-italy"><span class="facet-item__value">Made in Milan, Italy</span>
+  <span class="facet-item__count">(199)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Milan%2C%20Italy" rel="nofollow" data-drupal-facet-item-id="geography-made-in-milan-italy" data-drupal-facet-item-value="Made in Milan, Italy" data-drupal-facet-item-count="199" style="display: none;"><span class="facet-item__value">Made in Milan, Italy</span>
+  <span class="facet-item__count">(199)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-miletus-ionia"><label for="geography-made-in-miletus-ionia"><span class="facet-item__value">Made in Miletus, Ionia</span>
+  <span class="facet-item__count">(63)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Miletus%2C%20Ionia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-miletus-ionia" data-drupal-facet-item-value="Made in Miletus, Ionia" data-drupal-facet-item-count="63" style="display: none;"><span class="facet-item__value">Made in Miletus, Ionia</span>
+  <span class="facet-item__count">(63)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-moscow-russia"><label for="geography-made-in-moscow-russia"><span class="facet-item__value">Made in Moscow, Russia</span>
+  <span class="facet-item__count">(365)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Moscow%2C%20Russia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-moscow-russia" data-drupal-facet-item-value="Made in Moscow, Russia" data-drupal-facet-item-count="365" style="display: none;"><span class="facet-item__value">Made in Moscow, Russia</span>
+  <span class="facet-item__count">(365)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-newark-new-jersey"><label for="geography-made-in-newark-new-jersey"><span class="facet-item__value">Made in Newark, New Jersey</span>
+  <span class="facet-item__count">(76)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Newark%2C%20New%20Jersey" rel="nofollow" data-drupal-facet-item-id="geography-made-in-newark-new-jersey" data-drupal-facet-item-value="Made in Newark, New Jersey" data-drupal-facet-item-count="76" style="display: none;"><span class="facet-item__value">Made in Newark, New Jersey</span>
+  <span class="facet-item__count">(76)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-newburyport-massachusetts"><label for="geography-made-in-newburyport-massachusetts"><span class="facet-item__value">Made in Newburyport, Massachusetts</span>
+  <span class="facet-item__count">(78)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Newburyport%2C%20Massachusetts" rel="nofollow" data-drupal-facet-item-id="geography-made-in-newburyport-massachusetts" data-drupal-facet-item-value="Made in Newburyport, Massachusetts" data-drupal-facet-item-count="78" style="display: none;"><span class="facet-item__value">Made in Newburyport, Massachusetts</span>
+  <span class="facet-item__count">(78)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-new-england"><label for="geography-made-in-new-england"><span class="facet-item__value">Made in New England</span>
+  <span class="facet-item__count">(161)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20New%20England" rel="nofollow" data-drupal-facet-item-id="geography-made-in-new-england" data-drupal-facet-item-value="Made in New England" data-drupal-facet-item-count="161" style="display: none;"><span class="facet-item__value">Made in New England</span>
+  <span class="facet-item__count">(161)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-new-haven-connecticut"><label for="geography-made-in-new-haven-connecticut"><span class="facet-item__value">Made in New Haven, Connecticut</span>
+  <span class="facet-item__count">(454)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20New%20Haven%2C%20Connecticut" rel="nofollow" data-drupal-facet-item-id="geography-made-in-new-haven-connecticut" data-drupal-facet-item-value="Made in New Haven, Connecticut" data-drupal-facet-item-count="454" style="display: none;"><span class="facet-item__value">Made in New Haven, Connecticut</span>
+  <span class="facet-item__count">(454)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-new-haven-connecticut-united-states"><label for="geography-made-in-new-haven-connecticut-united-states"><span class="facet-item__value">Made in New Haven, Connecticut, United States</span>
+  <span class="facet-item__count">(91)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20New%20Haven%2C%20Connecticut%2C%20United%20States" rel="nofollow" data-drupal-facet-item-id="geography-made-in-new-haven-connecticut-united-states" data-drupal-facet-item-value="Made in New Haven, Connecticut, United States" data-drupal-facet-item-count="91" style="display: none;"><span class="facet-item__value">Made in New Haven, Connecticut, United States</span>
+  <span class="facet-item__count">(91)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-newport-rhode-island"><label for="geography-made-in-newport-rhode-island"><span class="facet-item__value">Made in Newport, Rhode Island</span>
+  <span class="facet-item__count">(104)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Newport%2C%20Rhode%20Island" rel="nofollow" data-drupal-facet-item-id="geography-made-in-newport-rhode-island" data-drupal-facet-item-value="Made in Newport, Rhode Island" data-drupal-facet-item-count="104" style="display: none;"><span class="facet-item__value">Made in Newport, Rhode Island</span>
+  <span class="facet-item__count">(104)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-new-york"><label for="geography-made-in-new-york"><span class="facet-item__value">Made in New York</span>
+  <span class="facet-item__count">(73)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20New%20York" rel="nofollow" data-drupal-facet-item-id="geography-made-in-new-york" data-drupal-facet-item-value="Made in New York" data-drupal-facet-item-count="73" style="display: none;"><span class="facet-item__value">Made in New York</span>
+  <span class="facet-item__count">(73)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-new-york-new-york"><label for="geography-made-in-new-york-new-york"><span class="facet-item__value">Made in New York, New York</span>
+  <span class="facet-item__count">(1599)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20New%20York%2C%20New%20York" rel="nofollow" data-drupal-facet-item-id="geography-made-in-new-york-new-york" data-drupal-facet-item-value="Made in New York, New York" data-drupal-facet-item-count="1599" style="display: none;"><span class="facet-item__value">Made in New York, New York</span>
+  <span class="facet-item__count">(1599)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-new-york-new-york-united-states"><label for="geography-made-in-new-york-new-york-united-states"><span class="facet-item__value">Made in New York, New York, United States</span>
+  <span class="facet-item__count">(234)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20New%20York%2C%20New%20York%2C%20United%20States" rel="nofollow" data-drupal-facet-item-id="geography-made-in-new-york-new-york-united-states" data-drupal-facet-item-value="Made in New York, New York, United States" data-drupal-facet-item-count="234" style="display: none;"><span class="facet-item__value">Made in New York, New York, United States</span>
+  <span class="facet-item__count">(234)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-new-york-united-states"><label for="geography-made-in-new-york-united-states"><span class="facet-item__value">Made in New York, United States</span>
+  <span class="facet-item__count">(171)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20New%20York%2C%20United%20States" rel="nofollow" data-drupal-facet-item-id="geography-made-in-new-york-united-states" data-drupal-facet-item-value="Made in New York, United States" data-drupal-facet-item-count="171" style="display: none;"><span class="facet-item__value">Made in New York, United States</span>
+  <span class="facet-item__count">(171)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-nicaea-bithynia"><label for="geography-made-in-nicaea-bithynia"><span class="facet-item__value">Made in Nicaea, Bithynia</span>
+  <span class="facet-item__count">(85)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Nicaea%2C%20Bithynia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-nicaea-bithynia" data-drupal-facet-item-value="Made in Nicaea, Bithynia" data-drupal-facet-item-count="85" style="display: none;"><span class="facet-item__value">Made in Nicaea, Bithynia</span>
+  <span class="facet-item__count">(85)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-nicaragua"><label for="geography-made-in-nicaragua"><span class="facet-item__value">Made in Nicaragua</span>
+  <span class="facet-item__count">(70)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Nicaragua" rel="nofollow" data-drupal-facet-item-id="geography-made-in-nicaragua" data-drupal-facet-item-value="Made in Nicaragua" data-drupal-facet-item-count="70" style="display: none;"><span class="facet-item__value">Made in Nicaragua</span>
+  <span class="facet-item__count">(70)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-nicomedia-bithynia"><label for="geography-made-in-nicomedia-bithynia"><span class="facet-item__value">Made in Nicomedia, Bithynia</span>
+  <span class="facet-item__count">(304)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Nicomedia%2C%20Bithynia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-nicomedia-bithynia" data-drupal-facet-item-value="Made in Nicomedia, Bithynia" data-drupal-facet-item-count="304" style="display: none;"><span class="facet-item__value">Made in Nicomedia, Bithynia</span>
+  <span class="facet-item__count">(304)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-nicopolis-ad-istrum-moesia-inferior"><label for="geography-made-in-nicopolis-ad-istrum-moesia-inferior"><span class="facet-item__value">Made in Nicopolis ad Istrum, Moesia Inferior</span>
+  <span class="facet-item__count">(141)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Nicopolis%20ad%20Istrum%2C%20Moesia%20Inferior" rel="nofollow" data-drupal-facet-item-id="geography-made-in-nicopolis-ad-istrum-moesia-inferior" data-drupal-facet-item-value="Made in Nicopolis ad Istrum, Moesia Inferior" data-drupal-facet-item-count="141" style="display: none;"><span class="facet-item__value">Made in Nicopolis ad Istrum, Moesia Inferior</span>
+  <span class="facet-item__count">(141)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-ottawa-canada"><label for="geography-made-in-ottawa-canada"><span class="facet-item__value">Made in Ottawa, Canada</span>
+  <span class="facet-item__count">(533)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Ottawa%2C%20Canada" rel="nofollow" data-drupal-facet-item-id="geography-made-in-ottawa-canada" data-drupal-facet-item-value="Made in Ottawa, Canada" data-drupal-facet-item-count="533" style="display: none;"><span class="facet-item__value">Made in Ottawa, Canada</span>
+  <span class="facet-item__count">(533)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-paris-france"><label for="geography-made-in-paris-france"><span class="facet-item__value">Made in Paris, France</span>
+  <span class="facet-item__count">(1420)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Paris%2C%20France" rel="nofollow" data-drupal-facet-item-id="geography-made-in-paris-france" data-drupal-facet-item-value="Made in Paris, France" data-drupal-facet-item-count="1420" style="display: none;"><span class="facet-item__value">Made in Paris, France</span>
+  <span class="facet-item__count">(1420)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-parthia"><label for="geography-made-in-parthia"><span class="facet-item__value">Made in Parthia</span>
+  <span class="facet-item__count">(191)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Parthia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-parthia" data-drupal-facet-item-value="Made in Parthia" data-drupal-facet-item-count="191" style="display: none;"><span class="facet-item__value">Made in Parthia</span>
+  <span class="facet-item__count">(191)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-pennsylvania"><label for="geography-made-in-pennsylvania"><span class="facet-item__value">Made in Pennsylvania</span>
+  <span class="facet-item__count">(119)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Pennsylvania" rel="nofollow" data-drupal-facet-item-id="geography-made-in-pennsylvania" data-drupal-facet-item-value="Made in Pennsylvania" data-drupal-facet-item-count="119" style="display: none;"><span class="facet-item__value">Made in Pennsylvania</span>
+  <span class="facet-item__count">(119)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-pergamum-mysia"><label for="geography-made-in-pergamum-mysia"><span class="facet-item__value">Made in Pergamum, Mysia</span>
+  <span class="facet-item__count">(105)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Pergamum%2C%20Mysia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-pergamum-mysia" data-drupal-facet-item-value="Made in Pergamum, Mysia" data-drupal-facet-item-count="105" style="display: none;"><span class="facet-item__value">Made in Pergamum, Mysia</span>
+  <span class="facet-item__count">(105)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-perge-pamphylia"><label for="geography-made-in-perge-pamphylia"><span class="facet-item__value">Made in Perge, Pamphylia</span>
+  <span class="facet-item__count">(66)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Perge%2C%20Pamphylia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-perge-pamphylia" data-drupal-facet-item-value="Made in Perge, Pamphylia" data-drupal-facet-item-count="66" style="display: none;"><span class="facet-item__value">Made in Perge, Pamphylia</span>
+  <span class="facet-item__count">(66)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-peru"><label for="geography-made-in-peru"><span class="facet-item__value">Made in Peru</span>
+  <span class="facet-item__count">(164)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Peru" rel="nofollow" data-drupal-facet-item-id="geography-made-in-peru" data-drupal-facet-item-value="Made in Peru" data-drupal-facet-item-count="164" style="display: none;"><span class="facet-item__value">Made in Peru</span>
+  <span class="facet-item__count">(164)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-philadelphia-pennsylvania"><label for="geography-made-in-philadelphia-pennsylvania"><span class="facet-item__value">Made in Philadelphia, Pennsylvania</span>
+  <span class="facet-item__count">(997)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Philadelphia%2C%20Pennsylvania" rel="nofollow" data-drupal-facet-item-id="geography-made-in-philadelphia-pennsylvania" data-drupal-facet-item-value="Made in Philadelphia, Pennsylvania" data-drupal-facet-item-count="997" style="display: none;"><span class="facet-item__value">Made in Philadelphia, Pennsylvania</span>
+  <span class="facet-item__count">(997)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-philadelphia-pennsylvania-united-states"><label for="geography-made-in-philadelphia-pennsylvania-united-states"><span class="facet-item__value">Made in Philadelphia, Pennsylvania, United States</span>
+  <span class="facet-item__count">(2017)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Philadelphia%2C%20Pennsylvania%2C%20United%20States" rel="nofollow" data-drupal-facet-item-id="geography-made-in-philadelphia-pennsylvania-united-states" data-drupal-facet-item-value="Made in Philadelphia, Pennsylvania, United States" data-drupal-facet-item-count="2017" style="display: none;"><span class="facet-item__value">Made in Philadelphia, Pennsylvania, United States</span>
+  <span class="facet-item__count">(2017)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-philippines"><label for="geography-made-in-philippines"><span class="facet-item__value">Made in Philippines</span>
+  <span class="facet-item__count">(169)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Philippines" rel="nofollow" data-drupal-facet-item-id="geography-made-in-philippines" data-drupal-facet-item-value="Made in Philippines" data-drupal-facet-item-count="169" style="display: none;"><span class="facet-item__value">Made in Philippines</span>
+  <span class="facet-item__count">(169)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-poissy-france"><label for="geography-made-in-poissy-france"><span class="facet-item__value">Made in Poissy, France</span>
+  <span class="facet-item__count">(70)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Poissy%2C%20France" rel="nofollow" data-drupal-facet-item-id="geography-made-in-poissy-france" data-drupal-facet-item-value="Made in Poissy, France" data-drupal-facet-item-count="70" style="display: none;"><span class="facet-item__value">Made in Poissy, France</span>
+  <span class="facet-item__count">(70)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-poland"><label for="geography-made-in-poland"><span class="facet-item__value">Made in Poland</span>
+  <span class="facet-item__count">(71)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Poland" rel="nofollow" data-drupal-facet-item-id="geography-made-in-poland" data-drupal-facet-item-value="Made in Poland" data-drupal-facet-item-count="71" style="display: none;"><span class="facet-item__value">Made in Poland</span>
+  <span class="facet-item__count">(71)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-portsmouth-new-hampshire"><label for="geography-made-in-portsmouth-new-hampshire"><span class="facet-item__value">Made in Portsmouth, New Hampshire</span>
+  <span class="facet-item__count">(63)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Portsmouth%2C%20New%20Hampshire" rel="nofollow" data-drupal-facet-item-id="geography-made-in-portsmouth-new-hampshire" data-drupal-facet-item-value="Made in Portsmouth, New Hampshire" data-drupal-facet-item-count="63" style="display: none;"><span class="facet-item__value">Made in Portsmouth, New Hampshire</span>
+  <span class="facet-item__count">(63)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-portugal"><label for="geography-made-in-portugal"><span class="facet-item__value">Made in Portugal</span>
+  <span class="facet-item__count">(89)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Portugal" rel="nofollow" data-drupal-facet-item-id="geography-made-in-portugal" data-drupal-facet-item-value="Made in Portugal" data-drupal-facet-item-count="89" style="display: none;"><span class="facet-item__value">Made in Portugal</span>
+  <span class="facet-item__count">(89)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-providence-rhode-island"><label for="geography-made-in-providence-rhode-island"><span class="facet-item__value">Made in Providence, Rhode Island</span>
+  <span class="facet-item__count">(226)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Providence%2C%20Rhode%20Island" rel="nofollow" data-drupal-facet-item-id="geography-made-in-providence-rhode-island" data-drupal-facet-item-value="Made in Providence, Rhode Island" data-drupal-facet-item-count="226" style="display: none;"><span class="facet-item__value">Made in Providence, Rhode Island</span>
+  <span class="facet-item__count">(226)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-puri-blayu-tabanan-bali-indonesia"><label for="geography-made-in-puri-blayu-tabanan-bali-indonesia"><span class="facet-item__value">Made in Puri Blayu Tabanan, Bali, Indonesia</span>
+  <span class="facet-item__count">(129)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Puri%20Blayu%20Tabanan%2C%20Bali%2C%20Indonesia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-puri-blayu-tabanan-bali-indonesia" data-drupal-facet-item-value="Made in Puri Blayu Tabanan, Bali, Indonesia" data-drupal-facet-item-count="129" style="display: none;"><span class="facet-item__value">Made in Puri Blayu Tabanan, Bali, Indonesia</span>
+  <span class="facet-item__count">(129)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-rhodes"><label for="geography-made-in-rhodes"><span class="facet-item__value">Made in Rhodes</span>
+  <span class="facet-item__count">(63)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Rhodes" rel="nofollow" data-drupal-facet-item-id="geography-made-in-rhodes" data-drupal-facet-item-value="Made in Rhodes" data-drupal-facet-item-count="63" style="display: none;"><span class="facet-item__value">Made in Rhodes</span>
+  <span class="facet-item__count">(63)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-richmond-virginia"><label for="geography-made-in-richmond-virginia"><span class="facet-item__value">Made in Richmond, Virginia</span>
+  <span class="facet-item__count">(963)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Richmond%2C%20Virginia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-richmond-virginia" data-drupal-facet-item-value="Made in Richmond, Virginia" data-drupal-facet-item-count="963" style="display: none;"><span class="facet-item__value">Made in Richmond, Virginia</span>
+  <span class="facet-item__count">(963)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-roman-empire"><label for="geography-made-in-roman-empire"><span class="facet-item__value">Made in Roman Empire</span>
+  <span class="facet-item__count">(948)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Roman%20Empire" rel="nofollow" data-drupal-facet-item-id="geography-made-in-roman-empire" data-drupal-facet-item-value="Made in Roman Empire" data-drupal-facet-item-count="948" style="display: none;"><span class="facet-item__value">Made in Roman Empire</span>
+  <span class="facet-item__count">(948)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-rome"><label for="geography-made-in-rome"><span class="facet-item__value">Made in Rome</span>
+  <span class="facet-item__count">(1205)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Rome" rel="nofollow" data-drupal-facet-item-id="geography-made-in-rome" data-drupal-facet-item-value="Made in Rome" data-drupal-facet-item-count="1205" style="display: none;"><span class="facet-item__value">Made in Rome</span>
+  <span class="facet-item__count">(1205)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-rome-italy"><label for="geography-made-in-rome-italy"><span class="facet-item__value">Made in Rome, Italy</span>
+  <span class="facet-item__count">(4847)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Rome%2C%20Italy" rel="nofollow" data-drupal-facet-item-id="geography-made-in-rome-italy" data-drupal-facet-item-value="Made in Rome, Italy" data-drupal-facet-item-count="4847" style="display: none;"><span class="facet-item__value">Made in Rome, Italy</span>
+  <span class="facet-item__count">(4847)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-rome-roman-empire"><label for="geography-made-in-rome-roman-empire"><span class="facet-item__value">Made in Rome, Roman Empire</span>
+  <span class="facet-item__count">(65)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Rome%2C%20Roman%20Empire" rel="nofollow" data-drupal-facet-item-id="geography-made-in-rome-roman-empire" data-drupal-facet-item-value="Made in Rome, Roman Empire" data-drupal-facet-item-count="65" style="display: none;"><span class="facet-item__value">Made in Rome, Roman Empire</span>
+  <span class="facet-item__count">(65)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-rouen-france"><label for="geography-made-in-rouen-france"><span class="facet-item__value">Made in Rouen, France</span>
+  <span class="facet-item__count">(74)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Rouen%2C%20France" rel="nofollow" data-drupal-facet-item-id="geography-made-in-rouen-france" data-drupal-facet-item-value="Made in Rouen, France" data-drupal-facet-item-count="74" style="display: none;"><span class="facet-item__value">Made in Rouen, France</span>
+  <span class="facet-item__count">(74)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-russia"><label for="geography-made-in-russia"><span class="facet-item__value">Made in Russia</span>
+  <span class="facet-item__count">(208)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Russia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-russia" data-drupal-facet-item-value="Made in Russia" data-drupal-facet-item-count="208" style="display: none;"><span class="facet-item__value">Made in Russia</span>
+  <span class="facet-item__count">(208)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-saint-petersburg-russia"><label for="geography-made-in-saint-petersburg-russia"><span class="facet-item__value">Made in Saint Petersburg, Russia</span>
+  <span class="facet-item__count">(76)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Saint%20Petersburg%2C%20Russia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-saint-petersburg-russia" data-drupal-facet-item-value="Made in Saint Petersburg, Russia" data-drupal-facet-item-count="76" style="display: none;"><span class="facet-item__value">Made in Saint Petersburg, Russia</span>
+  <span class="facet-item__count">(76)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-salem-massachusetts"><label for="geography-made-in-salem-massachusetts"><span class="facet-item__value">Made in Salem, Massachusetts</span>
+  <span class="facet-item__count">(66)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Salem%2C%20Massachusetts" rel="nofollow" data-drupal-facet-item-id="geography-made-in-salem-massachusetts" data-drupal-facet-item-value="Made in Salem, Massachusetts" data-drupal-facet-item-count="66" style="display: none;"><span class="facet-item__value">Made in Salem, Massachusetts</span>
+  <span class="facet-item__count">(66)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-san-francisco-california-united-states"><label for="geography-made-in-san-francisco-california-united-states"><span class="facet-item__value">Made in San Francisco, California, United States</span>
+  <span class="facet-item__count">(288)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20San%20Francisco%2C%20California%2C%20United%20States" rel="nofollow" data-drupal-facet-item-id="geography-made-in-san-francisco-california-united-states" data-drupal-facet-item-value="Made in San Francisco, California, United States" data-drupal-facet-item-count="288" style="display: none;"><span class="facet-item__value">Made in San Francisco, California, United States</span>
+  <span class="facet-item__count">(288)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-sarawak-borneo-malaysia"><label for="geography-made-in-sarawak-borneo-malaysia"><span class="facet-item__value">Made in Sarawak, Borneo, Malaysia</span>
+  <span class="facet-item__count">(61)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Sarawak%2C%20Borneo%2C%20Malaysia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-sarawak-borneo-malaysia" data-drupal-facet-item-value="Made in Sarawak, Borneo, Malaysia" data-drupal-facet-item-count="61" style="display: none;"><span class="facet-item__value">Made in Sarawak, Borneo, Malaysia</span>
+  <span class="facet-item__count">(61)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-sardis"><label for="geography-made-in-sardis"><span class="facet-item__value">Made in Sardis</span>
+  <span class="facet-item__count">(59)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Sardis" rel="nofollow" data-drupal-facet-item-id="geography-made-in-sardis" data-drupal-facet-item-value="Made in Sardis" data-drupal-facet-item-count="59" style="display: none;"><span class="facet-item__value">Made in Sardis</span>
+  <span class="facet-item__count">(59)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-sardis-lydia"><label for="geography-made-in-sardis-lydia"><span class="facet-item__value">Made in Sardis, Lydia</span>
+  <span class="facet-item__count">(103)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Sardis%2C%20Lydia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-sardis-lydia" data-drupal-facet-item-value="Made in Sardis, Lydia" data-drupal-facet-item-count="103" style="display: none;"><span class="facet-item__value">Made in Sardis, Lydia</span>
+  <span class="facet-item__count">(103)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-segovia-spain"><label for="geography-made-in-segovia-spain"><span class="facet-item__value">Made in Segovia, Spain</span>
+  <span class="facet-item__count">(159)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Segovia%2C%20Spain" rel="nofollow" data-drupal-facet-item-id="geography-made-in-segovia-spain" data-drupal-facet-item-value="Made in Segovia, Spain" data-drupal-facet-item-count="159" style="display: none;"><span class="facet-item__value">Made in Segovia, Spain</span>
+  <span class="facet-item__count">(159)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-seleucia-ad-tigrim-mesopotamia"><label for="geography-made-in-seleucia-ad-tigrim-mesopotamia"><span class="facet-item__value">Made in Seleucia ad Tigrim, Mesopotamia</span>
+  <span class="facet-item__count">(131)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Seleucia%20ad%20Tigrim%2C%20Mesopotamia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-seleucia-ad-tigrim-mesopotamia" data-drupal-facet-item-value="Made in Seleucia ad Tigrim, Mesopotamia" data-drupal-facet-item-count="131" style="display: none;"><span class="facet-item__value">Made in Seleucia ad Tigrim, Mesopotamia</span>
+  <span class="facet-item__count">(131)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-seleucia-pieria-syria"><label for="geography-made-in-seleucia-pieria-syria"><span class="facet-item__value">Made in Seleucia Pieria, Syria</span>
+  <span class="facet-item__count">(76)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Seleucia%20Pieria%2C%20Syria" rel="nofollow" data-drupal-facet-item-id="geography-made-in-seleucia-pieria-syria" data-drupal-facet-item-value="Made in Seleucia Pieria, Syria" data-drupal-facet-item-count="76" style="display: none;"><span class="facet-item__value">Made in Seleucia Pieria, Syria</span>
+  <span class="facet-item__count">(76)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-seoul-korea"><label for="geography-made-in-seoul-korea"><span class="facet-item__value">Made in Seoul, Korea</span>
+  <span class="facet-item__count">(95)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Seoul%2C%20Korea" rel="nofollow" data-drupal-facet-item-id="geography-made-in-seoul-korea" data-drupal-facet-item-value="Made in Seoul, Korea" data-drupal-facet-item-count="95" style="display: none;"><span class="facet-item__value">Made in Seoul, Korea</span>
+  <span class="facet-item__count">(95)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-seville-spain"><label for="geography-made-in-seville-spain"><span class="facet-item__value">Made in Seville, Spain</span>
+  <span class="facet-item__count">(137)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Seville%2C%20Spain" rel="nofollow" data-drupal-facet-item-id="geography-made-in-seville-spain" data-drupal-facet-item-value="Made in Seville, Spain" data-drupal-facet-item-count="137" style="display: none;"><span class="facet-item__value">Made in Seville, Spain</span>
+  <span class="facet-item__count">(137)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-sicily"><label for="geography-made-in-sicily"><span class="facet-item__value">Made in Sicily</span>
+  <span class="facet-item__count">(64)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Sicily" rel="nofollow" data-drupal-facet-item-id="geography-made-in-sicily" data-drupal-facet-item-value="Made in Sicily" data-drupal-facet-item-count="64" style="display: none;"><span class="facet-item__value">Made in Sicily</span>
+  <span class="facet-item__count">(64)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-sicyon-sicyonia"><label for="geography-made-in-sicyon-sicyonia"><span class="facet-item__value">Made in Sicyon, Sicyonia</span>
+  <span class="facet-item__count">(62)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Sicyon%2C%20Sicyonia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-sicyon-sicyonia" data-drupal-facet-item-value="Made in Sicyon, Sicyonia" data-drupal-facet-item-count="62" style="display: none;"><span class="facet-item__value">Made in Sicyon, Sicyonia</span>
+  <span class="facet-item__count">(62)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-side-pamphylia"><label for="geography-made-in-side-pamphylia"><span class="facet-item__value">Made in Side, Pamphylia</span>
+  <span class="facet-item__count">(77)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Side%2C%20Pamphylia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-side-pamphylia" data-drupal-facet-item-value="Made in Side, Pamphylia" data-drupal-facet-item-count="77" style="display: none;"><span class="facet-item__value">Made in Side, Pamphylia</span>
+  <span class="facet-item__count">(77)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-siena-italy"><label for="geography-made-in-siena-italy"><span class="facet-item__value">Made in Siena, Italy</span>
+  <span class="facet-item__count">(64)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Siena%2C%20Italy" rel="nofollow" data-drupal-facet-item-id="geography-made-in-siena-italy" data-drupal-facet-item-value="Made in Siena, Italy" data-drupal-facet-item-count="64" style="display: none;"><span class="facet-item__value">Made in Siena, Italy</span>
+  <span class="facet-item__count">(64)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-siscia-pannonia"><label for="geography-made-in-siscia-pannonia"><span class="facet-item__value">Made in Siscia, Pannonia</span>
+  <span class="facet-item__count">(274)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Siscia%2C%20Pannonia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-siscia-pannonia" data-drupal-facet-item-value="Made in Siscia, Pannonia" data-drupal-facet-item-count="274" style="display: none;"><span class="facet-item__value">Made in Siscia, Pannonia</span>
+  <span class="facet-item__count">(274)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-smyrna-ionia"><label for="geography-made-in-smyrna-ionia"><span class="facet-item__value">Made in Smyrna, Ionia</span>
+  <span class="facet-item__count">(72)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Smyrna%2C%20Ionia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-smyrna-ionia" data-drupal-facet-item-value="Made in Smyrna, Ionia" data-drupal-facet-item-count="72" style="display: none;"><span class="facet-item__value">Made in Smyrna, Ionia</span>
+  <span class="facet-item__count">(72)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-soviet-union"><label for="geography-made-in-soviet-union"><span class="facet-item__value">Made in Soviet Union</span>
+  <span class="facet-item__count">(315)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Soviet%20Union" rel="nofollow" data-drupal-facet-item-id="geography-made-in-soviet-union" data-drupal-facet-item-value="Made in Soviet Union" data-drupal-facet-item-count="315" style="display: none;"><span class="facet-item__value">Made in Soviet Union</span>
+  <span class="facet-item__count">(315)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-spain"><label for="geography-made-in-spain"><span class="facet-item__value">Made in Spain</span>
+  <span class="facet-item__count">(951)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Spain" rel="nofollow" data-drupal-facet-item-id="geography-made-in-spain" data-drupal-facet-item-value="Made in Spain" data-drupal-facet-item-count="951" style="display: none;"><span class="facet-item__value">Made in Spain</span>
+  <span class="facet-item__count">(951)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-spitz-an-der-donau-austria"><label for="geography-made-in-spitz-an-der-donau-austria"><span class="facet-item__value">Made in Spitz an der Donau, Austria</span>
+  <span class="facet-item__count">(65)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Spitz%20an%20der%20Donau%2C%20Austria" rel="nofollow" data-drupal-facet-item-id="geography-made-in-spitz-an-der-donau-austria" data-drupal-facet-item-value="Made in Spitz an der Donau, Austria" data-drupal-facet-item-count="65" style="display: none;"><span class="facet-item__value">Made in Spitz an der Donau, Austria</span>
+  <span class="facet-item__count">(65)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-staffordshire-england"><label for="geography-made-in-staffordshire-england"><span class="facet-item__value">Made in Staffordshire, England</span>
+  <span class="facet-item__count">(86)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Staffordshire%2C%20England" rel="nofollow" data-drupal-facet-item-id="geography-made-in-staffordshire-england" data-drupal-facet-item-value="Made in Staffordshire, England" data-drupal-facet-item-count="86" style="display: none;"><span class="facet-item__value">Made in Staffordshire, England</span>
+  <span class="facet-item__count">(86)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-strasbourg-france"><label for="geography-made-in-strasbourg-france"><span class="facet-item__value">Made in Strasbourg, France</span>
+  <span class="facet-item__count">(115)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Strasbourg%2C%20France" rel="nofollow" data-drupal-facet-item-id="geography-made-in-strasbourg-france" data-drupal-facet-item-value="Made in Strasbourg, France" data-drupal-facet-item-count="115" style="display: none;"><span class="facet-item__value">Made in Strasbourg, France</span>
+  <span class="facet-item__count">(115)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-sulawesi-indonesia"><label for="geography-made-in-sulawesi-indonesia"><span class="facet-item__value">Made in Sulawesi, Indonesia</span>
+  <span class="facet-item__count">(167)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Sulawesi%2C%20Indonesia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-sulawesi-indonesia" data-drupal-facet-item-value="Made in Sulawesi, Indonesia" data-drupal-facet-item-count="167" style="display: none;"><span class="facet-item__value">Made in Sulawesi, Indonesia</span>
+  <span class="facet-item__count">(167)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-sumatra-indonesia"><label for="geography-made-in-sumatra-indonesia"><span class="facet-item__value">Made in Sumatra, Indonesia</span>
+  <span class="facet-item__count">(290)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Sumatra%2C%20Indonesia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-sumatra-indonesia" data-drupal-facet-item-value="Made in Sumatra, Indonesia" data-drupal-facet-item-count="290" style="display: none;"><span class="facet-item__value">Made in Sumatra, Indonesia</span>
+  <span class="facet-item__count">(290)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-surakarta-solo-java-indonesia"><label for="geography-made-in-surakarta-solo-java-indonesia"><span class="facet-item__value">Made in Surakarta (Solo), Java, Indonesia</span>
+  <span class="facet-item__count">(282)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Surakarta%20%28Solo%29%2C%20Java%2C%20Indonesia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-surakarta-solo-java-indonesia" data-drupal-facet-item-value="Made in Surakarta (Solo), Java, Indonesia" data-drupal-facet-item-count="282" style="display: none;"><span class="facet-item__value">Made in Surakarta (Solo), Java, Indonesia</span>
+  <span class="facet-item__count">(282)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-sweden"><label for="geography-made-in-sweden"><span class="facet-item__value">Made in Sweden</span>
+  <span class="facet-item__count">(253)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Sweden" rel="nofollow" data-drupal-facet-item-id="geography-made-in-sweden" data-drupal-facet-item-value="Made in Sweden" data-drupal-facet-item-count="253" style="display: none;"><span class="facet-item__value">Made in Sweden</span>
+  <span class="facet-item__count">(253)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-switzerland"><label for="geography-made-in-switzerland"><span class="facet-item__value">Made in Switzerland</span>
+  <span class="facet-item__count">(217)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Switzerland" rel="nofollow" data-drupal-facet-item-id="geography-made-in-switzerland" data-drupal-facet-item-value="Made in Switzerland" data-drupal-facet-item-count="217" style="display: none;"><span class="facet-item__value">Made in Switzerland</span>
+  <span class="facet-item__count">(217)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-syracuse-sicily"><label for="geography-made-in-syracuse-sicily"><span class="facet-item__value">Made in Syracuse, Sicily</span>
+  <span class="facet-item__count">(286)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Syracuse%2C%20Sicily" rel="nofollow" data-drupal-facet-item-id="geography-made-in-syracuse-sicily" data-drupal-facet-item-value="Made in Syracuse, Sicily" data-drupal-facet-item-count="286" style="display: none;"><span class="facet-item__value">Made in Syracuse, Sicily</span>
+  <span class="facet-item__count">(286)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-syria"><label for="geography-made-in-syria"><span class="facet-item__value">Made in Syria</span>
+  <span class="facet-item__count">(86)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Syria" rel="nofollow" data-drupal-facet-item-id="geography-made-in-syria" data-drupal-facet-item-value="Made in Syria" data-drupal-facet-item-count="86" style="display: none;"><span class="facet-item__value">Made in Syria</span>
+  <span class="facet-item__count">(86)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-tarentum-calabria"><label for="geography-made-in-tarentum-calabria"><span class="facet-item__value">Made in Tarentum, Calabria</span>
+  <span class="facet-item__count">(88)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Tarentum%2C%20Calabria" rel="nofollow" data-drupal-facet-item-id="geography-made-in-tarentum-calabria" data-drupal-facet-item-value="Made in Tarentum, Calabria" data-drupal-facet-item-count="88" style="display: none;"><span class="facet-item__value">Made in Tarentum, Calabria</span>
+  <span class="facet-item__count">(88)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-tarsus-cilicia"><label for="geography-made-in-tarsus-cilicia"><span class="facet-item__value">Made in Tarsus, Cilicia</span>
+  <span class="facet-item__count">(110)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Tarsus%2C%20Cilicia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-tarsus-cilicia" data-drupal-facet-item-value="Made in Tarsus, Cilicia" data-drupal-facet-item-count="110" style="display: none;"><span class="facet-item__value">Made in Tarsus, Cilicia</span>
+  <span class="facet-item__count">(110)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-thailand"><label for="geography-made-in-thailand"><span class="facet-item__value">Made in Thailand</span>
+  <span class="facet-item__count">(251)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Thailand" rel="nofollow" data-drupal-facet-item-id="geography-made-in-thailand" data-drupal-facet-item-value="Made in Thailand" data-drupal-facet-item-count="251" style="display: none;"><span class="facet-item__value">Made in Thailand</span>
+  <span class="facet-item__count">(251)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-the-netherlands"><label for="geography-made-in-the-netherlands"><span class="facet-item__value">Made in The Netherlands</span>
+  <span class="facet-item__count">(1480)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20The%20Netherlands" rel="nofollow" data-drupal-facet-item-id="geography-made-in-the-netherlands" data-drupal-facet-item-value="Made in The Netherlands" data-drupal-facet-item-count="1480" style="display: none;"><span class="facet-item__value">Made in The Netherlands</span>
+  <span class="facet-item__count">(1480)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-thessalonica-macedonia"><label for="geography-made-in-thessalonica-macedonia"><span class="facet-item__value">Made in Thessalonica, Macedonia</span>
+  <span class="facet-item__count">(266)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Thessalonica%2C%20Macedonia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-thessalonica-macedonia" data-drupal-facet-item-value="Made in Thessalonica, Macedonia" data-drupal-facet-item-count="266" style="display: none;"><span class="facet-item__value">Made in Thessalonica, Macedonia</span>
+  <span class="facet-item__count">(266)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-thessaly"><label for="geography-made-in-thessaly"><span class="facet-item__value">Made in Thessaly</span>
+  <span class="facet-item__count">(160)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Thessaly" rel="nofollow" data-drupal-facet-item-id="geography-made-in-thessaly" data-drupal-facet-item-value="Made in Thessaly" data-drupal-facet-item-count="160" style="display: none;"><span class="facet-item__value">Made in Thessaly</span>
+  <span class="facet-item__count">(160)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-thrace"><label for="geography-made-in-thrace"><span class="facet-item__value">Made in Thrace</span>
+  <span class="facet-item__count">(70)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Thrace" rel="nofollow" data-drupal-facet-item-id="geography-made-in-thrace" data-drupal-facet-item-value="Made in Thrace" data-drupal-facet-item-count="70" style="display: none;"><span class="facet-item__value">Made in Thrace</span>
+  <span class="facet-item__count">(70)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-timor-indonesia"><label for="geography-made-in-timor-indonesia"><span class="facet-item__value">Made in Timor, Indonesia</span>
+  <span class="facet-item__count">(117)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Timor%2C%20Indonesia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-timor-indonesia" data-drupal-facet-item-value="Made in Timor, Indonesia" data-drupal-facet-item-count="117" style="display: none;"><span class="facet-item__value">Made in Timor, Indonesia</span>
+  <span class="facet-item__count">(117)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-toledo-spain"><label for="geography-made-in-toledo-spain"><span class="facet-item__value">Made in Toledo, Spain</span>
+  <span class="facet-item__count">(60)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Toledo%2C%20Spain" rel="nofollow" data-drupal-facet-item-id="geography-made-in-toledo-spain" data-drupal-facet-item-value="Made in Toledo, Spain" data-drupal-facet-item-count="60" style="display: none;"><span class="facet-item__value">Made in Toledo, Spain</span>
+  <span class="facet-item__count">(60)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-trier-gallia-belgica"><label for="geography-made-in-trier-gallia-belgica"><span class="facet-item__value">Made in Trier, Gallia Belgica</span>
+  <span class="facet-item__count">(236)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Trier%2C%20Gallia%20Belgica" rel="nofollow" data-drupal-facet-item-id="geography-made-in-trier-gallia-belgica" data-drupal-facet-item-value="Made in Trier, Gallia Belgica" data-drupal-facet-item-count="236" style="display: none;"><span class="facet-item__value">Made in Trier, Gallia Belgica</span>
+  <span class="facet-item__count">(236)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-tripolis-phoenicia"><label for="geography-made-in-tripolis-phoenicia"><span class="facet-item__value">Made in Tripolis, Phoenicia</span>
+  <span class="facet-item__count">(100)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Tripolis%2C%20Phoenicia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-tripolis-phoenicia" data-drupal-facet-item-value="Made in Tripolis, Phoenicia" data-drupal-facet-item-count="100" style="display: none;"><span class="facet-item__value">Made in Tripolis, Phoenicia</span>
+  <span class="facet-item__count">(100)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-tula-soviet-union"><label for="geography-made-in-tula-soviet-union"><span class="facet-item__value">Made in Tula, Soviet Union</span>
+  <span class="facet-item__count">(93)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Tula%2C%20Soviet%20Union" rel="nofollow" data-drupal-facet-item-id="geography-made-in-tula-soviet-union" data-drupal-facet-item-value="Made in Tula, Soviet Union" data-drupal-facet-item-count="93" style="display: none;"><span class="facet-item__value">Made in Tula, Soviet Union</span>
+  <span class="facet-item__count">(93)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-tuscany-italy"><label for="geography-made-in-tuscany-italy"><span class="facet-item__value">Made in Tuscany, Italy</span>
+  <span class="facet-item__count">(73)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Tuscany%2C%20Italy" rel="nofollow" data-drupal-facet-item-id="geography-made-in-tuscany-italy" data-drupal-facet-item-value="Made in Tuscany, Italy" data-drupal-facet-item-count="73" style="display: none;"><span class="facet-item__value">Made in Tuscany, Italy</span>
+  <span class="facet-item__count">(73)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-tver--soviet-union"><label for="geography-made-in-tver--soviet-union"><span class="facet-item__value">Made in Tver', Soviet Union</span>
+  <span class="facet-item__count">(67)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Tver%27%2C%20Soviet%20Union" rel="nofollow" data-drupal-facet-item-id="geography-made-in-tver--soviet-union" data-drupal-facet-item-value="Made in Tver', Soviet Union" data-drupal-facet-item-count="67" style="display: none;"><span class="facet-item__value">Made in Tver', Soviet Union</span>
+  <span class="facet-item__count">(67)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-tyre-phoenicia"><label for="geography-made-in-tyre-phoenicia"><span class="facet-item__value">Made in Tyre, Phoenicia</span>
+  <span class="facet-item__count">(142)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Tyre%2C%20Phoenicia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-tyre-phoenicia" data-drupal-facet-item-value="Made in Tyre, Phoenicia" data-drupal-facet-item-count="142" style="display: none;"><span class="facet-item__value">Made in Tyre, Phoenicia</span>
+  <span class="facet-item__count">(142)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-united-kingdom"><label for="geography-made-in-united-kingdom"><span class="facet-item__value">Made in United Kingdom</span>
+  <span class="facet-item__count">(786)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20United%20Kingdom" rel="nofollow" data-drupal-facet-item-id="geography-made-in-united-kingdom" data-drupal-facet-item-value="Made in United Kingdom" data-drupal-facet-item-count="786" style="display: none;"><span class="facet-item__value">Made in United Kingdom</span>
+  <span class="facet-item__count">(786)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-united-states"><label for="geography-made-in-united-states"><span class="facet-item__value">Made in United States</span>
+  <span class="facet-item__count">(24431)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20United%20States" rel="nofollow" data-drupal-facet-item-id="geography-made-in-united-states" data-drupal-facet-item-value="Made in United States" data-drupal-facet-item-count="24431" style="display: none;"><span class="facet-item__value">Made in United States</span>
+  <span class="facet-item__count">(24431)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-united-states--depicted-new-haven-connecticut"><label for="geography-made-in-united-states--depicted-new-haven-connecticut"><span class="facet-item__value">Made in United States,  Depicted New Haven, Connecticut</span>
+  <span class="facet-item__count">(102)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20United%20States%2C%20%20Depicted%20New%20Haven%2C%20Connecticut" rel="nofollow" data-drupal-facet-item-id="geography-made-in-united-states--depicted-new-haven-connecticut" data-drupal-facet-item-value="Made in United States,  Depicted New Haven, Connecticut" data-drupal-facet-item-count="102" style="display: none;"><span class="facet-item__value">Made in United States,  Depicted New Haven, Connecticut</span>
+  <span class="facet-item__count">(102)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-united-states--or"><label for="geography-made-in-united-states--or"><span class="facet-item__value">Made in United States,  or</span>
+  <span class="facet-item__count">(78)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20United%20States%2C%20%20or" rel="nofollow" data-drupal-facet-item-id="geography-made-in-united-states--or" data-drupal-facet-item-value="Made in United States,  or" data-drupal-facet-item-count="78" style="display: none;"><span class="facet-item__value">Made in United States,  or</span>
+  <span class="facet-item__count">(78)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-uruguay"><label for="geography-made-in-uruguay"><span class="facet-item__value">Made in Uruguay</span>
+  <span class="facet-item__count">(149)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Uruguay" rel="nofollow" data-drupal-facet-item-id="geography-made-in-uruguay" data-drupal-facet-item-value="Made in Uruguay" data-drupal-facet-item-count="149" style="display: none;"><span class="facet-item__value">Made in Uruguay</span>
+  <span class="facet-item__count">(149)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-utrecht-the-netherlands"><label for="geography-made-in-utrecht-the-netherlands"><span class="facet-item__value">Made in Utrecht, The Netherlands</span>
+  <span class="facet-item__count">(485)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Utrecht%2C%20The%20Netherlands" rel="nofollow" data-drupal-facet-item-id="geography-made-in-utrecht-the-netherlands" data-drupal-facet-item-value="Made in Utrecht, The Netherlands" data-drupal-facet-item-count="485" style="display: none;"><span class="facet-item__value">Made in Utrecht, The Netherlands</span>
+  <span class="facet-item__count">(485)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-venice-italy"><label for="geography-made-in-venice-italy"><span class="facet-item__value">Made in Venice, Italy</span>
+  <span class="facet-item__count">(547)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Venice%2C%20Italy" rel="nofollow" data-drupal-facet-item-id="geography-made-in-venice-italy" data-drupal-facet-item-value="Made in Venice, Italy" data-drupal-facet-item-count="547" style="display: none;"><span class="facet-item__value">Made in Venice, Italy</span>
+  <span class="facet-item__count">(547)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-yogyakarta-java-indonesia"><label for="geography-made-in-yogyakarta-java-indonesia"><span class="facet-item__value">Made in Yogyakarta, Java, Indonesia</span>
+  <span class="facet-item__count">(366)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Yogyakarta%2C%20Java%2C%20Indonesia" rel="nofollow" data-drupal-facet-item-id="geography-made-in-yogyakarta-java-indonesia" data-drupal-facet-item-value="Made in Yogyakarta, Java, Indonesia" data-drupal-facet-item-count="366" style="display: none;"><span class="facet-item__value">Made in Yogyakarta, Java, Indonesia</span>
+  <span class="facet-item__count">(366)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-made-in-yunnan-china"><label for="geography-made-in-yunnan-china"><span class="facet-item__value">Made in Yunnan, China</span>
+  <span class="facet-item__count">(127)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMade%20in%20Yunnan%2C%20China" rel="nofollow" data-drupal-facet-item-id="geography-made-in-yunnan-china" data-drupal-facet-item-value="Made in Yunnan, China" data-drupal-facet-item-count="127" style="display: none;"><span class="facet-item__value">Made in Yunnan, China</span>
+  <span class="facet-item__count">(127)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-mali"><label for="geography-mali"><span class="facet-item__value">Mali</span>
+  <span class="facet-item__count">(98)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMali" rel="nofollow" data-drupal-facet-item-id="geography-mali" data-drupal-facet-item-value="Mali" data-drupal-facet-item-count="98" style="display: none;"><span class="facet-item__value">Mali</span>
+  <span class="facet-item__count">(98)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-manufactured-in-england"><label for="geography-manufactured-in-england"><span class="facet-item__value">Manufactured in England</span>
+  <span class="facet-item__count">(94)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AManufactured%20in%20England" rel="nofollow" data-drupal-facet-item-id="geography-manufactured-in-england" data-drupal-facet-item-value="Manufactured in England" data-drupal-facet-item-count="94" style="display: none;"><span class="facet-item__value">Manufactured in England</span>
+  <span class="facet-item__count">(94)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-manufactured-in-new-york-new-york"><label for="geography-manufactured-in-new-york-new-york"><span class="facet-item__value">Manufactured in New York, New York</span>
+  <span class="facet-item__count">(91)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AManufactured%20in%20New%20York%2C%20New%20York" rel="nofollow" data-drupal-facet-item-id="geography-manufactured-in-new-york-new-york" data-drupal-facet-item-value="Manufactured in New York, New York" data-drupal-facet-item-count="91" style="display: none;"><span class="facet-item__value">Manufactured in New York, New York</span>
+  <span class="facet-item__count">(91)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-manufactured-in-providence-rhode-island"><label for="geography-manufactured-in-providence-rhode-island"><span class="facet-item__value">Manufactured in Providence, Rhode Island</span>
+  <span class="facet-item__count">(70)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AManufactured%20in%20Providence%2C%20Rhode%20Island" rel="nofollow" data-drupal-facet-item-id="geography-manufactured-in-providence-rhode-island" data-drupal-facet-item-value="Manufactured in Providence, Rhode Island" data-drupal-facet-item-count="70" style="display: none;"><span class="facet-item__value">Manufactured in Providence, Rhode Island</span>
+  <span class="facet-item__count">(70)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-manufactured-in-united-states"><label for="geography-manufactured-in-united-states"><span class="facet-item__value">Manufactured in United States</span>
+  <span class="facet-item__count">(81)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AManufactured%20in%20United%20States" rel="nofollow" data-drupal-facet-item-id="geography-manufactured-in-united-states" data-drupal-facet-item-value="Manufactured in United States" data-drupal-facet-item-count="81" style="display: none;"><span class="facet-item__value">Manufactured in United States</span>
+  <span class="facet-item__count">(81)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-mexico"><label for="geography-mexico"><span class="facet-item__value">Mexico</span>
+  <span class="facet-item__count">(612)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMexico" rel="nofollow" data-drupal-facet-item-id="geography-mexico" data-drupal-facet-item-value="Mexico" data-drupal-facet-item-count="612" style="display: none;"><span class="facet-item__value">Mexico</span>
+  <span class="facet-item__count">(612)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-morocco"><label for="geography-morocco"><span class="facet-item__value">Morocco</span>
+  <span class="facet-item__count">(64)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AMorocco" rel="nofollow" data-drupal-facet-item-id="geography-morocco" data-drupal-facet-item-value="Morocco" data-drupal-facet-item-count="64" style="display: none;"><span class="facet-item__value">Morocco</span>
+  <span class="facet-item__count">(64)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-nicaragua"><label for="geography-nicaragua"><span class="facet-item__value">Nicaragua</span>
+  <span class="facet-item__count">(93)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ANicaragua" rel="nofollow" data-drupal-facet-item-id="geography-nicaragua" data-drupal-facet-item-value="Nicaragua" data-drupal-facet-item-count="93" style="display: none;"><span class="facet-item__value">Nicaragua</span>
+  <span class="facet-item__count">(93)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-niger"><label for="geography-niger"><span class="facet-item__value">Niger</span>
+  <span class="facet-item__count">(120)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ANiger" rel="nofollow" data-drupal-facet-item-id="geography-niger" data-drupal-facet-item-value="Niger" data-drupal-facet-item-count="120" style="display: none;"><span class="facet-item__value">Niger</span>
+  <span class="facet-item__count">(120)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-nigeria"><label for="geography-nigeria"><span class="facet-item__value">Nigeria</span>
+  <span class="facet-item__count">(224)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ANigeria" rel="nofollow" data-drupal-facet-item-id="geography-nigeria" data-drupal-facet-item-value="Nigeria" data-drupal-facet-item-count="224" style="display: none;"><span class="facet-item__value">Nigeria</span>
+  <span class="facet-item__count">(224)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-possibly-made-in-amphipolis-macedonia"><label for="geography-possibly-made-in-amphipolis-macedonia"><span class="facet-item__value">Possibly made in Amphipolis, Macedonia</span>
+  <span class="facet-item__count">(60)</span>
+</label><a href="/collection?f%5B0%5D=geography%3APossibly%20made%20in%20Amphipolis%2C%20Macedonia" rel="nofollow" data-drupal-facet-item-id="geography-possibly-made-in-amphipolis-macedonia" data-drupal-facet-item-value="Possibly made in Amphipolis, Macedonia" data-drupal-facet-item-count="60" style="display: none;"><span class="facet-item__value">Possibly made in Amphipolis, Macedonia</span>
+  <span class="facet-item__count">(60)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-possibly-made-in-united-states"><label for="geography-possibly-made-in-united-states"><span class="facet-item__value">Possibly made in United States</span>
+  <span class="facet-item__count">(105)</span>
+</label><a href="/collection?f%5B0%5D=geography%3APossibly%20made%20in%20United%20States" rel="nofollow" data-drupal-facet-item-id="geography-possibly-made-in-united-states" data-drupal-facet-item-value="Possibly made in United States" data-drupal-facet-item-count="105" style="display: none;"><span class="facet-item__value">Possibly made in United States</span>
+  <span class="facet-item__count">(105)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-printed-in-richmond-virginia"><label for="geography-printed-in-richmond-virginia"><span class="facet-item__value">Printed in Richmond, Virginia</span>
+  <span class="facet-item__count">(2429)</span>
+</label><a href="/collection?f%5B0%5D=geography%3APrinted%20in%20Richmond%2C%20Virginia" rel="nofollow" data-drupal-facet-item-id="geography-printed-in-richmond-virginia" data-drupal-facet-item-value="Printed in Richmond, Virginia" data-drupal-facet-item-count="2429" style="display: none;"><span class="facet-item__value">Printed in Richmond, Virginia</span>
+  <span class="facet-item__count">(2429)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-probably-made-in-london-england"><label for="geography-probably-made-in-london-england"><span class="facet-item__value">Probably made in London, England</span>
+  <span class="facet-item__count">(152)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AProbably%20made%20in%20London%2C%20England" rel="nofollow" data-drupal-facet-item-id="geography-probably-made-in-london-england" data-drupal-facet-item-value="Probably made in London, England" data-drupal-facet-item-count="152" style="display: none;"><span class="facet-item__value">Probably made in London, England</span>
+  <span class="facet-item__count">(152)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-probably-made-in-sandwich-massachusetts"><label for="geography-probably-made-in-sandwich-massachusetts"><span class="facet-item__value">Probably made in Sandwich, Massachusetts</span>
+  <span class="facet-item__count">(103)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AProbably%20made%20in%20Sandwich%2C%20Massachusetts" rel="nofollow" data-drupal-facet-item-id="geography-probably-made-in-sandwich-massachusetts" data-drupal-facet-item-value="Probably made in Sandwich, Massachusetts" data-drupal-facet-item-count="103" style="display: none;"><span class="facet-item__value">Probably made in Sandwich, Massachusetts</span>
+  <span class="facet-item__count">(103)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-probably-made-in-united-states"><label for="geography-probably-made-in-united-states"><span class="facet-item__value">Probably made in United States</span>
+  <span class="facet-item__count">(59)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AProbably%20made%20in%20United%20States" rel="nofollow" data-drupal-facet-item-id="geography-probably-made-in-united-states" data-drupal-facet-item-value="Probably made in United States" data-drupal-facet-item-count="59" style="display: none;"><span class="facet-item__value">Probably made in United States</span>
+  <span class="facet-item__count">(59)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-probably-made-in-united-states--or-russia"><label for="geography-probably-made-in-united-states--or-russia"><span class="facet-item__value">Probably made in United States,  or Russia</span>
+  <span class="facet-item__count">(67)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AProbably%20made%20in%20United%20States%2C%20%20or%20Russia" rel="nofollow" data-drupal-facet-item-id="geography-probably-made-in-united-states--or-russia" data-drupal-facet-item-value="Probably made in United States,  or Russia" data-drupal-facet-item-count="67" style="display: none;"><span class="facet-item__value">Probably made in United States,  or Russia</span>
+  <span class="facet-item__count">(67)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-probably-made-in-yogyakarta-java-indonesia"><label for="geography-probably-made-in-yogyakarta-java-indonesia"><span class="facet-item__value">Probably made in Yogyakarta, Java, Indonesia</span>
+  <span class="facet-item__count">(70)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AProbably%20made%20in%20Yogyakarta%2C%20Java%2C%20Indonesia" rel="nofollow" data-drupal-facet-item-id="geography-probably-made-in-yogyakarta-java-indonesia" data-drupal-facet-item-value="Probably made in Yogyakarta, Java, Indonesia" data-drupal-facet-item-count="70" style="display: none;"><span class="facet-item__value">Probably made in Yogyakarta, Java, Indonesia</span>
+  <span class="facet-item__count">(70)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-south-africa"><label for="geography-south-africa"><span class="facet-item__value">South Africa</span>
+  <span class="facet-item__count">(288)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ASouth%20Africa" rel="nofollow" data-drupal-facet-item-id="geography-south-africa" data-drupal-facet-item-value="South Africa" data-drupal-facet-item-count="288" style="display: none;"><span class="facet-item__value">South Africa</span>
+  <span class="facet-item__count">(288)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-syria"><label for="geography-syria"><span class="facet-item__value">Syria</span>
+  <span class="facet-item__count">(81)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ASyria" rel="nofollow" data-drupal-facet-item-id="geography-syria" data-drupal-facet-item-value="Syria" data-drupal-facet-item-count="81" style="display: none;"><span class="facet-item__value">Syria</span>
+  <span class="facet-item__count">(81)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-tlatilco-mexico"><label for="geography-tlatilco-mexico"><span class="facet-item__value">Tlatilco, Mexico</span>
+  <span class="facet-item__count">(63)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ATlatilco%2C%20Mexico" rel="nofollow" data-drupal-facet-item-id="geography-tlatilco-mexico" data-drupal-facet-item-value="Tlatilco, Mexico" data-drupal-facet-item-count="63" style="display: none;"><span class="facet-item__value">Tlatilco, Mexico</span>
+  <span class="facet-item__count">(63)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-turkey"><label for="geography-turkey"><span class="facet-item__value">Turkey</span>
+  <span class="facet-item__count">(64)</span>
+</label><a href="/collection?f%5B0%5D=geography%3ATurkey" rel="nofollow" data-drupal-facet-item-id="geography-turkey" data-drupal-facet-item-value="Turkey" data-drupal-facet-item-count="64" style="display: none;"><span class="facet-item__value">Turkey</span>
+  <span class="facet-item__count">(64)</span>
+</a></div><div class="facet-item input input--checkbox text-s"><input type="checkbox" class="facets-checkbox" id="geography-veracruz-mexico"><label for="geography-veracruz-mexico"><span class="facet-item__value">Veracruz, Mexico</span>
+  <span class="facet-item__count">(93)</span>
+</label><a href="/collection?f%5B0%5D=geography%3AVeracruz%2C%20Mexico" rel="nofollow" data-drupal-facet-item-id="geography-veracruz-mexico" data-drupal-facet-item-value="Veracruz, Mexico" data-drupal-facet-item-count="93" style="display: none;"><span class="facet-item__value">Veracruz, Mexico</span>
+  <span class="facet-item__count">(93)</span>
+</a></div></div>
