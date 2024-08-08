@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import ArtGallery from './ArtGallery';
 import theme from './theme';
 
-export default function Results({onCardClick}) {
+export default function Results({searchQuery, searchCriteria,onCardClick}) {
     const [totalResults, setTotalResults] = useState(0);
     const handleTotalResults = (count) => {
       setTotalResults(count);
@@ -25,7 +25,7 @@ export default function Results({onCardClick}) {
       </Box>
       <Divider />
       <Box sx={{ p: 2 }}>
-        <ArtGallery onCardClick={onCardClick} onTotalResults={handleTotalResults}/>
+        <ArtGallery searchQuery={searchQuery} searchCriteria={searchCriteria} onCardClick={onCardClick} onTotalResults={handleTotalResults}/>
       </Box>
     </Card>
   );

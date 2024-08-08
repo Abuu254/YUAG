@@ -6,7 +6,7 @@ const { limit, imageUrlPrefix } = require('../utils/config');
 
 // Get all objects
 router.get('/objects', async (req, res) => {
-  const { page = 1} = req.query;
+  const { page = 1, limit = 18, query = '', criteria = 'all' } = req.query;
   // console.log(req.query);
 
   try {
@@ -170,7 +170,7 @@ router.get('/departments/names', async (req, res) => {
 router.get('/departments/:name/objects', async (req, res) => {
   const encodedDepartmentName = req.params.name;
   const departmentName = decodeURIComponent(encodedDepartmentName);
-  const { page = 1, limit = 18 } = req.query;
+  const { page = 1, limit = 18, query = '', criteria = 'all' } = req.query;
 
   try {
     const parsedPage = parseInt(page, 10);

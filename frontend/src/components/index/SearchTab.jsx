@@ -65,6 +65,7 @@ export default function SearchTab({onCardClick}) {
         place: false,
         classifier: false,
     });
+    const [searchQuery, setSearchQuery] = React.useState('');
 
     const handleCriterionChange = (event) => {
         setSearchCriteria({
@@ -75,10 +76,8 @@ export default function SearchTab({onCardClick}) {
     };
 
     const handleSearch = (event) => {
-        // Perform the search considering the selected criteria
-        const searchQuery = event.target.value;
-        console.log(`Searching for ${searchQuery} in criteria: `, searchCriteria);
-        // Implement search logic here
+        setSearchQuery(event.target.value);
+        console.log(`Searching for ${event.target.value} in criteria: `, searchCriteria);
     };
     const isSmallScreen = useMediaQuery('(max-width:600px)');
 
@@ -155,13 +154,14 @@ export default function SearchTab({onCardClick}) {
                         </SearchIconWrapper>
                         <StyledInputBase
                             placeholder="Search…"
+                            onChange={handleSearch}
                             inputProps={{ 'aria-label': 'search' }}
                         />
                     </Search>
                 </Toolbar>
             </Box>
             <Divider></Divider>
-            <Results onCardClick={onCardClick}/>
+            <Results searchQuery={searchQuery} searchCriteria={searchCriteria} onCardClick={onCardClick}/>
          </Box>
     )
 }

@@ -29,7 +29,7 @@ Agent.belongsToMany(Nationality, { through: AgentsNationality, foreignKey: 'agt_
 Nationality.belongsToMany(Agent, { through: AgentsNationality, foreignKey: 'nat_id' });
 
 Agent.belongsTo(Place, { as: 'beginPlace', foreignKey: 'begin_place_id' });
-Agent.belongsTo(Place, { as: 'endPlace', foreignKey: 'end_place_id' });
+Agent.belongsTo(Place, { as: 'endPlace', foreignKey: 'end_place_id' })
 
 sequelize.sync();
 
