@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link as RouterLink } from 'react-router-dom';
 import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -13,6 +14,7 @@ import Drawer from '@mui/material/Drawer';
 import Divider from '@mui/material/Divider';
 import CloseIcon from '@mui/icons-material/Close';
 import { FormControl, FormControlLabel, RadioGroup, Radio, Button } from '@mui/material';
+import theme from './theme';
 
 export default function SearchAppBar() {
     const [drawerOpen, setDrawerOpen] = React.useState(false);
@@ -74,14 +76,16 @@ export default function SearchAppBar() {
   );
 
     return (
-        <Box sx={{ display: 'flex' }}>
-            <AppBar position="fixed" component="nav">
+        <Box sx={{ display: 'flex'}}>
+            <AppBar position="fixed" component="nav" sx={{backgroundColor: theme.palette.classy.one }}>
                 <Toolbar>
                     <Typography
                         variant="h5"
                         noWrap
-                        component="div"
-                        sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+                        // component="div"
+                        component={RouterLink}
+                        to="/" // Link to the homepage
+                        sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, textDecoration: 'none', color: 'inherit' }}
                     >
                         YUAG
                     </Typography>

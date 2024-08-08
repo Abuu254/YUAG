@@ -7,8 +7,7 @@ import ButtonBase from '@mui/material/ButtonBase';
 import Container from '@mui/material/Container';
 import Typography from './Typography';
 import { images } from '../../util/images.js';
-import ArtGallery from '../ArtGallery.jsx';
-import CustomTabs from '../CustomTabs.jsx';
+import theme from '../theme.jsx';
 
 const ImageBackdrop = styled('div')(({ theme }) => ({
     position: 'absolute',
@@ -66,12 +65,11 @@ export default function Departments() {
     };
 
     return (
-        <>
-            <Container component="section" sx={{ mt: 8, mb: 4 }}>
-                <Typography variant="h4" marked="center" align="center" component="h2">
+            <Container component="section" sx={{ mt: 0, mb: 4, minWidth:'100%', backgroundColor: theme.palette.classy.one}}>
+                <Typography variant="h4" marked="center" align="center" component="h2" color="white" sx={{p: 5}}>
                 FOR EVERY CULTURE AND EVERY ERA
                 </Typography>
-                <Box sx={{ mt: 8, display: 'flex', flexWrap: 'wrap' }}>
+                <Box sx={{ mt: 8, display: 'flex', flexWrap: 'wrap'}}>
                     {images.map((image) => (
                         <ImageIconButton
                             key={image.title}
@@ -122,6 +120,5 @@ export default function Departments() {
                     ))}
                 </Box>
             </Container>
-        </>
     );
 }

@@ -7,6 +7,7 @@ const rawTheme = createTheme({
       light: '#69696a',
       main: '#28282a',
       dark: '#1e1e1f',
+      yale: '#00356B',
     },
     secondary: {
       light: '#fff5f8',
@@ -26,6 +27,14 @@ const rawTheme = createTheme({
       light: green[50],
       main: green[500],
       dark: green[700],
+    },
+    classy:{
+      one: '#11100F',
+      two: '#5D1C34',
+      three: '#A67D44',
+      four: '#899481',
+      five: '#CDBCAB',
+      six: '#EFE9E1',
     },
   },
   typography: {
@@ -50,7 +59,7 @@ const theme = {
     ...rawTheme.palette,
     background: {
       ...rawTheme.palette.background,
-      default: rawTheme.palette.common.white,
+      default: rawTheme.palette.primary.white,
       placeholder: grey[200],
     },
   },

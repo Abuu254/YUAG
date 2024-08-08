@@ -9,6 +9,7 @@ import Typography from './Typography';
 import { images } from '../../util/images.js';
 import ArtGallery from '../ArtGallery.jsx';
 import CustomTabs from '../CustomTabs.jsx';
+import theme from "../theme.jsx";
 
 const ImageBackdrop = styled('div')(({ theme }) => ({
     position: 'absolute',
@@ -60,16 +61,14 @@ const ImageIconButton = styled(ButtonBase)(({ theme }) => ({
 
 export default function ExploreDepartments() {
     const navigate = useNavigate();
-
     const handleDepartmentClick = (departmentName) => {
         navigate(`/departments/${departmentName}`);
     };
 
     return (
-        <>
-            <Container component="section" sx={{ mt: 2, mb: 4 }}>
-                <Typography variant="h6" marked="center" align="center" >
-                Filter by Departments
+            <Container component="section" sx={{ backgroundColor: theme.palette.classy.one, minWidth: "100%", p:3 }}>
+                <Typography variant="h4" marked="center" align="center" component="h2" sx={{color: 'white'}}>
+                Explore by Departments or Culture
                 </Typography>
                 <Box sx={{ mt: 2, display: 'flex', flexWrap: 'wrap' }}>
                     {images.map((image) => (
@@ -122,6 +121,5 @@ export default function ExploreDepartments() {
                     ))}
                 </Box>
             </Container>
-        </>
     );
 }

@@ -3,7 +3,7 @@ import Skeleton from 'react-loading-skeleton';
 import './ArtCard.css';
 import { formatArtistDetails } from '../util/format';
 
-export default function ({ id, label, artists, imageUrl, onClick }) {
+export default function ArtCard({ id, label, artists, imageUrl, onClick }) {
     const [isImageLoaded, setIsImageLoaded] = useState(false);
 
     const handleImageLoad = () => {

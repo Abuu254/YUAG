@@ -149,9 +149,6 @@ router.get('/objects/:id', async (req, res) => {
   }
 });
 
-
-
-
 // Get unique department names
 router.get('/departments/names', async (req, res) => {
   try {

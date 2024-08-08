@@ -6,7 +6,7 @@ import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import { LIMIT } from "../util/variables.js";
 
-function ArtGallery({ onCardClick }) {
+function ArtGallery({ onCardClick, onTotalResults }) {
     const { name } = useParams();  // Get the department name from the URL
     const baseUrl = import.meta.env.VITE_BASE_URL;
     const [objects, setObjects] = useState([]);
@@ -26,6 +26,7 @@ function ArtGallery({ onCardClick }) {
                 const results = await response.json();
                 setObjects(results.data);
                 setTotalPages(Math.ceil(results.total / LIMIT));
+                onTotalResults(results.total);
                 setLoading(false);
             } catch (error) {
                 console.error('Error Fetching Objects:', error);

@@ -46,12 +46,14 @@ export default function CustomTabs({ onCardClick }) {
   const location = useLocation();
 
   const [value, setValue] = React.useState(0);
-  
+
   useEffect(() => {
     if (location.pathname === '/') {
       setValue(0);
-    } else if (location.pathname.startsWith('/explore') || location.pathname.startsWith('/departments')) {
+    } else if (location.pathname.startsWith('/explore')){
       setValue(1);
+    }else{
+      setValue(2);
     }
   }, [location.pathname]);
 
@@ -61,6 +63,8 @@ export default function CustomTabs({ onCardClick }) {
       navigate('/');
     } else if (newValue === 1) {
       navigate('/explore');
+    }else{
+      navigate('/search');
     }
   };
 
@@ -70,6 +74,7 @@ export default function CustomTabs({ onCardClick }) {
           <Tabs value={value} onChange={handleChange} centered>
             <Tab label="Home" {...a11yProps(0)}  sx={{fontSize:18}}/>
             <Tab label="Explore Arts" {...a11yProps(1)}  sx={{fontSize:18}}/>
+            <Tab label="Search" {...a11yProps(1)}  sx={{fontSize:18}}/>
           </Tabs>
         </Box>
       </Box>

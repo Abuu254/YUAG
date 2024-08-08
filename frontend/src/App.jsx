@@ -14,6 +14,10 @@ import Departments from "./components/index/Departments.jsx";
 import ArtGallery from "./components/ArtGallery.jsx";
 import Index from "./components/index/index.jsx";
 import Explore from "./components/index/Explore.jsx";
+import Results from "./components/Results.jsx";
+import SearchTab from "./components/index/SearchTab.jsx";
+import { ThemeProvider } from "@mui/material";
+import theme from "./components/theme.jsx";
 
 function App() {
   const [selectedObject, setSelectedObject] = useState(null);
@@ -49,15 +53,18 @@ function App() {
 
   return (
     <Router>
+      <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Box sx={{ width: '100%' }}>
+      <Box sx={{ width: '100%'}}>
         <SearchAppBar />
         <CustomTabs />
         <Box>
           <Routes>
             <Route path="/" element={<Index onCardClick={handleCardClick} />} />
-            <Route path="/explore" element={<Explore />} />
-            <Route path="/departments/:name" element={<ArtGallery onCardClick={handleCardClick} />} />
+            <Route path="/explore" element={<Explore onCardClick={handleCardClick}/>} />
+            <Route path="/departments/:name" element={<SearchTab onCardClick={handleCardClick} />} />
+            <Route path="/all-arts/results" element={<Results onCardClick={handleCardClick} />} />
+            <Route path="/search" element={<SearchTab onCardClick={handleCardClick} />} />
           </Routes>
           <Modal show={modalIsOpen} onHide={closeModal} className={styles.Modal} size="lg">
             <Modal.Header closeButton>
@@ -75,6 +82,7 @@ function App() {
         </Box>
       </Box>
       <AppFooter />
+      </ThemeProvider>
     </Router>
   );
 }
