@@ -1,0 +1,28 @@
+.art-detail {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 20px auto;
+    position: relative;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .art-detail-image {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    display: block;
+    margin: 10px auto;
+  }
