@@ -1,4 +1,4 @@
-import * as React from 'react';
+import {useState} from 'react';
 import { styled, alpha } from '@mui/material/styles';
 import Toolbar from '@mui/material/Toolbar';
 import InputBase from '@mui/material/InputBase';
@@ -10,7 +10,6 @@ import FormGroup from '@mui/material/FormGroup';
 import useMediaQuery from '../../util/UseMedia.js';
 import InteractiveFilter from './InteractiveFilter.jsx';
 import Results from '../Results.jsx';
-import th from "../theme.jsx";
 import { Divider } from '@mui/material';
 
 const grey = '#808080';  // Define a light blue color
@@ -58,14 +57,14 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 
 export default function SearchTab({onCardClick}) {
-    const [searchCriteria, setSearchCriteria] = React.useState({
+    const [searchCriteria, setSearchCriteria] = useState({
         all: true,
         title: false,
         artist: false,
         place: false,
         classifier: false,
     });
-    const [searchQuery, setSearchQuery] = React.useState('');
+    const [searchQuery, setSearchQuery] = useState('');
 
     const handleCriterionChange = (event) => {
         setSearchCriteria({
@@ -77,7 +76,6 @@ export default function SearchTab({onCardClick}) {
 
     const handleSearch = (event) => {
         setSearchQuery(event.target.value);
-        console.log(`Searching for ${event.target.value} in criteria: `, searchCriteria);
     };
     const isSmallScreen = useMediaQuery('(max-width:600px)');
 

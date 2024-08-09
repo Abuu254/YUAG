@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Divider from '@mui/material/Divider';
 import ExploreDepartments from './ExploreDepartment.jsx';
 import AllArts from './AllArts.jsx';

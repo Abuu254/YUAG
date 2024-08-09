@@ -1,22 +1,21 @@
 .pagination {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    list-style: none;
-    margin: 0;
-  }
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  list-style: none;
+  margin: 0;
+}
 
 .art-gallery {
-    flex: 1;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 16px;
-    margin: auto;
-    padding: 16px;
-    max-width: 1600px;
-    /* box-sizing: border-box; */
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 16px;
+  margin: auto;
+  padding: 16px;
+  max-width: 1600px;
+  /* box-sizing: border-box; */
 }

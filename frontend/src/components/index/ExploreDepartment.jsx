@@ -1,5 +1,3 @@
-// import * as React from 'react';
-import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -7,8 +5,6 @@ import ButtonBase from '@mui/material/ButtonBase';
 import Container from '@mui/material/Container';
 import Typography from './Typography';
 import { images } from '../../util/images.js';
-import ArtGallery from '../ArtGallery.jsx';
-import CustomTabs from '../CustomTabs.jsx';
 import theme from "../theme.jsx";
 
 const ImageBackdrop = styled('div')(({ theme }) => ({
@@ -66,60 +62,60 @@ export default function ExploreDepartments() {
     };
 
     return (
-            <Container component="section" sx={{ backgroundColor: theme.palette.classy.one, minWidth: "100%", p:3 }}>
-                <Typography variant="h4" marked="center" align="center" component="h2" sx={{color: 'white'}}>
+        <Container component="section" sx={{ backgroundColor: theme.palette.classy.one, minWidth: "100%", p: 3 }}>
+            <Typography variant="h4" marked="center" align="center" component="h2" sx={{ color: 'white' }}>
                 Explore by Departments or Culture
-                </Typography>
-                <Box sx={{ mt: 2, display: 'flex', flexWrap: 'wrap' }}>
-                    {images.map((image) => (
-                        <ImageIconButton
-                            key={image.title}
-                            style={{
-                                width: image.width,
+            </Typography>
+            <Box sx={{ mt: 2, display: 'flex', flexWrap: 'wrap' }}>
+                {images.map((image) => (
+                    <ImageIconButton
+                        key={image.title}
+                        style={{
+                            width: image.width,
+                        }}
+                        id={image.id}
+                        onClick={() => handleDepartmentClick(image.id)}
+                    >
+                        <Box
+                            sx={{
+                                position: 'absolute',
+                                left: 0,
+                                right: 0,
+                                top: 0,
+                                bottom: 0,
+                                backgroundSize: 'cover',
+                                backgroundPosition: 'center 40%',
+                                backgroundImage: `url(${image.url})`
+                                ,
                             }}
-                            id={image.id}
-                            onClick={() => handleDepartmentClick(image.id)}
+                        />
+                        <ImageBackdrop className="imageBackdrop" />
+                        <Box
+                            sx={{
+                                position: 'absolute',
+                                left: 0,
+                                right: 0,
+                                top: 0,
+                                bottom: 0,
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                color: 'common.white',
+                            }}
                         >
-                            <Box
-                                sx={{
-                                    position: 'absolute',
-                                    left: 0,
-                                    right: 0,
-                                    top: 0,
-                                    bottom: 0,
-                                    backgroundSize: 'cover',
-                                    backgroundPosition: 'center 40%',
-                                    backgroundImage: `url(${image.url})`
-                                    ,
-                                }}
-                            />
-                            <ImageBackdrop className="imageBackdrop" />
-                            <Box
-                                sx={{
-                                    position: 'absolute',
-                                    left: 0,
-                                    right: 0,
-                                    top: 0,
-                                    bottom: 0,
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    color: 'common.white',
-                                }}
+                            <Typography
+                                component="h3"
+                                variant="h6"
+                                color="inherit"
+                                className="imageTitle"
                             >
-                                <Typography
-                                    component="h3"
-                                    variant="h6"
-                                    color="inherit"
-                                    className="imageTitle"
-                                >
-                                    {image.title}
-                                    <div className="imageMarked" />
-                                </Typography>
-                            </Box>
-                        </ImageIconButton>
-                    ))}
-                </Box>
-            </Container>
+                                {image.title}
+                                <div className="imageMarked" />
+                            </Typography>
+                        </Box>
+                    </ImageIconButton>
+                ))}
+            </Box>
+        </Container>
     );
 }

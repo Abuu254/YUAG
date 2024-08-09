@@ -1,16 +1,9 @@
-import * as React from 'react';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
-import ArtGallery from './ArtGallery.jsx';
-import Collection from './index/Collection.jsx';
-import Welcome from './index/Welcome.jsx';
-import Index from './index/index.jsx';
-import theme from './theme.jsx';
-import { ThemeProvider } from '@mui/material';
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -45,14 +38,14 @@ export default function CustomTabs({ onCardClick }) {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = useState(0);
 
   useEffect(() => {
     if (location.pathname === '/') {
       setValue(0);
-    } else if (location.pathname.startsWith('/explore')){
+    } else if (location.pathname.startsWith('/explore')) {
       setValue(1);
-    }else{
+    } else {
       setValue(2);
     }
   }, [location.pathname]);
@@ -63,20 +56,20 @@ export default function CustomTabs({ onCardClick }) {
       navigate('/');
     } else if (newValue === 1) {
       navigate('/explore');
-    }else{
+    } else {
       navigate('/search');
     }
   };
 
   return (
-      <Box >
-        <Box sx={{ borderBottom: 1, borderColor: 'divider', }} color='red'>
-          <Tabs value={value} onChange={handleChange} centered>
-            <Tab label="Home" {...a11yProps(0)}  sx={{fontSize:18}}/>
-            <Tab label="Explore Arts" {...a11yProps(1)}  sx={{fontSize:18}}/>
-            <Tab label="Search" {...a11yProps(1)}  sx={{fontSize:18}}/>
-          </Tabs>
-        </Box>
+    <Box >
+      <Box sx={{ borderBottom: 1, borderColor: 'divider', }} color='red'>
+        <Tabs value={value} onChange={handleChange} centered>
+          <Tab label="Home" {...a11yProps(0)} sx={{ fontSize: 18 }} />
+          <Tab label="Explore Arts" {...a11yProps(1)} sx={{ fontSize: 18 }} />
+          <Tab label="Search" {...a11yProps(1)} sx={{ fontSize: 18 }} />
+        </Tabs>
       </Box>
+    </Box>
   );
 }

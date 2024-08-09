@@ -1,248 +1,345 @@
 const express = require('express');
 const router = express.Router();
+const { Op } = require('sequelize');
 const { Object, Agent, Nationality, Department, Classifier, Place } = require('../models');
 const { formatDate } = require('../utils/dateUtils');
-const { limit, imageUrlPrefix } = require('../utils/config');
+const { imageUrlPrefix } = require('../utils/config');
+const { logToFile } = require("../../log");
 
 // Get all objects
 router.get('/objects', async (req, res) => {
-  const { page = 1, limit = 18, query = '', criteria = 'all' } = req.query;
-  // console.log(req.query);
+    const { page = 1, limit = 18, query = '', criteria = 'all' } = req.query;
 
-  try {
-    const parsedPage = parseInt(page, 10);
-    const parsedLimit = parseInt(limit, 10);
-    const offset = (parsedPage - 1) * parsedLimit;
+    try {
+        const parsedPage = parseInt(page, 10);
+        const parsedLimit = parseInt(limit, 10);
+        const offset = (parsedPage - 1) * parsedLimit;
 
-    // Count the distinct objects
-    const totalObjects = await Object.count();
+        // Define query options
+        const queryOptions = {
+            attributes: ['id', 'label', 'accession_no', 'date'],
+            include: [
+                {
+                    model: Agent,
+                    attributes: ['id', 'name', 'type', 'begin_date', 'begin_bce', 'end_date', 'end_bce'],
+                    through: { attributes: ['part'] },
+                    include: [
+                        {
+                            model: Nationality,
+                            attributes: ['descriptor'],
+                            through: { attributes: [] },
+                        },
+                    ],
+                    required: false,
+                },
+            ],
+            offset,
+            limit: parsedLimit,
+            distinct: true, // Ensures distinct objects are counted correctly
+        };
 
-    const rows = await Object.findAll({
-      attributes: ['id', 'label', 'accession_no', 'date'],
-      include: [{
-        model: Agent,
-        attributes: ['id', 'name', 'type', 'begin_date', 'begin_bce', 'end_date', 'end_bce'],
-        through: {
-          attributes: ['part'], // Include the `part` attribute from the junction table
-        },
-        include: [
-          {
-            model: Nationality,
-            attributes: ['descriptor'],
-            through: { attributes: [] }, // Exclude the junction table
-          },
-        ],
-      }],
-      offset: offset,
-      limit: parsedLimit,
-    });
+        // Conditionally add joins and where clauses
+        if (query) {
+            const whereClause = [];
 
-    // Generate image URLs and format agent data
-    const objectsWithImageAndArtists = rows.map(object => {
-      const artists = object.Agents.map(agent => ({
-        id: agent.id,
-        name: agent.name,
-        type: agent.type,
-        begin_date: formatDate(agent.begin_date, agent.begin_date_is_bce),
-        end_date: formatDate(agent.end_date, agent.end_date_is_bce),
-        nationalities: agent.Nationalities.map(nat => nat.descriptor),
-        part: agent.Production.part,
-      }));
+            if (criteria.includes('title') || criteria === 'all') {
+                whereClause.push({
+                    label: {
+                        [Op.like]: `%${query}%`,
+                    },
+                });
+            }
 
-      return {
-        ...object.dataValues,
-        imageUrl: `${imageUrlPrefix}${object.id}`,
-        artists,
-      };
-    });
-    res.json({ total: totalObjects, data: objectsWithImageAndArtists });
-  } catch (error) {
-    console.error('Error fetching objects:', error);
-    res.status(500).json({ error: 'Failed to fetch objects' });
-  }
+            if (criteria.includes('artist') || criteria === 'all') {
+                queryOptions.include[0].where = {
+                    name: {
+                        [Op.like]: `%${query}%`,
+                    },
+                };
+            }
+
+            if (criteria.includes('place') || criteria === 'all') {
+                queryOptions.include.push({
+                    model: Place,
+                    attributes: ['label', 'part_of'],
+                    through: { attributes: [] },
+                    where: {
+                        [Op.or]: [
+                            { label: { [Op.like]: `%${query}%` } },
+                            { part_of: { [Op.like]: `%${query}%` } },
+                        ],
+                    },
+                    required: false,
+                });
+            }
+
+            if (criteria.includes('classifier') || criteria === 'all') {
+                queryOptions.include.push({
+                    model: Classifier,
+                    attributes: ['name'],
+                    through: { attributes: [] },
+                    where: {
+                        name: {
+                            [Op.like]: `%${query}%`,
+                        },
+                    },
+                    required: false,
+                });
+            }
+
+            queryOptions.where = {
+                [Op.or]: whereClause,
+            };
+        }
+
+        // Get count of distinct objects
+        const { count, rows } = await Object.findAndCountAll(queryOptions);
+
+        // Generate image URLs and format agent data
+        const objectsWithImageAndArtists = rows.map(object => {
+            const artists = object.Agents?.map(agent => ({
+                id: agent.id,
+                name: agent.name,
+                type: agent.type,
+                begin_date: formatDate(agent.begin_date, agent.begin_date_is_bce),
+                end_date: formatDate(agent.end_date, agent.end_date_is_bce),
+                nationalities: agent.Nationalities.map(nat => nat.descriptor),
+                part: agent.Production?.part || null,
+            })) || [];
+
+            return {
+                ...object.dataValues,
+                imageUrl: `${imageUrlPrefix}${object.id}`,
+                artists,
+            };
+        });
+
+        res.json({ total: count, data: objectsWithImageAndArtists });
+    } catch (error) {
+        logToFile('An error occurred', error);
+        res.status(500).json({ error: 'Failed to fetch objects' });
+    }
 });
+
+
 
 // Get detailed data for a specific object
 router.get('/objects/:id', async (req, res) => {
-  try {
-    const object = await Object.findByPk(req.params.id, {
-      include: [
-        {
-          model: Agent,
-          attributes: ['id', 'name', 'type', 'begin_date', 'begin_bce', 'end_date', 'end_bce'],
-          through: {
-            attributes: ['part'],
-          },
-          include: [
-            {
-              model: Nationality,
-              attributes: ['descriptor'],
-              through: { attributes: [] },
-            },
-          ],
-        },
-        {
-          model: Department,
-          attributes: ['id', 'name'],
-          through: { attributes: [] },
-        },
-        {
-          model: Classifier,
-          attributes: ['id', 'name'],
-          through: { attributes: [] },
-        },
-        {
-          model: Place,
-          attributes: ['id', 'label', 'longitude', 'latitude', 'url'],
-          through: { attributes: [] },
-        },
-      ],
-    });
-
-    if (!object) {
-      return res.status(404).json({ error: 'Object not found' });
-    }
-
-    const artists = object.Agents.map(agent => ({
-      id: agent.id,
-      name: agent.name,
-      type: agent.type,
-      begin_date: formatDate(agent.begin_date, agent.begin_date_is_bce),
-      end_date: formatDate(agent.end_date, agent.end_date_is_bce),
-      nationalities: agent.Nationalities.map(nat => nat.descriptor),
-      part: agent.Production.part,
-    }));
-
-    const departments = object.Departments.map(department => ({
-      id: department.id,
-      name: department.name,
-    }));
-
-    const classifiers = object.Classifiers.map(classifier => ({
-      id: classifier.id,
-      name: classifier.name,
-    }));
-
-    const places = object.Places.map(place => ({
-      id: place.id,
-      label: place.label,
-      longitude: place.longitude,
-      latitude: place.latitude,
-      url: place.url,
-    }));
-
-    const detailedObject = {
-      id: object.id,
-      label: object.label,
-      accession_no: object.accession_no,
-      date: object.date,
-      imageUrl: `${imageUrlPrefix}${object.id}`,
-      artists,
-      departments,
-      classifiers,
-      places,
-    };
-    res.json(detailedObject);
-  } catch (error) {
-    console.error('Error fetching object:', error);
-    res.status(500).json({ error: 'Failed to fetch object' });
-  }
-});
-
-// Get unique department names
-router.get('/departments/names', async (req, res) => {
-  try {
-    const departments = await Place.findAll({
-      attributes: ['part_of'],
-      group: ['part_of'],
-    });
-
-    const departmentNames = departments.map(department => department.part_of);
-    res.json(departmentNames);
-  } catch (error) {
-    console.error('Error fetching departments:', error);
-    res.status(500).json({ error: 'Failed to fetch departments' });
-  }
-});
-
-
-// Get artworks by department name with pagination
-router.get('/departments/:name/objects', async (req, res) => {
-  const encodedDepartmentName = req.params.name;
-  const departmentName = decodeURIComponent(encodedDepartmentName);
-  const { page = 1, limit = 18, query = '', criteria = 'all' } = req.query;
-
-  try {
-    const parsedPage = parseInt(page, 10);
-    const parsedLimit = parseInt(limit, 10);
-    const offset = (parsedPage - 1) * parsedLimit;
-
-    // Find the department
-    const department = await Department.findOne({
-      where: { name: departmentName },
-    });
-
-    if (!department) {
-      return res.status(404).json({ error: 'Department not found' });
-    }
-
-    // Find objects with pagination
-    const { count, rows } = await Object.findAndCountAll({
-      attributes: ['id', 'label', 'accession_no', 'date'],
-      include: [
-        {
-          model: Department,
-          where: { id: department.id },
-          attributes: [],
-        },
-      ],
-      offset: offset,
-      limit: parsedLimit,
-    });
-
-    // Include nested associations for each object
-    const objectsWithDetails = await Promise.all(
-      rows.map(async (object) => {
-        const objectWithDetails = await Object.findByPk(object.id, {
-          include: [
-            {
-              model: Agent,
-              attributes: ['id', 'name', 'type', 'begin_date', 'begin_bce', 'end_date', 'end_bce'],
-              through: { attributes: ['part'] },
-              include: [
+    try {
+        const object = await Object.findByPk(req.params.id, {
+            include: [
                 {
-                  model: Nationality,
-                  attributes: ['descriptor'],
-                  through: { attributes: [] },
+                    model: Agent,
+                    attributes: ['id', 'name', 'type', 'begin_date', 'begin_bce', 'end_date', 'end_bce'],
+                    through: {
+                        attributes: ['part'],
+                    },
+                    include: [
+                        {
+                            model: Nationality,
+                            attributes: ['descriptor'],
+                            through: { attributes: [] },
+                        },
+                    ],
                 },
-              ],
-            },
-          ],
+                {
+                    model: Department,
+                    attributes: ['id', 'name'],
+                    through: { attributes: [] },
+                },
+                {
+                    model: Classifier,
+                    attributes: ['id', 'name'],
+                    through: { attributes: [] },
+                },
+                {
+                    model: Place,
+                    attributes: ['id', 'label', 'longitude', 'latitude', 'url'],
+                    through: { attributes: [] },
+                },
+            ],
         });
 
-        const artists = objectWithDetails.Agents.map(agent => ({
-          id: agent.id,
-          name: agent.name,
-          type: agent.type,
-          begin_date: formatDate(agent.begin_date, agent.begin_date_is_bce),
-          end_date: formatDate(agent.end_date, agent.end_date_is_bce),
-          nationalities: agent.Nationalities.map(nat => nat.descriptor),
-          part: agent.Production.part,
+        if (!object) {
+            return res.status(404).json({ error: 'Object not found' });
+        }
+
+        const artists = object.Agents.map(agent => ({
+            id: agent.id,
+            name: agent.name,
+            type: agent.type,
+            begin_date: formatDate(agent.begin_date, agent.begin_date_is_bce),
+            end_date: formatDate(agent.end_date, agent.end_date_is_bce),
+            nationalities: agent.Nationalities.map(nat => nat.descriptor),
+            part: agent.Production.part,
         }));
 
-        return {
-          ...object.dataValues,
-          imageUrl: `${imageUrlPrefix}${object.id}`,
-          artists,
-        };
-      })
-    );
+        const departments = object.Departments.map(department => ({
+            id: department.id,
+            name: department.name,
+        }));
 
-    res.json({ total: count, data: objectsWithDetails });
-  } catch (error) {
-    console.error('Error fetching objects by department:', error);
-    res.status(500).json({ error: 'Failed to fetch objects by department' });
-  }
+        const classifiers = object.Classifiers.map(classifier => ({
+            id: classifier.id,
+            name: classifier.name,
+        }));
+
+        const places = object.Places.map(place => ({
+            id: place.id,
+            label: place.label,
+            longitude: place.longitude,
+            latitude: place.latitude,
+            url: place.url,
+        }));
+
+        const detailedObject = {
+            id: object.id,
+            label: object.label,
+            accession_no: object.accession_no,
+            date: object.date,
+            imageUrl: `${imageUrlPrefix}${object.id}`,
+            artists,
+            departments,
+            classifiers,
+            places,
+        };
+        res.json(detailedObject);
+    } catch (error) {
+        logToFile('An error occurred', error);
+        res.status(500).json({ error: 'Failed to fetch object' });
+    }
+});
+
+// Get artworks by department name with pagination and search
+router.get('/departments/:name/objects', async (req, res) => {
+    const encodedDepartmentName = req.params.name;
+    const departmentName = decodeURIComponent(encodedDepartmentName);
+    const { page = 1, limit = 18, query = '', criteria = 'all' } = req.query;
+
+    try {
+        const parsedPage = parseInt(page, 10);
+        const parsedLimit = parseInt(limit, 10);
+        const offset = (parsedPage - 1) * parsedLimit;
+
+        // Find the department
+        const department = await Department.findOne({
+            where: { name: departmentName },
+        });
+
+        if (!department) {
+            return res.status(404).json({ error: 'Department not found' });
+        }
+
+        // Define the query options
+        const queryOptions = {
+            where: {},
+            attributes: ['id', 'label', 'accession_no', 'date'],
+            include: [
+                {
+                    model: Department,
+                    where: { id: department.id },
+                    attributes: [],
+                },
+                {
+                    model: Agent,
+                    attributes: ['id', 'name', 'type', 'begin_date', 'begin_bce', 'end_date', 'end_bce'],
+                    through: { attributes: ['part'] },
+                    include: [
+                        {
+                            model: Nationality,
+                            attributes: ['descriptor'],
+                            through: { attributes: [] },
+                        },
+                    ],
+                    required: false,
+                },
+            ],
+            offset,
+            limit: parsedLimit,
+            distinct: true,
+        };
+
+        // Conditionally add where clauses based on search criteria
+        if (query) {
+            const whereClause = [];
+
+            if (criteria.includes('title') || criteria === 'all') {
+                whereClause.push({
+                    label: {
+                        [Op.like]: `%${query}%`,
+                    },
+                });
+            }
+
+            if (criteria.includes('artist') || criteria === 'all') {
+                queryOptions.include[1].where = {
+                    name: {
+                        [Op.like]: `%${query}%`,
+                    },
+                };
+            }
+
+            if (criteria.includes('place') || criteria === 'all') {
+                queryOptions.include.push({
+                    model: Place,
+                    attributes: ['label', 'part_of'],
+                    through: { attributes: [] },
+                    where: {
+                        [Op.or]: [
+                            { label: { [Op.like]: `%${query}%` } },
+                            { part_of: { [Op.like]: `%${query}%` } },
+                        ],
+                    },
+                    required: false,
+                });
+            }
+
+            if (criteria.includes('classifier') || criteria === 'all') {
+                queryOptions.include.push({
+                    model: Classifier,
+                    attributes: ['name'],
+                    through: { attributes: [] },
+                    where: {
+                        name: {
+                            [Op.like]: `%${query}%`,
+                        },
+                    },
+                    required: false,
+                });
+            }
+
+            queryOptions.where = {
+                [Op.or]: whereClause,
+            };
+        }
+
+        // Execute the query and count distinct objects
+        const { count, rows } = await Object.findAndCountAll(queryOptions);
+
+        // Generate image URLs and format agent data
+        const objectsWithDetails = rows.map(object => {
+            const artists = object.Agents?.map(agent => ({
+                id: agent.id,
+                name: agent.name,
+                type: agent.type,
+                begin_date: formatDate(agent.begin_date, agent.begin_date_is_bce),
+                end_date: formatDate(agent.end_date, agent.end_date_is_bce),
+                nationalities: agent.Nationalities.map(nat => nat.descriptor),
+                part: agent.Production?.part || null,
+            })) || [];
+
+            return {
+                ...object.dataValues,
+                imageUrl: `${imageUrlPrefix}${object.id}`,
+                artists,
+            };
+        });
+
+        res.json({ total: count, data: objectsWithDetails });
+    } catch (error) {
+        logToFile('An error occurred', error);
+        res.status(500).json({ error: 'Failed to fetch objects by department' });
+    }
 });
 
 module.exports = router;

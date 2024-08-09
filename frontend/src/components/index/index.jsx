@@ -7,7 +7,6 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Departments from './Departments.jsx';
 import Visit from './Visit.jsx';
 
-
 export default function Index() {
   return (
     <ThemeProvider theme={theme}>

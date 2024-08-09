@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const sequelize = require('./config/database');
 const objectRoutes = require('./routes/objects');
+import { logToFile } from '../log';
 
 const app = express();
 const port = 5000;
@@ -16,9 +17,8 @@ app.use('/api', objectRoutes);
 app.listen(port, async () => {
   try {
     await sequelize.authenticate();
-    console.log('Database connected successfully.');
-    console.log(`Server is running on http://localhost:${port}`);
+    logToFile('Database connected successfully.');
   } catch (error) {
-    console.error('Unable to connect to the database:', error);
+    logToFile('An error occurred', error);
   }
 });

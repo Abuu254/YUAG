@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
@@ -18,11 +16,6 @@ const title = {
   fontFamily: 'default',
   color: 'secondary.main',
   fontWeight: 'medium',
-};
-
-const image = {
-  height: 55,
-  my: 4,
 };
 
 function Visit() {
@@ -61,7 +54,7 @@ function Visit() {
               <Box sx={item}>
                 <Box sx={title}>Admission</Box>
                 <Typography variant="h5" align="center">
-                The Gallery is free and open to the public.
+                  The Gallery is free and open to the public.
                 </Typography>
               </Box>
             </Grid>
@@ -69,7 +62,7 @@ function Visit() {
               <Box sx={item}>
                 <Box sx={title}>Hours</Box>
                 <Typography variant="h5" align="center">
-                <Box>
+                  <Box>
                     Tuesday–Friday 10:00 am–5:00 pm
                   </Box>
                   <Box>
@@ -88,7 +81,7 @@ function Visit() {
               <Box sx={item}>
                 <Box sx={title}>Location</Box>
                 <Typography variant="h5" align="center">
-                The Gallery is located at 1111 Chapel Street between York and High Streets in New Haven, Conn.
+                  The Gallery is located at 1111 Chapel Street between York and High Streets in New Haven, Conn.
                 </Typography>
                 <Box sx={{ mt: 2, width: '100%' }}>
                   <iframe

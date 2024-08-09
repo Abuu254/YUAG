@@ -39,36 +39,36 @@ const iconStyle = {
 export default function AppFooter() {
   return (
     <ThemeProvider theme={theme}>
-    <Typography
-      component="footer"
-      sx={{ display: 'flex', bgcolor: 'primary.light' }}
-    >
-      <Container sx={{ my: 8, display: 'flex' }}>
-        <Grid container spacing={5}>
-          <Grid item xs={6} sm={4} md={3}>
-            <Grid
-              container
-              direction="column"
-              justifyContent="flex-end"
-              spacing={2}
-              sx={{ height: 120 }}
-            >
-              <Grid item sx={{ display: 'flex' }}>
-                <Box component="a" href={socialLinks.github} sx={iconStyle} target="_blank" rel="noopener noreferrer">
-                <GitHubIcon />
-                </Box>
-                <Box component="a" href={socialLinks.linkedin} sx={iconStyle} target="_blank" rel="noopener noreferrer">
-                <LinkedInIcon />
-                </Box>
-              </Grid>
-              <Grid item>
-                <Copyright />
+      <Typography
+        component="footer"
+        sx={{ display: 'flex', bgcolor: 'primary.light' }}
+      >
+        <Container sx={{ my: 8, display: 'flex' }}>
+          <Grid container spacing={5}>
+            <Grid item xs={6} sm={4} md={3}>
+              <Grid
+                container
+                direction="column"
+                justifyContent="flex-end"
+                spacing={2}
+                sx={{ height: 120 }}
+              >
+                <Grid item sx={{ display: 'flex' }}>
+                  <Box component="a" href={socialLinks.github} sx={iconStyle} target="_blank" rel="noopener noreferrer">
+                    <GitHubIcon />
+                  </Box>
+                  <Box component="a" href={socialLinks.proj_link} sx={iconStyle} target="_blank" rel="noopener noreferrer">
+                    <LinkedInIcon />
+                  </Box>
+                </Grid>
+                <Grid item>
+                  <Copyright />
+                </Grid>
               </Grid>
             </Grid>
           </Grid>
-        </Grid>
-      </Container>
-    </Typography>
+        </Container>
+      </Typography>
     </ThemeProvider>
   );
 }

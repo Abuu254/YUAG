@@ -1,5 +1,3 @@
-import logo from '../../assets/thumbnail.png';
-import { Box, ThemeProvider } from '@mui/material';
 import HomeLayout from './HomeLayout';
 import bg from '../../assets/background.jpg'
 import Typography from './Typography';
