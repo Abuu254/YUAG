@@ -5,7 +5,7 @@ import SkeletonCard from "./SkeletonCard.jsx";
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import { LIMIT } from "../util/variables.js";
-import { logToFile } from "../../../log.js";
+import logToFile from "../../log.js";
 
 function ArtGallery({ searchQuery, searchCriteria, onCardClick, onTotalResults }) {
     const { name } = useParams();  // Get the department name from the URL

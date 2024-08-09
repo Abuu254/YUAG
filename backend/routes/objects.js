@@ -4,7 +4,7 @@ const { Op } = require('sequelize');
 const { Object, Agent, Nationality, Department, Classifier, Place } = require('../models');
 const { formatDate } = require('../utils/dateUtils');
 const { imageUrlPrefix } = require('../utils/config');
-const { logToFile } = require("../../log");
+const { logToFile } = require("../log");
 
 // Get all objects
 router.get('/objects', async (req, res) => {
@@ -341,5 +341,19 @@ router.get('/departments/:name/objects', async (req, res) => {
         res.status(500).json({ error: 'Failed to fetch objects by department' });
     }
 });
+
+router.post('/api/logs', (req, res) => {
+    const { message, error } = req.body;
+
+    if (!message) {
+        return res.status(400).json({ error: 'Message is required' });
+    }
+
+    // Log the message and error if provided
+    logToFile(message, error);
+
+    res.status(200).json({ status: 'Log written to file' });
+});
+
 
 module.exports = router;

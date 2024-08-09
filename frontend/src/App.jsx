@@ -12,7 +12,7 @@ import SearchTab from "./components/index/SearchTab.jsx";
 import { ThemeProvider } from "@mui/material";
 import theme from "./components/theme.jsx";
 import CustomModal from "./components/Modal.jsx";
-import { logToFile } from "../../log.js";
+import logToFile from "../log.js";
 
 function App() {
   const [selectedObject, setSelectedObject] = useState(null);

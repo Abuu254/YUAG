@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const sequelize = require('./config/database');
 const objectRoutes = require('./routes/objects');
-import { logToFile } from '../log';
+const { logToFile } = require('./log');
 
 const app = express();
 const port = 5000;
