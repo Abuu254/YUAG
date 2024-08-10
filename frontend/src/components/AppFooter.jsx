@@ -15,7 +15,7 @@ function Copyright() {
   return (
     <React.Fragment>
       {'© '}
-      <Link color="inherit" href={socialLinks.github}>
+      <Link color="inherit" href={socialLinks.proj_link}>
         YAG
       </Link>{' '}
       {new Date().getFullYear()}
@@ -57,7 +57,7 @@ export default function AppFooter() {
                   <Box component="a" href={socialLinks.github} sx={iconStyle} target="_blank" rel="noopener noreferrer">
                     <GitHubIcon />
                   </Box>
-                  <Box component="a" href={socialLinks.proj_link} sx={iconStyle} target="_blank" rel="noopener noreferrer">
+                  <Box component="a" href={socialLinks.linkedin} sx={iconStyle} target="_blank" rel="noopener noreferrer">
                     <LinkedInIcon />
                   </Box>
                 </Grid>

@@ -342,7 +342,7 @@ router.get('/departments/:name/objects', async (req, res) => {
     }
 });
 
-router.post('/api/logs', (req, res) => {
+router.post('/logs', (req, res) => {
     const { message, error } = req.body;
 
     if (!message) {
