@@ -15,14 +15,21 @@ function ArtGallery({ searchQuery, searchCriteria, onCardClick, onTotalResults }
     const [objects, setObjects] = useState([]);
     const [loading, setLoading] = useState(true);
     const [page, setPage] = useState(1);
-    const [error, setError] = useState(null);
+    const [error, setError] = useState(false);
     const [totalPages, setTotalPages] = useState(1);
     const [initialLoad, setInitialLoad] = useState(true);
+    const [previousQuery, setPreviousQuery] = useState('');
+    const [previousCriteria, setPreviousCriteria] = useState(searchCriteria);
+
+    const effectiveCriteria = Object.values(searchCriteria).some(value => value)
+        ? searchCriteria
+        : { all: true };
+
 
     const fetchData = async (currentPage) => {
         const encodedQuery = searchQuery ? encodeURIComponent(searchQuery) : '';
-        const criteria = Object.keys(searchCriteria)
-            .filter(key => searchCriteria[key])
+        const criteria = Object.keys(effectiveCriteria)
+            .filter(key => effectiveCriteria[key])
             .join(',');
         const url = name
             ? `${baseUrl}/departments/${encodeURIComponent(name)}/objects?query=${encodedQuery}&criteria=${criteria}&page=${currentPage}&limit=${LIMIT}`
@@ -30,6 +37,9 @@ function ArtGallery({ searchQuery, searchCriteria, onCardClick, onTotalResults }
 
         try {
             const response = await fetch(url);
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
             const results = await response.json();
 
             if (results.total === 0) {
@@ -41,29 +51,34 @@ function ArtGallery({ searchQuery, searchCriteria, onCardClick, onTotalResults }
             }
             onTotalResults(results.total);
             setLoading(false);
+            setPreviousQuery(searchQuery);
+            setPreviousCriteria(effectiveCriteria);
         } catch (error) {
             logToFile('An error occurred', error);
             setError(true);
             setLoading(false);
+            setInitialLoad(true);
         }
     };
 
     useEffect(() => {
-        // Reset page number to 1 when searchQuery, searchCriteria, or name changes
-        setPage(1);
-        setInitialLoad(true);
-    }, [searchQuery, searchCriteria, name]);
+        const criteriaChanged = JSON.stringify(effectiveCriteria) !== JSON.stringify(previousCriteria);
+        const queryChanged = searchQuery !== previousQuery;
+
+        if (initialLoad || queryChanged || (criteriaChanged && searchQuery.trim() !== '')) {
+            setLoading(true);
+            fetchData(1); // Always fetch page 1 on criteria or query change
+            setInitialLoad(false);
+        }
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, [searchQuery, effectiveCriteria, name]);
 
     useEffect(() => {
-        if (initialLoad) {
-            setLoading(true);
-            fetchData(1); // Always fetch page 1 when resetting
-            setInitialLoad(false);
-        } else {
+        if (page !== 1 && (searchQuery.trim() !== '' || initialLoad)) {
             fetchData(page);
         }
         window.scrollTo({ top: 0, behavior: 'smooth' });
-    }, [page, initialLoad]);
+    }, [page]);
 
     const handlePageClick = (event, value) => {
         setPage(value);
@@ -75,32 +90,37 @@ function ArtGallery({ searchQuery, searchCriteria, onCardClick, onTotalResults }
                 <ErrorPage />
             ) : (
                 <>
-                    <div className="art-gallery">
-                        {loading ? (
-                            Array(LIMIT).fill().map((_, index) => (
-                                <SkeletonCard key={index} />
-                            ))
-                        ) : objects.length === 0 ? (
-                            <NoResults query={searchQuery} categories={Object.keys(searchCriteria).filter(key => searchCriteria[key])} />
-                        ) : (
-                            objects.map(object => (
-                                <ArtCard
-                                    key={object.id}
-                                    id={object.id}
-                                    label={object.label}
-                                    artists={object.artists}
-                                    imageUrl={object.imageUrl}
-                                    onClick={() => onCardClick(object.id)}
-                                />
-                            ))
-                        )}
-                    </div>
-                    {objects.length > 0 && (
-                        <div className="pagination">
-                            <Stack spacing={2}>
-                                <Pagination count={totalPages} color="primary" showFirstButton showLastButton size="large" onChange={handlePageClick} page={page} />
-                            </Stack>
-                        </div>
+                    {objects === null ? (
+                        <NoResults query={searchQuery} />  // Display NoResults page if no data found
+                    ) : (
+                        <>
+                            <div className="art-gallery">
+                                {loading ? (
+                                    Array(LIMIT).fill().map((_, index) => (
+                                        <SkeletonCard key={index} />
+                                    ))
+                                ) : (
+                                    objects.map(object => (
+                                        <ArtCard
+                                            key={object.id}
+                                            id={object.id}
+                                            label={object.label}
+                                            artists={object.artists}
+                                            imageUrl={object.imageUrl}
+                                            onClick={() => onCardClick(object.id)}
+                                        />
+                                    ))
+                                )}
+                            </div>
+                            {objects.length > 0 && (
+                                <div className="pagination">
+                                    <Stack spacing={2}>
+                                        <Pagination count={totalPages} color="primary" showFirstButton showLastButton size="large" onChange={handlePageClick} page={page} />
+                                    </Stack>
+                                </div>
+
+                            )}
+                        </>
                     )}
                 </>
             )}

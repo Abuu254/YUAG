@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import { useState } from 'react';
 import { styled, alpha } from '@mui/material/styles';
 import Toolbar from '@mui/material/Toolbar';
 import InputBase from '@mui/material/InputBase';
@@ -56,7 +56,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
     },
 }));
 
-export default function SearchTab({onCardClick}) {
+export default function SearchTab({ onCardClick }) {
     const [searchCriteria, setSearchCriteria] = useState({
         all: true,
         title: false,
@@ -67,12 +67,17 @@ export default function SearchTab({onCardClick}) {
     const [searchQuery, setSearchQuery] = useState('');
 
     const handleCriterionChange = (event) => {
+        const { name } = event.target;
+
         setSearchCriteria({
-            ...searchCriteria,
-            [event.target.name]: event.target.checked,
-            all: event.target.name === 'all' ? event.target.checked : false,
+            all: name === 'all',
+            title: name === 'title',
+            artist: name === 'artist',
+            place: name === 'place',
+            classifier: name === 'classifier',
         });
     };
+
 
     const handleSearch = (event) => {
         setSearchQuery(event.target.value);
@@ -159,7 +164,7 @@ export default function SearchTab({onCardClick}) {
                 </Toolbar>
             </Box>
             <Divider></Divider>
-            <Results searchQuery={searchQuery} searchCriteria={searchCriteria} onCardClick={onCardClick}/>
-         </Box>
+            <Results searchQuery={searchQuery} searchCriteria={searchCriteria} onCardClick={onCardClick} />
+        </Box>
     )
 }

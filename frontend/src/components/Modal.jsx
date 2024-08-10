@@ -10,8 +10,10 @@ import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Box from '@mui/material/Box';
+import Skeleton from '@mui/material/Skeleton';
+import ArtDetailSkeleton from './ArtDetailSkeleton.jsx';
 
-export default function CustomModal({ show, onHide, art }) {
+export default function CustomModal({ show, onHide, art, loading }) {
   const [showExpandIcon, setShowExpandIcon] = useState(true);
   const dialogContentRef = useRef(null);
 
@@ -50,9 +52,10 @@ export default function CustomModal({ show, onHide, art }) {
             width: '80%',
           }}
         >
-          {art.label}
+          {loading || !art ? <Box sx={{ justifyContent: 'center', display: 'flex', alignItems: 'center' }}>
+            <Skeleton width="80%" />
+          </Box> : art.label}
         </Typography>
-
         <IconButton
           aria-label="close"
           onClick={onHide}
@@ -67,12 +70,15 @@ export default function CustomModal({ show, onHide, art }) {
         </IconButton>
       </DialogTitle>
 
-
       <DialogContent
         onScroll={handleScroll}
         ref={dialogContentRef}
         sx={{ overflowY: 'auto' }}>
-        <ArtDetail art={art} onClose={onHide} />
+        {loading || !art ? (
+          <ArtDetailSkeleton />
+        ) : (
+          <ArtDetail art={art} onClose={onHide} />
+        )}
       </DialogContent>
 
       {/* Conditionally render ExpandMoreIcon */}
@@ -81,7 +87,6 @@ export default function CustomModal({ show, onHide, art }) {
           <ExpandMoreIcon onClick={handleExpandClick} style={{ cursor: 'pointer' }} />
         </Box>
       )}
-
       <DialogActions>
         <Button onClick={onHide}>Close</Button>
       </DialogActions>

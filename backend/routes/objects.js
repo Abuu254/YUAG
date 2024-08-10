@@ -9,6 +9,7 @@ const { logToFile } = require("../log");
 // Get all objects
 router.get('/objects', async (req, res) => {
     const { page = 1, limit = 18, query = '', criteria = 'all' } = req.query;
+    const criteria_length =  criteria.split(',').length;
 
     try {
         const parsedPage = parseInt(page, 10);
@@ -30,7 +31,7 @@ router.get('/objects', async (req, res) => {
                             through: { attributes: [] },
                         },
                     ],
-                    required: false,
+                    required: criteria.includes('artist') && criteria_length === 1,
                 },
             ],
             offset,
@@ -69,7 +70,7 @@ router.get('/objects', async (req, res) => {
                             { part_of: { [Op.like]: `%${query}%` } },
                         ],
                     },
-                    required: false,
+                    required: criteria.includes('place') && criteria_length === 1,
                 });
             }
 
@@ -83,13 +84,15 @@ router.get('/objects', async (req, res) => {
                             [Op.like]: `%${query}%`,
                         },
                     },
-                    required: false,
+                    required: criteria.includes('classifier') && criteria_length === 1,
                 });
             }
 
-            queryOptions.where = {
-                [Op.or]: whereClause,
-            };
+            if (whereClause.length > 0) {
+                queryOptions.where = {
+                    [Op.or]: whereClause,
+                };
+            }
         }
 
         // Get count of distinct objects
@@ -251,7 +254,7 @@ router.get('/departments/:name/objects', async (req, res) => {
                             through: { attributes: [] },
                         },
                     ],
-                    required: false,
+                    required: criteria.includes('artist') || criteria === 'all',
                 },
             ],
             offset,
@@ -290,7 +293,7 @@ router.get('/departments/:name/objects', async (req, res) => {
                             { part_of: { [Op.like]: `%${query}%` } },
                         ],
                     },
-                    required: false,
+                    required: criteria.includes('place') || criteria === 'all',
                 });
             }
 
@@ -304,13 +307,15 @@ router.get('/departments/:name/objects', async (req, res) => {
                             [Op.like]: `%${query}%`,
                         },
                     },
-                    required: false,
+                    required: criteria.includes('classifier') || criteria === 'all',
                 });
             }
 
-            queryOptions.where = {
-                [Op.or]: whereClause,
-            };
+            if (whereClause.length > 0) {
+                queryOptions.where = {
+                    [Op.or]: whereClause,
+                };
+            }
         }
 
         // Execute the query and count distinct objects

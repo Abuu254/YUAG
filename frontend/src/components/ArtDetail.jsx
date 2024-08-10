@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
@@ -9,9 +10,24 @@ import Link from '@mui/material/Link';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import './ArtGallery.css';
+import imgnotavailable from '../assets/fallback.png';
 
 const ArtDetail = ({ art }) => {
   if (!art) return null;
+
+  const [imageError, setImageError] = useState(false);
+
+  const handleImageError = () => {
+    setImageError(true);
+  };
+
+  function formatDate(dateString) {
+    if (!dateString) return '';
+
+    const options = { day: '2-digit', month: 'short', year: 'numeric' };
+    const date = new Date(dateString);
+    return date.toLocaleDateString('en-GB', options);
+  }
 
   const renderList = (title, items, renderItem) => (
     <>
@@ -38,8 +54,9 @@ const ArtDetail = ({ art }) => {
       <CardMedia
         component="img"
         sx={{ height: 400, objectFit: 'contain' }}
-        image={art.imageUrl}
+        image={imageError ? imgnotavailable : art.imageUrl}
         alt={art.label}
+        onError={handleImageError}
       />
       <CardContent>
         <Divider sx={{ my: 2 }} />
@@ -58,10 +75,10 @@ const ArtDetail = ({ art }) => {
             {renderList('Artists', art.artists, artist => (
               <ListItem key={artist.id} sx={{ display: 'block', paddingLeft: 0 }}>
                 <Typography variant="body1" color="text.secondary">
-                  <strong> Name: </strong> {artist.name || 'No Name'} ({artist.type || 'No Type'}), {artist.begin_date || ''} - {artist.end_date || ''}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  <strong>Nationalities:</strong> {artist.nationalities.length > 0 ? artist.nationalities.join(', ') : 'No Nationalities Found'}
+                  <strong> Name: </strong> {artist.name || 'No Name'} ({artist.type || 'No Type'})
+                  {artist.begin_date || artist.end_date ? (
+                    `, (${formatDate(artist.begin_date) || ''} - ${formatDate(artist.end_date) || ''})`
+                  ) : null}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                   <strong>Part:</strong> {artist.part || 'No Part Found'}
