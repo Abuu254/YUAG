@@ -33,6 +33,4 @@ const Agent = sequelize.define('Agent', {
   timestamps: false,
 });
 
-// Define relationships
-Agent.belongsToMany(require('./Object'), { through: 'productions', foreignKey: 'agt_id' });
 module.exports = Agent;

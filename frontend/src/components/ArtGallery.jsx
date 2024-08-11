@@ -18,19 +18,18 @@ function ArtGallery({ searchQuery, searchCriteria, onCardClick, onTotalResults }
     const [error, setError] = useState(false);
     const [totalPages, setTotalPages] = useState(1);
     const [initialLoad, setInitialLoad] = useState(true);
-    const [previousQuery, setPreviousQuery] = useState('');
-    const [previousCriteria, setPreviousCriteria] = useState(searchCriteria);
 
+    // Determine the effective criteria
     const effectiveCriteria = Object.values(searchCriteria).some(value => value)
         ? searchCriteria
-        : { all: true };
-
+        : { title: true };
 
     const fetchData = async (currentPage) => {
         const encodedQuery = searchQuery ? encodeURIComponent(searchQuery) : '';
         const criteria = Object.keys(effectiveCriteria)
             .filter(key => effectiveCriteria[key])
             .join(',');
+
         const url = name
             ? `${baseUrl}/departments/${encodeURIComponent(name)}/objects?query=${encodedQuery}&criteria=${criteria}&page=${currentPage}&limit=${LIMIT}`
             : `${baseUrl}/objects?query=${encodedQuery}&criteria=${criteria}&page=${currentPage}&limit=${LIMIT}`;
@@ -51,46 +50,47 @@ function ArtGallery({ searchQuery, searchCriteria, onCardClick, onTotalResults }
             }
             onTotalResults(results.total);
             setLoading(false);
-            setPreviousQuery(searchQuery);
-            setPreviousCriteria(effectiveCriteria);
         } catch (error) {
             logToFile('An error occurred', error);
             setError(true);
             setLoading(false);
-            setInitialLoad(true);
         }
     };
 
     useEffect(() => {
-        const criteriaChanged = JSON.stringify(effectiveCriteria) !== JSON.stringify(previousCriteria);
-        const queryChanged = searchQuery !== previousQuery;
-
-        if (initialLoad || queryChanged || (criteriaChanged && searchQuery.trim() !== '')) {
+        // Always fetch data on the initial load
+        if (initialLoad) {
             setLoading(true);
-            fetchData(1); // Always fetch page 1 on criteria or query change
+            fetchData(1);
             setInitialLoad(false);
+        } else if (searchQuery.trim() !== '') {
+            // Fetch data when search query or criteria changes if searchQuery is not empty
+            setLoading(true);
+            fetchData(1);
+            setPage(1);   // Reset to page 1
         }
         window.scrollTo({ top: 0, behavior: 'smooth' });
-    }, [searchQuery, effectiveCriteria, name]);
+    }, [searchQuery, searchCriteria, name]);
 
     useEffect(() => {
-        if (page !== 1 && (searchQuery.trim() !== '' || initialLoad)) {
-            fetchData(page);
-        }
+        // Fetch data when the page changes
+
+        setLoading(true);
+        fetchData(page);
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }, [page]);
 
     const handlePageClick = (event, value) => {
         setPage(value);
-        setInitialLoad(false); // Ensure the next fetch is for the selected page
     };
+
     return (
         <>
             {error ? (
                 <ErrorPage />
             ) : (
                 <>
-                    {objects === null ? (
+                    {objects.length === 0 && !loading ? (
                         <NoResults query={searchQuery} />  // Display NoResults page if no data found
                     ) : (
                         <>
@@ -115,10 +115,17 @@ function ArtGallery({ searchQuery, searchCriteria, onCardClick, onTotalResults }
                             {objects.length > 0 && (
                                 <div className="pagination">
                                     <Stack spacing={2}>
-                                        <Pagination count={totalPages} color="primary" showFirstButton showLastButton size="large" onChange={handlePageClick} page={page} />
+                                        <Pagination
+                                            count={totalPages}
+                                            color="primary"
+                                            showFirstButton
+                                            showLastButton
+                                            size="large"
+                                            onChange={handlePageClick}
+                                            page={page}
+                                        />
                                     </Stack>
                                 </div>
-
                             )}
                         </>
                     )}

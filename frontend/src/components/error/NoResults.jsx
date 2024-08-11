@@ -8,7 +8,7 @@ function NoResults({ query, categories }) {
             <Typography variant="h5" color="textSecondary">
                 No results for query "{query}"
             </Typography>
-            {categories.length > 0 && (
+            {categories && categories.length > 0 && (
                 <Typography variant="subtitle1" color="textSecondary">
                     for categories: {categories.join(', ')}
                 </Typography>

@@ -17,3 +17,6 @@ jspm_packages/
 
 # General ignore for .DS_Store anywhere in the repo
 .DS_Store
+lux_dump.sql
+*.sql
+*lux*

@@ -58,8 +58,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 export default function SearchTab({ onCardClick }) {
     const [searchCriteria, setSearchCriteria] = useState({
-        all: true,
-        title: false,
+        title: true,
         artist: false,
         place: false,
         classifier: false,
@@ -70,7 +69,6 @@ export default function SearchTab({ onCardClick }) {
         const { name } = event.target;
 
         setSearchCriteria({
-            all: name === 'all',
             title: name === 'title',
             artist: name === 'artist',
             place: name === 'place',
@@ -100,16 +98,6 @@ export default function SearchTab({ onCardClick }) {
                             flexDirection: isSmallScreen ? 'column' : 'row',
                         }}
                     >
-                        <FormControlLabel
-                            control={
-                                <Checkbox
-                                    checked={searchCriteria.all}
-                                    onChange={handleCriterionChange}
-                                    name="all"
-                                />
-                            }
-                            label="All"
-                        />
                         <FormControlLabel
                             control={
                                 <Checkbox

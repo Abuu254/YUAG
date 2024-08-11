@@ -16,6 +16,7 @@ app.use('/api', objectRoutes);
 
 app.listen(port, async () => {
   try {
+    await sequelize.sync();
     await sequelize.authenticate();
     logToFile('Database connected successfully.');
     logToFile('Database connected successfully.')

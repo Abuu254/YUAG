@@ -13,6 +13,4 @@ const Nationality = sequelize.define('Nationality', {
   timestamps: false,
 });
 
-Nationality.belongsToMany(require('./Agent'), { through: 'agents_nationalities', foreignKey: 'nat_id' });
-
 module.exports = Nationality;

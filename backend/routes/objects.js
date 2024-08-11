@@ -1,67 +1,64 @@
 const express = require('express');
 const router = express.Router();
 const { Op } = require('sequelize');
-const { Object, Agent, Nationality, Department, Classifier, Place } = require('../models');
+const { Object, Agent, Nationality, Department, Classifier, Place, Production} = require('../models');
 const { formatDate } = require('../utils/dateUtils');
 const { imageUrlPrefix } = require('../utils/config');
 const { logToFile } = require("../log");
 
-// Get all objects
 router.get('/objects', async (req, res) => {
-    const { page = 1, limit = 18, query = '', criteria = 'all' } = req.query;
-    const criteria_length =  criteria.split(',').length;
+    const { page = 1, limit = 18, query = '', criteria = 'title' } = req.query;
 
     try {
         const parsedPage = parseInt(page, 10);
         const parsedLimit = parseInt(limit, 10);
         const offset = (parsedPage - 1) * parsedLimit;
 
-        // Define query options
+        // Define the base query options
         const queryOptions = {
+            where: {},
             attributes: ['id', 'label', 'accession_no', 'date'],
             include: [
                 {
                     model: Agent,
+                    as: 'Agents',
                     attributes: ['id', 'name', 'type', 'begin_date', 'begin_bce', 'end_date', 'end_bce'],
                     through: { attributes: ['part'] },
                     include: [
                         {
                             model: Nationality,
+                            as: 'Nationalities',
                             attributes: ['descriptor'],
                             through: { attributes: [] },
                         },
                     ],
-                    required: criteria.includes('artist') && criteria_length === 1,
-                },
+                    required: false, // Ensures the agent details are always included
+                }
             ],
             offset,
             limit: parsedLimit,
-            distinct: true, // Ensures distinct objects are counted correctly
+            distinct: true,
         };
 
-        // Conditionally add joins and where clauses
+        // Conditionally add where clauses based on search criteria
         if (query) {
-            const whereClause = [];
-
-            if (criteria.includes('title') || criteria === 'all') {
-                whereClause.push({
+            if (criteria === 'title') {
+                queryOptions.where = {
                     label: {
                         [Op.like]: `%${query}%`,
                     },
-                });
-            }
-
-            if (criteria.includes('artist') || criteria === 'all') {
+                };
+            } else if (criteria === 'artist') {
                 queryOptions.include[0].where = {
                     name: {
                         [Op.like]: `%${query}%`,
                     },
                 };
-            }
-
-            if (criteria.includes('place') || criteria === 'all') {
+                queryOptions.include[0].required = true; // Now we require matching agents
+            } else if (criteria === 'place') {
                 queryOptions.include.push({
                     model: Place,
+                    as: 'Places',
                     attributes: ['label', 'part_of'],
                     through: { attributes: [] },
                     where: {
@@ -70,13 +67,12 @@ router.get('/objects', async (req, res) => {
                             { part_of: { [Op.like]: `%${query}%` } },
                         ],
                     },
-                    required: criteria.includes('place') && criteria_length === 1,
+                    required: true, // Matching places required
                 });
-            }
-
-            if (criteria.includes('classifier') || criteria === 'all') {
+            } else if (criteria === 'classifier') {
                 queryOptions.include.push({
                     model: Classifier,
+                    as: 'Classifiers',
                     attributes: ['name'],
                     through: { attributes: [] },
                     where: {
@@ -84,22 +80,16 @@ router.get('/objects', async (req, res) => {
                             [Op.like]: `%${query}%`,
                         },
                     },
-                    required: criteria.includes('classifier') && criteria_length === 1,
+                    required: true, // Matching classifiers required
                 });
-            }
-
-            if (whereClause.length > 0) {
-                queryOptions.where = {
-                    [Op.or]: whereClause,
-                };
             }
         }
 
-        // Get count of distinct objects
+        // Execute the query and count distinct objects
         const { count, rows } = await Object.findAndCountAll(queryOptions);
 
         // Generate image URLs and format agent data
-        const objectsWithImageAndArtists = rows.map(object => {
+        const objectsWithDetails = rows.map(object => {
             const artists = object.Agents?.map(agent => ({
                 id: agent.id,
                 name: agent.name,
@@ -117,14 +107,12 @@ router.get('/objects', async (req, res) => {
             };
         });
 
-        res.json({ total: count, data: objectsWithImageAndArtists });
+        res.json({ total: count, data: objectsWithDetails });
     } catch (error) {
         logToFile('An error occurred', error);
         res.status(500).json({ error: 'Failed to fetch objects' });
     }
 });
-
-
 
 // Get detailed data for a specific object
 router.get('/objects/:id', async (req, res) => {
@@ -133,6 +121,7 @@ router.get('/objects/:id', async (req, res) => {
             include: [
                 {
                     model: Agent,
+                    as: 'Agents',
                     attributes: ['id', 'name', 'type', 'begin_date', 'begin_bce', 'end_date', 'end_bce'],
                     through: {
                         attributes: ['part'],
@@ -140,6 +129,7 @@ router.get('/objects/:id', async (req, res) => {
                     include: [
                         {
                             model: Nationality,
+                            as: 'Nationalities',
                             attributes: ['descriptor'],
                             through: { attributes: [] },
                         },
@@ -147,16 +137,19 @@ router.get('/objects/:id', async (req, res) => {
                 },
                 {
                     model: Department,
+                    as: 'Departments',
                     attributes: ['id', 'name'],
                     through: { attributes: [] },
                 },
                 {
                     model: Classifier,
+                    as: 'Classifiers',
                     attributes: ['id', 'name'],
                     through: { attributes: [] },
                 },
                 {
                     model: Place,
+                    as: 'Places',
                     attributes: ['id', 'label', 'longitude', 'latitude', 'url'],
                     through: { attributes: [] },
                 },
@@ -217,7 +210,7 @@ router.get('/objects/:id', async (req, res) => {
 router.get('/departments/:name/objects', async (req, res) => {
     const encodedDepartmentName = req.params.name;
     const departmentName = decodeURIComponent(encodedDepartmentName);
-    const { page = 1, limit = 18, query = '', criteria = 'all' } = req.query;
+    const { page = 1, limit = 18, query = '', criteria = 'title' } = req.query;
 
     try {
         const parsedPage = parseInt(page, 10);
@@ -233,29 +226,32 @@ router.get('/departments/:name/objects', async (req, res) => {
             return res.status(404).json({ error: 'Department not found' });
         }
 
-        // Define the query options
+        // Define the base query options
         const queryOptions = {
             where: {},
             attributes: ['id', 'label', 'accession_no', 'date'],
             include: [
                 {
                     model: Department,
+                    as: 'Departments',
                     where: { id: department.id },
                     attributes: [],
                 },
                 {
                     model: Agent,
+                    as: 'Agents',
                     attributes: ['id', 'name', 'type', 'begin_date', 'begin_bce', 'end_date', 'end_bce'],
                     through: { attributes: ['part'] },
                     include: [
                         {
                             model: Nationality,
+                            as: 'Nationalities',
                             attributes: ['descriptor'],
                             through: { attributes: [] },
                         },
                     ],
-                    required: criteria.includes('artist') || criteria === 'all',
-                },
+                    required: false, // Ensures the agent details are always included
+                }
             ],
             offset,
             limit: parsedLimit,
@@ -264,27 +260,23 @@ router.get('/departments/:name/objects', async (req, res) => {
 
         // Conditionally add where clauses based on search criteria
         if (query) {
-            const whereClause = [];
-
-            if (criteria.includes('title') || criteria === 'all') {
-                whereClause.push({
+            if (criteria === 'title') {
+                queryOptions.where = {
                     label: {
                         [Op.like]: `%${query}%`,
                     },
-                });
-            }
-
-            if (criteria.includes('artist') || criteria === 'all') {
+                };
+            } else if (criteria === 'artist') {
                 queryOptions.include[1].where = {
                     name: {
                         [Op.like]: `%${query}%`,
                     },
                 };
-            }
-
-            if (criteria.includes('place') || criteria === 'all') {
+                queryOptions.include[1].required = true; // Now we require matching agents
+            } else if (criteria === 'place') {
                 queryOptions.include.push({
                     model: Place,
+                    as: 'Places',
                     attributes: ['label', 'part_of'],
                     through: { attributes: [] },
                     where: {
@@ -293,13 +285,12 @@ router.get('/departments/:name/objects', async (req, res) => {
                             { part_of: { [Op.like]: `%${query}%` } },
                         ],
                     },
-                    required: criteria.includes('place') || criteria === 'all',
+                    required: true, // Matching places required
                 });
-            }
-
-            if (criteria.includes('classifier') || criteria === 'all') {
+            } else if (criteria === 'classifier') {
                 queryOptions.include.push({
                     model: Classifier,
+                    as: 'Classifiers',
                     attributes: ['name'],
                     through: { attributes: [] },
                     where: {
@@ -307,14 +298,8 @@ router.get('/departments/:name/objects', async (req, res) => {
                             [Op.like]: `%${query}%`,
                         },
                     },
-                    required: criteria.includes('classifier') || criteria === 'all',
+                    required: true, // Matching classifiers required
                 });
-            }
-
-            if (whereClause.length > 0) {
-                queryOptions.where = {
-                    [Op.or]: whereClause,
-                };
             }
         }
 
@@ -345,19 +330,6 @@ router.get('/departments/:name/objects', async (req, res) => {
         logToFile('An error occurred', error);
         res.status(500).json({ error: 'Failed to fetch objects by department' });
     }
-});
-
-router.post('/logs', (req, res) => {
-    const { message, error } = req.body;
-
-    if (!message) {
-        return res.status(400).json({ error: 'Message is required' });
-    }
-
-    // Log the message and error if provided
-    logToFile(message, error);
-
-    res.status(200).json({ status: 'Log written to file' });
 });
 
 
