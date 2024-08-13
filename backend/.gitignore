@@ -20,3 +20,14 @@ jspm_packages/
 lux_dump.sql
 *.sql
 *lux*
+*Dockerfile
+functions/
+public/
+dist/
+
+*.docker*
+*.babel*
+*webpack*
+*fire*
+*.env*
+*.git*

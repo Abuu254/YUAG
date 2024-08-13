@@ -7,7 +7,6 @@ import Stack from '@mui/material/Stack';
 import ErrorPage from "./error/ErrorPage.jsx";
 import NoResults from "./error/NoResults.jsx";
 import { LIMIT } from "../util/variables.js";
-import logToFile from "../../log.js";
 
 function ArtGallery({ searchQuery, searchCriteria, onCardClick, onTotalResults }) {
     const { name } = useParams();  // Get the department name from the URL
@@ -51,7 +50,6 @@ function ArtGallery({ searchQuery, searchCriteria, onCardClick, onTotalResults }
             onTotalResults(results.total);
             setLoading(false);
         } catch (error) {
-            logToFile('An error occurred', error);
             setError(true);
             setLoading(false);
         }

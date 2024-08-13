@@ -13,7 +13,6 @@ import { ThemeProvider } from "@mui/material";
 import theme from "./components/theme.jsx";
 import CustomModal from "./components/Modal.jsx";
 import ErrorPage from "./components/error/ErrorPage.jsx";
-import logToFile from "../log.js";
 
 function App() {
   const [selectedObject, setSelectedObject] = useState(null);
@@ -38,7 +37,6 @@ function App() {
         setLoading(false); // Stop loading once data is fetched
       })
       .catch(error => {
-        logToFile('An error occurred', error);
         setError(true); // Set error state if fetch fails
         setLoading(false); // Stop loading once data is fetched
         setError(false);
