@@ -1,5 +1,6 @@
 # Ignore the lux.sqlite database file
 lux.sqlite
+*.sqlite
 
 # Node modules
 node_modules/
@@ -13,9 +14,9 @@ npm-debug.log*
 jspm_packages/
 
 # Ignore .env files in frontend and backend directories
-.env
+*.env
 
 # General ignore for .DS_Store anywhere in the repo
-.DS_Store
+*.DS_Store
 
 *.Dockerfile
