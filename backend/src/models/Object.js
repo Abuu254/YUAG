@@ -1,7 +1,7 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config/database');
 
-const Object = sequelize.define('Object', {
+const ArtObject = sequelize.define('ArtObject', {
   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
@@ -14,4 +14,4 @@ const Object = sequelize.define('Object', {
   timestamps: false,
 });
 
-module.exports = Object;
+module.exports = ArtObject;

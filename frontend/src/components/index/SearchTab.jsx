@@ -56,7 +56,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
     },
 }));
 
-export default function SearchTab({ onCardClick }) {
+export default function SearchTab({ onCardClick, onPreload }) {
     const [searchCriteria, setSearchCriteria] = useState({
         title: true,
         artist: false,
@@ -152,7 +152,12 @@ export default function SearchTab({ onCardClick }) {
                 </Toolbar>
             </Box>
             <Divider></Divider>
-            <Results searchQuery={searchQuery} searchCriteria={searchCriteria} onCardClick={onCardClick} />
+            <Results
+                searchQuery={searchQuery}
+                searchCriteria={searchCriteria}
+                onCardClick={onCardClick}
+                onPreload={onPreload}
+            />
         </Box>
     )
 }

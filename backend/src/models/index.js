@@ -41,7 +41,8 @@ Agent.belongsTo(Place, { as: 'endPlace', foreignKey: 'end_place_id' });
 sequelize.sync();
 
 module.exports = {
-  Object,
+  Object: ArtObject,
+  ArtObject,
   Place,
   Agent,
   Department,

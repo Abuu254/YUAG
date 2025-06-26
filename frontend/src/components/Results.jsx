@@ -6,7 +6,7 @@ import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 import ArtGallery from './ArtGallery';
 
-export default function Results({searchQuery, searchCriteria,onCardClick}) {
+export default function Results({searchQuery, searchCriteria, onCardClick, onPreload}) {
     const [totalResults, setTotalResults] = useState(0);
     const handleTotalResults = (count) => {
       setTotalResults(count);
@@ -23,7 +23,13 @@ export default function Results({searchQuery, searchCriteria,onCardClick}) {
       </Box>
       <Divider />
       <Box sx={{ p: 2 }}>
-        <ArtGallery searchQuery={searchQuery} searchCriteria={searchCriteria} onCardClick={onCardClick} onTotalResults={handleTotalResults}/>
+        <ArtGallery
+          searchQuery={searchQuery}
+          searchCriteria={searchCriteria}
+          onCardClick={onCardClick}
+          onTotalResults={handleTotalResults}
+          onPreload={onPreload}
+        />
       </Box>
     </Card>
   );

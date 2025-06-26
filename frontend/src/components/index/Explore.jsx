@@ -4,7 +4,7 @@ import AllArts from './AllArts.jsx';
 import { ThemeProvider } from '@mui/material';
 import theme from "../theme.jsx";
 
-export default function Explore({onCardClick}) {
+export default function Explore({onCardClick, onPreload}) {
     return (
         <ThemeProvider theme={theme}>
         <Divider></Divider>

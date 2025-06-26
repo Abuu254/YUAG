@@ -13,7 +13,7 @@ import Box from '@mui/material/Box';
 import Skeleton from '@mui/material/Skeleton';
 import ArtDetailSkeleton from './ArtDetailSkeleton.jsx';
 
-export default function CustomModal({ show, onHide, art, loading }) {
+export default function CustomModal({ show, onHide, art, loading, isOptimistic = false }) {
   const [showExpandIcon, setShowExpandIcon] = useState(true);
   const dialogContentRef = useRef(null);
 
@@ -77,7 +77,7 @@ export default function CustomModal({ show, onHide, art, loading }) {
         {loading || !art ? (
           <ArtDetailSkeleton />
         ) : (
-          <ArtDetail art={art} onClose={onHide} />
+          <ArtDetail art={art} onClose={onHide} isOptimistic={isOptimistic} />
         )}
       </DialogContent>
 

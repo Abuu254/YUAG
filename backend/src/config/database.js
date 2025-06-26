@@ -2,9 +2,9 @@ const { Sequelize } = require('sequelize');
 
 const sequelize = new Sequelize({
   dialect: 'sqlite',
-  storage: './src/lux.sqlite',
+  storage: './lux.sqlite',
   // Add performance optimizations
-  logging: false, // Disable logging in production
+  logging: true, // Disable logging in production
   pool: {
     max: 5,
     min: 0,
