@@ -9,7 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "start": "concurrently \"npm run backend\" \"npm run frontend\"",
-    "backend": "cd ../backend && node server.js",
+    "backend": "cd ../backend/src && node server.js",
     "frontend": "npm run dev"
   },
   "dependencies": {

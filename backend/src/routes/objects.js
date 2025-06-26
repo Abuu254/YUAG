@@ -5,6 +5,78 @@ const { Object, Agent, Nationality, Department, Classifier, Place, Production} =
 const { formatDate } = require('../utils/dateUtils');
 const { imageUrlPrefix } = require('../utils/config');
 const { logToFile } = require("../log");
+const cacheManager = require('../utils/cacheManager');
+const { performanceMonitor } = require('../utils/performanceMonitor');
+
+// Performance monitoring endpoint
+router.get('/performance', (req, res) => {
+    try {
+        const metrics = performanceMonitor.getMetrics();
+        res.json({
+            success: true,
+            data: metrics
+        });
+    } catch (error) {
+        logToFile('Performance metrics error', error);
+        res.status(500).json({ error: 'Failed to get performance metrics' });
+    }
+});
+
+// Slow queries endpoint
+router.get('/performance/slow-queries', (req, res) => {
+    try {
+        const limit = parseInt(req.query.limit) || 50;
+        const slowQueries = performanceMonitor.getSlowQueries(limit);
+        res.json({
+            success: true,
+            data: slowQueries
+        });
+    } catch (error) {
+        logToFile('Slow queries error', error);
+        res.status(500).json({ error: 'Failed to get slow queries' });
+    }
+});
+
+// Reset performance metrics
+router.post('/performance/reset', (req, res) => {
+    try {
+        performanceMonitor.reset();
+        res.json({ success: true, message: 'Performance metrics reset successfully' });
+    } catch (error) {
+        logToFile('Performance reset error', error);
+        res.status(500).json({ error: 'Failed to reset performance metrics' });
+    }
+});
+
+// Cache statistics endpoint for monitoring
+router.get('/cache/stats', (req, res) => {
+    try {
+        const stats = cacheManager.getStats();
+        res.json({
+            success: true,
+            data: stats
+        });
+    } catch (error) {
+        logToFile('Cache stats error', error);
+        res.status(500).json({ error: 'Failed to get cache statistics' });
+    }
+});
+
+// Clear cache endpoint for maintenance
+router.post('/cache/clear', (req, res) => {
+    try {
+        const { cacheName } = req.body;
+        if (cacheName) {
+            cacheManager.clear(cacheName);
+        } else {
+            cacheManager.clearAll();
+        }
+        res.json({ success: true, message: 'Cache cleared successfully' });
+    } catch (error) {
+        logToFile('Cache clear error', error);
+        res.status(500).json({ error: 'Failed to clear cache' });
+    }
+});
 
 router.get('/objects', async (req, res) => {
     const { page = 1, limit = 18, query = '', criteria = 'title' } = req.query;
