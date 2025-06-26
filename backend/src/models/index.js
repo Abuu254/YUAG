@@ -1,5 +1,5 @@
 const sequelize = require('../config/database');
-const Object = require('./Object');
+const ArtObject = require('./Object');
 const Place = require('./Place');
 const Agent = require('./Agent');
 const Department = require('./Department');
@@ -14,21 +14,21 @@ const AgentsNationality = require('./AgentsNationality');
 
 // Define relationships
 
-// Object - Agent many-to-many relationship via Production
-Object.belongsToMany(Agent, { through: Production, foreignKey: 'obj_id', as: 'Agents' });
-Agent.belongsToMany(Object, { through: Production, foreignKey: 'agt_id', as: 'Objects' });
+// ArtObject - Agent many-to-many relationship via Production
+ArtObject.belongsToMany(Agent, { through: Production, foreignKey: 'obj_id', as: 'Agents' });
+Agent.belongsToMany(ArtObject, { through: Production, foreignKey: 'agt_id', as: 'Objects' });
 
-// Object - Classifier many-to-many relationship via ObjectsClassifier
-Object.belongsToMany(Classifier, { through: ObjectsClassifier, foreignKey: 'obj_id', as: 'Classifiers' });
-Classifier.belongsToMany(Object, { through: ObjectsClassifier, foreignKey: 'cls_id', as: 'Objects' });
+// ArtObject - Classifier many-to-many relationship via ObjectsClassifier
+ArtObject.belongsToMany(Classifier, { through: ObjectsClassifier, foreignKey: 'obj_id', as: 'Classifiers' });
+Classifier.belongsToMany(ArtObject, { through: ObjectsClassifier, foreignKey: 'cls_id', as: 'Objects' });
 
-// Object - Department many-to-many relationship via ObjectsDepartment
-Object.belongsToMany(Department, { through: ObjectsDepartment, foreignKey: 'obj_id', as: 'Departments' });
-Department.belongsToMany(Object, { through: ObjectsDepartment, foreignKey: 'dep_id', as: 'Objects' });
+// ArtObject - Department many-to-many relationship via ObjectsDepartment
+ArtObject.belongsToMany(Department, { through: ObjectsDepartment, foreignKey: 'obj_id', as: 'Departments' });
+Department.belongsToMany(ArtObject, { through: ObjectsDepartment, foreignKey: 'dep_id', as: 'Objects' });
 
-// Object - Place many-to-many relationship via ObjectsPlace
-Object.belongsToMany(Place, { through: ObjectsPlace, foreignKey: 'obj_id', as: 'Places' });
-Place.belongsToMany(Object, { through: ObjectsPlace, foreignKey: 'pl_id', as: 'Objects' });
+// ArtObject - Place many-to-many relationship via ObjectsPlace
+ArtObject.belongsToMany(Place, { through: ObjectsPlace, foreignKey: 'obj_id', as: 'Places' });
+Place.belongsToMany(ArtObject, { through: ObjectsPlace, foreignKey: 'pl_id', as: 'Objects' });
 
 // Agent - Nationality many-to-many relationship via AgentsNationality
 Agent.belongsToMany(Nationality, { through: AgentsNationality, foreignKey: 'agt_id', as: 'Nationalities' });

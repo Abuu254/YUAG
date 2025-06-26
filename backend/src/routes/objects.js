@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { Op } = require('sequelize');
-const { Object, Agent, Nationality, Department, Classifier, Place, Production} = require('../models');
+const { ArtObject, Agent, Nationality, Department, Classifier, Place, Production} = require('../models');
 const { formatDate } = require('../utils/dateUtils');
 const { imageUrlPrefix } = require('../utils/config');
 const { logToFile } = require("../log");
@@ -158,7 +158,7 @@ router.get('/objects', async (req, res) => {
         }
 
         // Execute the query and count distinct objects
-        const { count, rows } = await Object.findAndCountAll(queryOptions);
+        const { count, rows } = await ArtObject.findAndCountAll(queryOptions);
 
         // Generate image URLs and format agent data
         const objectsWithDetails = rows.map(object => {
@@ -189,7 +189,7 @@ router.get('/objects', async (req, res) => {
 // Get detailed data for a specific object
 router.get('/objects/:id', async (req, res) => {
     try {
-        const object = await Object.findByPk(req.params.id, {
+        const object = await ArtObject.findByPk(req.params.id, {
             include: [
                 {
                     model: Agent,
@@ -376,7 +376,7 @@ router.get('/departments/:name/objects', async (req, res) => {
         }
 
         // Execute the query and count distinct objects
-        const { count, rows } = await Object.findAndCountAll(queryOptions);
+        const { count, rows } = await ArtObject.findAndCountAll(queryOptions);
 
         // Generate image URLs and format agent data
         const objectsWithDetails = rows.map(object => {
